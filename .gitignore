@@ -1,0 +1,6 @@
+.git/
+unused/
+
+APIFetch/.env
+
+NOTES.md
