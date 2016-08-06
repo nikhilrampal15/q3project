@@ -8,7 +8,7 @@ let House = require('../models/house');
  * @param {Array} files, each element is xml document in string format
  * @return N/A
  */
-function xmlParsePropertyInfo(files) {
+function xmlParsePropertyInfo(files, city) {
     let header = "ZPID"+"," +"Bedroom"+","+ "Bathroom"+","+ "SqFt"+","+ "YearBuilt"+"," +"Parking"+ "\n";
     fs.writeFile(`../data/houseInfo/${city}_propertyinfo.csv`, header, function(err) {
         if(err) console.log(`Error during writing to ${city}.csv`);
