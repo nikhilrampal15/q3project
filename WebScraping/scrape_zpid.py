@@ -6,10 +6,10 @@
 import bs4
 import requests
 
-def scrape_zillow(city):
+def scrape_zpid(city):
     base_url = 'http://www.zillow.com/{}/'.format(city)
 
-    filename = "./data/zpid/{}.txt".format(city)
+    filename = "../data/zpid/{}.txt".format(city)
     outfile = open(filename, "w")
 
     # get pages
@@ -44,5 +44,5 @@ def scrape_zillow(city):
     return
 
 if __name__ == '__main__':
-    city = "los-gatos-ca"
-    scrape_zillow(city)
+    city = "santa-clara-ca"
+    scrape_zpid(city)
