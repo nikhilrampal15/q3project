@@ -1,7 +1,9 @@
 """
     Get Zilliow Property IDs for a given city
     To run the program, change following input parameters
-    @city at line 47
+    @city at line 49
+
+    @result: output file in data/zpid/{cityname}.txt
 """
 import bs4
 import requests
@@ -44,5 +46,5 @@ def scrape_zpid(city):
     return
 
 if __name__ == '__main__':
-    city = "santa-clara-ca"
+    city = "san-mateo-ca"
     scrape_zpid(city)

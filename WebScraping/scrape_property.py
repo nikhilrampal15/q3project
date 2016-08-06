@@ -1,7 +1,9 @@
 """
     Get Zilliow Property Info for a given ZPID
     To run the program, change following input parameters
-    @city at line 42
+    @city at line 44
+
+    @result: output file in data/propertyInfo/{cityname}.csv
 """
 import bs4
 import requests
@@ -39,7 +41,7 @@ def readZillowPropertyIds(fname):
     return zpids
 
 if __name__ == '__main__':
-    city = "san-francisco-ca"
+    city = "san-mateo-ca"
     zpids = readZillowPropertyIds('../data/zpid/{}.txt'.format(city))
     filename = "../data/propertyInfo/{}.csv".format(city)
     outfile = open(filename, "a")
