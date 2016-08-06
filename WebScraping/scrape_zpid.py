@@ -1,7 +1,7 @@
 """
     Get Zilliow Property IDs for a given city
     To run the program, change following input parameters
-    @city at line 49
+    @city at line 47
 """
 import bs4
 import requests

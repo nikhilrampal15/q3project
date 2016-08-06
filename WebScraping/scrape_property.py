@@ -1,7 +1,7 @@
 """
     Get Zilliow Property Info for a given ZPID
     To run the program, change following input parameters
-    @zpid at line 47
+    @city at line 42
 """
 import bs4
 import requests
