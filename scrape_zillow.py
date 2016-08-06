@@ -44,5 +44,5 @@ def scrape_zillow(city):
     return
 
 if __name__ == '__main__':
-    city = "soma-san-francisco-ca"
+    city = "los-gatos-ca"
     scrape_zillow(city)

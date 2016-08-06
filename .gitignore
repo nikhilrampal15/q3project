@@ -1,5 +1,9 @@
 .git/
 
-.env
+APIFetch/.env
 
-data/propertyInfo/*
+data/propertyInfo/
+data/zestimate/
+data/zpid/
+
+NOTES.md

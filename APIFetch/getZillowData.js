@@ -1,4 +1,5 @@
 "use strict"
+require('dotenv').load();
 let request = require('request');
 let fs = require('fs');
 
@@ -6,27 +7,13 @@ let fs = require('fs');
  * Main - runs the program
  * @ change city for different cities
  */
-let city = 'palo-alto-ca';
+let city = 'san-francisco-ca';
 let zpidFile = `../data/zpid/${city}.txt`
 let zpids = readZillowPropertyIds(zpidFile)
-let ZWSID = "X1-ZWz1fbxzh1icjv_a2eph"
 
-let zillowApiCalls = []
-for(let i = 0; i < zpids.length - 1; i++) {
-    zillowApiCalls.push(getZillowData(zpids[i]));
-}
-
-Promise.all(zillowApiCalls.slice(0, 2))
-// Promise.all(zillowApiCalls)
-.then( (data) => {
-    let allProperties = [];
-    for(let i = 0; i < data.length; i++) {
-        let xml = data[i].body;
-        fs.writeFile(`../data/propertyInfo/${city}_${i}`, xml, function(err) {
-            if(err) console.log(err)
-        });
-    }
-})
+// zpids = zpids.slice(0, 3);
+getZestimateAPI(zpids);
+// getUpdatedPropertyDetailsAPI(zpids);
 
 /**
  * Read file and return zpids
@@ -40,14 +27,61 @@ function readZillowPropertyIds(fname){
 }
 
 /**
- * Create promise of request
+ * Call Zillow's GetUpdatedPropertyDetails API
  * @param {Number} zpid = Zillow Property ID
- * @return {Promise} promise
+ * Data is written to a file in data/propertyInfo directory
+ * @return N/A.
  */
-function getZillowData(zpid) {
-    let url = `http://www.zillow.com/webservice/GetUpdatedPropertyDetails.htm?zws-id=${ZWSID}&zpid=${zpid}`
-    // let url = `http://www.zillow.com/webservice/GetUpdatedPropertyDetails.htm?zws-id=X1-ZWz1fbxzh1icjv_a2eph&zpid=48749425`
-    return promisifyGet(url);
+function getUpdatedPropertyDetailsAPI(zpid) {
+    let zillowApiCalls = []
+    for(let i = 0; i < zpids.length - 1; i++) {
+        let zpid = zpids[i];
+        let url = `http://www.zillow.com/webservice/GetUpdatedPropertyDetails.htm?zws-id=${process.env.ZWSID}&zpid=${zpid}`;
+
+        zillowApiCalls.push(promisifyGet(url));
+    }
+
+    Promise.all(zillowApiCalls)
+    .then( (data) => {
+        let allProperties = [];
+        for(let i = 0; i < data.length; i++) {
+            let xml = data[i].body;
+            fs.writeFile(`../data/propertyInfo/${city}_${i}`, xml, function(err) {
+                if(err) console.log(err)
+            });
+        }
+    });
+
+    return;
+}
+
+/**
+ * Call Zillow's GetZestimate API
+ * @param {Array} zpids = array of Zillow Property IDs
+  * Data is written to a file in data/zestimate directory
+ * @return N/A
+ */
+function getZestimateAPI(zpids) {
+    let zillowApiCalls = []
+    for(let i = 0; i < zpids.length - 1; i++) {
+        let zpid = zpids[i];
+        let url = `http://www.zillow.com/webservice/GetZestimate.htm?zws-id=${process.env.ZWSID}&zpid=${zpid}`;
+
+        zillowApiCalls.push(promisifyGet(url));
+    }
+
+    Promise.all(zillowApiCalls)
+    .then( (data) => {
+        let allProperties = [];
+        for(let i = 0; i < data.length; i++) {
+            let xml = data[i].body;
+            fs.writeFile(`../data/zestimate/${city}_${i}`, xml, function(err) {
+                if(err) console.log(err)
+            });
+        }
+    });
+
+    return;
 }
 
 /**
