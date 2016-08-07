@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 require('dotenv').load();
 let request = require('request');
 let fs = require('fs');

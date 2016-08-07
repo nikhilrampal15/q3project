@@ -8,6 +8,7 @@
 import bs4
 import requests
 
+
 def scrape_zpid(city):
     base_url = 'http://www.zillow.com/{}/'.format(city)
 
@@ -25,7 +26,7 @@ def scrape_zpid(city):
         pages.append(page)
 
     # build url_list of 2nd page to the last page except Next
-    if(len(pages) <= 1):
+    if len(pages) <= 1:
         url_list = ["{}{}_p".format(base_url, 1)]
     else:
         url_list = ["{}{}_p".format(base_url, page) for page in range(1, int(pages[len(pages)-2])+1)]
