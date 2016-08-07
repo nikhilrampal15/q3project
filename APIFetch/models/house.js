@@ -11,6 +11,6 @@ function House(config) {
   this.sqFt = config.editedFacts ? config.editedFacts.finishedSqFt: null;
   this.yearBuilt = config.editedFacts ? config.editedFacts.yearBuilt: null;
   this.parkingType = config.editedFacts ? config.editedFacts.parkingType: null;
-};
+}
 
-module.exports = House
+module.exports = House;
