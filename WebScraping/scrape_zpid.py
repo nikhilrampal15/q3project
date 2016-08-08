@@ -47,5 +47,5 @@ def scrape_zpid(city):
     return
 
 if __name__ == '__main__':
-    city = "san-jose-ca"
+    city = "redwood-city-ca"
     scrape_zpid(city)
