@@ -1,5 +1,6 @@
 .git/
 unused/
+env/
 
 APIFetch/.env
 
