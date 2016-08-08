@@ -1,507 +1,506 @@
-ZPID,Street, City, State_Zipcode, Bedroom, Bathroom, Sqft, Zestimate
-15155004,17 Jennings Ct, San Francisco, CA 94124 ,3 beds,2 baths,1,642 sqft,$744,105
-2097585255,2315 Lake St, San Francisco, CA 94121 ,Studio,-- baths,2,847 sqft,Unavailable
-96034546,1327 7th Ave APT 6, San Francisco, CA 94122 ,1 bed,1.5 baths,1,134 sqft,$1,283,101
-15081928,3002 Clay St, San Francisco, CA 94115 ,3 beds,2 baths,2,032 sqft,$2,583,804
-69819129,10 Mint Plz # 1, San Francisco, CA 94103 ,1 bed,2 baths,1,559 sqft,$2,372,393
-2097586438,4014 25th St, San Francisco, CA 94114 ,2 beds,1 bath,-- sqft,Unavailable
-2097586740,2558 Mission St # 312, San Francisco, CA 94110 ,1 bed,1 bath,-- sqft,Unavailable
-2130220123,324 Connecticut St, San Francisco, CA 94107 ,Studio,-- baths,4,810 sqft,$4,150,541
-2099430832,Residence G2 Plan, Summit 800 San Francisco, CA 94132 ,3 beds,2.5 baths,1,850 sqft,$1,422,919
-69819957,1751 Lake St, San Francisco, CA 94121 ,5 beds,4 baths,6,027 sqft,$6,576,179
-15179593,21 Byron Ct, San Francisco, CA 94112 ,5 beds,3 baths,2,242 sqft,$845,570
-83153449,177 Townsend St UNIT 531, San Francisco, CA 94107 ,Studio,1 bath,484 sqft,$642,762
-15076178,1450 Post St APT 302, San Francisco, CA 94109 ,1 bed,1 bath,540 sqft,$483,339
-111925735,830 York St, San Francisco, CA 94110 ,2 beds,1 bath,998 sqft,$991,044
-2097587189,484 Belvedere St, San Francisco, CA 94117 ,2 beds,1 bath,1,137 sqft,Unavailable
-15133564,245 Fowler Ave, San Francisco, CA 94127 ,3 beds,3 baths,-- sqft,$1,296,804
-2097588061,191 Brewster St, San Francisco, CA 94110 ,4 beds,3.5 baths,-- sqft,Unavailable
-89238613,338 Spear St UNIT 31A, San Francisco, CA 94105 ,2 beds,2 baths,1,274 sqft,$1,508,336
-15088141,482 Belvedere St, San Francisco, CA 94117 ,2 beds,1 bath,1,137 sqft,$2,294,699
-80738489,855 Folsom St APT 502, San Francisco, CA 94107 ,1 bed,1 bath,722 sqft,$729,496
-15132399,200 Dellbrook Ave, San Francisco, CA 94131 ,3 beds,2 baths,937 sqft,$1,064,292
-80732333,370 De Haro St # B14, San Francisco, CA 94103 ,1 bed,2 baths,1,180 sqft,$1,123,370
-15120375,2374 20th Ave, San Francisco, CA 94116 ,3 beds,1 bath,1,250 sqft,$1,093,567
-2097589296,1788 Clay St APT 803, San Francisco, CA 94109 ,2 beds,2 baths,1,235 sqft,Unavailable
-15133376,100 Woodside Ave, San Francisco, CA 94127 ,2 beds,1 bath,1,285 sqft,$1,312,831
-2097592385,160 Julian Ave APT 2, San Francisco, CA 94103 ,1 bed,1 bath,-- sqft,Unavailable
-2125071832,150 Lombard St APT 403, San Francisco, CA 94111 ,2 beds,2 baths,1,400 sqft,$1,108,710
-15137614,21 Brentwood Ave, San Francisco, CA 94127 ,4 beds,5 baths,2,548 sqft,$1,337,395
-15189321,342 Faxon Ave, San Francisco, CA 94112 ,2 beds,1 bath,1,500 sqft,$781,449
-2097592787,160 Julian Ave APT 1, San Francisco, CA 94103 ,Studio,1 bath,-- sqft,Unavailable
-79845400,555 4th St UNIT 632, San Francisco, CA 94107 ,1 bed,1 bath,720 sqft,$800,408
-2097593461,2 Mint Plz # 802/4, San Francisco, CA 94103 ,2 beds,2 baths,2,653 sqft,Unavailable
-2107753907,86 John St, San Francisco, CA 94133 ,1 bed,1 bath,-- sqft,$1,512,059
-15175811,260 Santos St, San Francisco, CA 94134 ,2 beds,1 bath,1,019 sqft,$642,785
-15127720,4532 17th St, San Francisco, CA 94114 ,3 beds,3 baths,2,800 sqft,$2,442,609
-2097595508,985 Greenwich St, San Francisco, CA 94133 ,Studio,-- baths,4,660 sqft,$3,141,772
-2098324439,750 Andover St, San Francisco, CA 94110 ,3 beds,2 baths,1,508 sqft,$1,678,496
-15140675,10 Homewood Ct, San Francisco, CA 94112 ,3 beds,2 baths,1,300 sqft,$1,307,929
-2097595892,821 Taraval St APT B, San Francisco, CA 94116 ,3 beds,2 baths,-- sqft,$938,650
-15161183,114-116 Coleridge St, San Francisco, CA 94110 ,Studio,-- baths,-- sqft,$1,440,655
-15163000,63 Bronte St, San Francisco, CA 94110 ,2 beds,1 bath,1,025 sqft,$988,998
-15182628,160-162 28TH St, San Francisco, CA 94131 ,3 beds,2 baths,1,317 sqft,$1,652,770
-2097596652,4839-4841 Mission St, San Francisco, CA 94112 ,2 beds,1 bath,1,925 sqft,$977,729
-15170703,712 Brazil Ave, San Francisco, CA 94112 ,4 beds,2 baths,1,895 sqft,$856,660
-15138409,627 Mangels Ave, San Francisco, CA 94127 ,1 bed,1 bath,975 sqft,$936,773
-15084079,164 Terra Vista Ave, San Francisco, CA 94115 ,3 beds,3 baths,2,600 sqft,$1,824,504
-2097597939,2401 45th Ave APT 3, San Francisco, CA 94116 ,2 beds,1 bath,-- sqft,$445,153
-2097597938,1690 Grove St, San Francisco, CA 94117 ,Studio,-- baths,9,375 sqft,$5,261,415
-15125805,2729 34th Ave, San Francisco, CA 94116 ,3 beds,3 baths,1,470 sqft,$1,285,077
-15178003,39 Naylor St, San Francisco, CA 94112 ,5 beds,4 baths,3,030 sqft,$1,283,252
-15184786,60 College Ave, San Francisco, CA 94112 ,3 beds,4 baths,1,620 sqft,$1,100,222
-2131113166,California StIncomplete address or missing price?Sometimes listing partners send Zillow listings that do not include a full address or price.To get more details on this property, please contact the listing agent, brokerage, or listing provider. San Francisco, CA 94108 ,Studio,1 bath,656 sqft,$839,556
-2131113166,California StIncomplete address or missing price?Sometimes listing partners send Zillow listings that do not include a full address or price.To get more details on this property, please contact the listing agent, brokerage, or listing provider. San Francisco, CA 94108 ,Studio,1 bath,656 sqft,$839,556
-15184331,16 Richland Ave, San Francisco, CA 94110 ,1 bed,1 bath,608 sqft,$652,000
-15073318,2410 Pacific Ave APT 4, San Francisco, CA 94115 ,1 bed,1 bath,862 sqft,$634,376
-15149759,537 Wisconsin St, San Francisco, CA 94107 ,2 beds,2 baths,-- sqft,$1,149,319
-54854616,3379 22nd St, San Francisco, CA 94110 ,4 beds,3 baths,2,170 sqft,$1,510,646
-15185656,121 Chilton Ave, San Francisco, CA 94131 ,2 beds,1 bath,1,439 sqft,$1,249,518
-61325135,28 Ashbury St, San Francisco, CA 94117 ,2 beds,2 baths,1,585 sqft,$1,377,998
-15134850,500 Myra Way, San Francisco, CA 94127 ,3 beds,2 baths,1,306 sqft,$975,289
-15063958,152 Lombard St APT 507G, San Francisco, CA 94111 ,2 beds,2 baths,1,146 sqft,$1,120,699
-15182958,374 Valley St, San Francisco, CA 94131 ,3 beds,2 baths,1,742 sqft,$1,113,402
-2097607936,432 Laurel St, San Francisco, CA 94118 ,2 beds,2 baths,-- sqft,$1,605,086
-2097608228,Unit B Plan, 72 Townsend San Francisco, CA 94107 ,1 bed,1 bath,900 sqft,$992,955
-2097608227,Unit E Plan, 72 Townsend San Francisco, CA 94107 ,1 bed,1 bath,632 sqft,$856,336
-2097608226,Unit C Plan, 72 Townsend San Francisco, CA 94107 ,1 bed,2 baths,785 sqft,$922,632
-2097608222,Unit H Plan, 72 Townsend San Francisco, CA 94107 ,1 bed,2 baths,950 sqft,$1,026,440
-15084111,184 Ewing Ter, San Francisco, CA 94118 ,5 beds,4 baths,2,600 sqft,$2,755,395
-15147563,75 Folsom St APT 1200, San Francisco, CA 94105 ,1 bed,1 bath,993 sqft,$1,144,963
-15176270,751 Madrid St, San Francisco, CA 94112 ,2 beds,2 baths,1,244 sqft,$611,986
-15181020,4322 25th St, San Francisco, CA 94114 ,5 beds,4 baths,-- sqft,$3,715,558
-15181594,551 Clipper St, San Francisco, CA 94114 ,2 beds,1 bath,1,126 sqft,$1,208,821
-15140819,1351 Plymouth Ave, San Francisco, CA 94112 ,2 beds,1 bath,1,315 sqft,$1,353,667
-15179101,107 Guttenberg St, San Francisco, CA 94112 ,3 beds,1 bath,1,525 sqft,$905,969
-15095624,3547 Anza St, San Francisco, CA 94121 ,2 beds,1 bath,1,325 sqft,$1,396,288
-79847285,555 4th St UNIT 740, San Francisco, CA 94107 ,1 bed,1 bath,680 sqft,$757,645
-15144809,550 Shotwell St, San Francisco, CA 94110 ,2 beds,1 bath,851 sqft,$993,866
-15144810,552 Shotwell St, San Francisco, CA 94110 ,2 beds,1 bath,818 sqft,$1,044,493
-79845949,988 Fulton St APT 116, San Francisco, CA 94117 ,1 bed,1 bath,695 sqft,$719,257
-15164939,340 Justin Dr, San Francisco, CA 94112 ,3 beds,2 baths,-- sqft,$1,148,143
-15112773,1871 30th Ave, San Francisco, CA 94122 ,4 beds,3 baths,2,560 sqft,$1,277,315
-15103190,1379-1383 25TH Ave, San Francisco, CA 94122 ,6 beds,5 baths,3,754 sqft,$1,777,787
-64972549,333 1st St UNIT 1606, San Francisco, CA 94105 ,Studio,1 bath,506 sqft,$681,317
-15196645,3010 23rd Ave, San Francisco, CA 94132 ,5 beds,6 baths,3,924 sqft,$3,146,436
-2097628937,13 Surrey St # A, San Francisco, CA 94131 ,1 bed,1 bath,-- sqft,$671,133
-2097755746,207 Plan, San Francisco, CA 94115 ,2 beds,2 baths,1,401 sqft,$2,504,264
-119685831,5800 3rd St UNIT 1105, San Francisco, CA 94124 ,2 beds,2 baths,1,021 sqft,$684,403
-82786118,425 1st St UNIT 2205, San Francisco, CA 94105 ,1 bed,1 bath,-- sqft,$956,770
-116156390,435 China Basin St UNIT 534, San Francisco, CA 94158 ,2 beds,2 baths,1,391 sqft,$1,517,011
-64972004,35 Lottie Bennett Ln APT 2, San Francisco, CA 94115 ,1 bed,1 bath,-- sqft,$16,427
-2097744720,Unit L Plan, 72 Townsend San Francisco, CA 94107 ,1 bed,1 bath,1,106 sqft,$1,187,187
-15159329,1830-1832 Egbert Ave, San Francisco, CA 94124 ,Studio,-- baths,880 sqft,$622,189
-69819778,260 King St UNIT 741, San Francisco, CA 94107 ,1 bed,1 bath,854 sqft,$822,102
-15179445,245 Concord St, San Francisco, CA 94112 ,2 beds,2 baths,1,670 sqft,$921,581
-2097661525,Residence 1 Plan, LUMINA San Francisco, CA 94105 ,1 bed,1 bath,876 sqft,$997,478
-15168919,362 Princeton St, San Francisco, CA 94134 ,3 beds,2 baths,1,356 sqft,$829,282
-15067931,1151 Taylor St APT 1, San Francisco, CA 94108 ,2 beds,2 baths,1,191 sqft,$1,345,622
-2097657203,1530 Mcallister St APT 6, San Francisco, CA 94115 ,2 beds,1 bath,754 sqft,$769,147
-15135015,10 El Sereno Ct, San Francisco, CA 94127 ,2 beds,3 baths,1,718 sqft,$1,647,914
-96031913,300 Berry St UNIT 1405, San Francisco, CA 94158 ,1 bed,1 bath,732 sqft,$899,959
-15075119,1905 Laguna St APT 306, San Francisco, CA 94115 ,1 bed,1 bath,685 sqft,$756,804
-15071190,3233-3235 Steiner St, San Francisco, CA 94123 ,4 beds,2 baths,2,830 sqft,$3,266,085
-2098636734,Residence 2 Plan, LUMINA San Francisco, CA 94105 ,2 beds,2 baths,1,189 sqft,$1,460,572
-15191450,341 Howth St, San Francisco, CA 94112 ,5 beds,5 baths,2,000 sqft,$997,387
-2097658751,633 Capp St # 635A, San Francisco, CA 94110 ,2 beds,1 bath,-- sqft,$774,763
-2098035536,W407 Plan, Rockwell San Francisco, CA 94109 ,2 beds,2 baths,1,164 sqft,$1,492,004
-2097661270,228 And 228a Filbert St, San Francisco, CA 94133 ,3 beds,3 baths,1,525 sqft,$2,083,093
-15089336,64 7th Ave, San Francisco, CA 94118 ,3 beds,3 baths,2,375 sqft,$2,058,709
-2097661538,201 Folsom St # 6F, San Francisco, CA 94105 ,2 beds,2 baths,1,187 sqft,$1,397,761
-15142662,85 Duboce Ave APT 203, San Francisco, CA 94103 ,2 beds,1 bath,1,040 sqft,$946,090
-80744991,1011 23rd St APT 10, San Francisco, CA 94107 ,1 bed,1.5 baths,-- sqft,$732,943
-119685654,744 Church St, San Francisco, CA 94114 ,2 beds,1 bath,1,005 sqft,$1,295,468
-15163351,155 Newman St, San Francisco, CA 94110 ,2 beds,1 bath,1,085 sqft,$939,033
-15100317,835 42nd Ave, San Francisco, CA 94121 ,3 beds,2.5 baths,2,477 sqft,$1,341,129
-2098960305,2758 23rd St, San Francisco, CA 94110 ,Studio,-- baths,1,372 sqft,$793,237
-2106908379,1710 48th Ave, San Francisco, CA 94122 ,2 beds,1 bath,1,000 sqft,$759,566
-2097665408,3233 Steiner St, San Francisco, CA 94123 ,Studio,-- baths,-- sqft,$2,491,954
-116156046,1134 Page St, San Francisco, CA 94117 ,3 beds,3 baths,1,609 sqft,$1,543,993
-2097667876,48 Lower Ter # 48, San Francisco, CA 94114 ,3 beds,3 baths,1,893 sqft,$1,978,891
-2101439205,5114 5116 3rd St, San Francisco, CA 94124 ,-- beds,-- baths,2,000 sqft,$912,951
-15090782,332 29th Ave, San Francisco, CA 94121 ,4 beds,1 bath,1,168 sqft,$1,073,296
-64972516,333 1st St UNIT 1001, San Francisco, CA 94105 ,2 beds,2 baths,-- sqft,$1,230,450
-2143414544,3334 Clay St, San Francisco, CA 94118 ,3 beds,2 baths,2,150 sqft,$1,900,387
-15130401,4407-4409 20TH St, San Francisco, CA 94114 ,4 beds,2 baths,2,510 sqft,$2,207,086
-15114554,1601 Ortega St, San Francisco, CA 94122 ,2 beds,1 bath,1,221 sqft,$1,041,343
-15082851,730 Euclid Ave, San Francisco, CA 94118 ,4 beds,3 baths,3,425 sqft,$3,661,389
-15135507,1290 Portola Dr, San Francisco, CA 94127 ,3 beds,3 baths,2,352 sqft,$2,410,879
-15068322,3 Helen St # 101, San Francisco, CA 94109 ,2 beds,3 baths,2,030 sqft,$1,669,233
-15132258,965 Elizabeth St, San Francisco, CA 94114 ,2 beds,3 baths,1,279 sqft,$1,493,410
-82785263,181 Ofarrell St STE 305, San Francisco, CA 94102 ,1 bed,2 baths,1,334 sqft,$1,245,116
-2097671492,2596 24th Ave, San Francisco, CA 94116 ,Studio,-- baths,2,850 sqft,$1,423,095
-15081454,115 Walnut St, San Francisco, CA 94118 ,3 beds,3.5 baths,2,600 sqft,$3,797,680
-15157202,1550 Shafter Ave, San Francisco, CA 94124 ,5 beds,2 baths,1,750 sqft,$769,690
-15172634,15 Bishop St, San Francisco, CA 94134 ,4 beds,3 baths,2,200 sqft,$1,280,722
-89239005,445 Baker St, San Francisco, CA 94117 ,2 beds,1 bath,1,211 sqft,$1,278,919
-69819344,2913 25th St, San Francisco, CA 94110 ,1 bed,1 bath,1,053 sqft,$962,201
-2143405194,228 Oneida Ave, San Francisco, CA 94112 ,4 beds,3 baths,2,114 sqft,$1,165,689
-63196468,1050 N Point St APT 503, San Francisco, CA 94109 ,1 bed,1 bath,615 sqft,$831,448
-125243731,101 Lundys Ln, San Francisco, CA 94110 ,Studio,-- baths,2,249 sqft,$661,214
-15065815,422 Green St, San Francisco, CA 94133 ,Studio,-- baths,1,295 sqft,$1,377,485
-2097679306,112 Ripley St APT 2, San Francisco, CA 94110 ,1 bed,1 bath,-- sqft,$776,856
-15131651,4121 23rd St, San Francisco, CA 94114 ,4 beds,3 baths,2,657 sqft,$2,199,748
-15164756,4219 Folsom St, San Francisco, CA 94110 ,3 beds,2 baths,1,539 sqft,$971,669
-2097680187,870 Harrison St UNIT 605, San Francisco, CA 94107 ,2 beds,1.5 baths,-- sqft,$942,561
-15134406,736 Myra Way, San Francisco, CA 94127 ,3 beds,1 bath,-- sqft,$966,205
-2103084745,3055 California St # A, San Francisco, CA 94115 ,2 beds,2 baths,966 sqft,$1,035,848
-15082192,3319 Clay St, San Francisco, CA 94118 ,Studio,-- baths,2,800 sqft,$3,074,290
-64946643,475 Tehama St STE 202, San Francisco, CA 94103 ,1 bed,1 bath,605 sqft,$623,769
-15179776,105 Hanover St, San Francisco, CA 94112 ,3 beds,3 baths,1,650 sqft,$839,352
-15162782,127 Ellert St, San Francisco, CA 94110 ,3 beds,1 bath,950 sqft,Unavailable
-15198441,249 N Lake Merced Hls, San Francisco, CA 94132 ,3 beds,2.5 baths,1,904 sqft,$981,746
-2097683628,465 Castro St, San Francisco, CA 94114 ,3 beds,2 baths,1,475 sqft,$1,467,634
-2097683627,467 Castro St, San Francisco, CA 94114 ,3 beds,3 baths,1,855 sqft,$2,062,042
-15198058,419 Lakeshore Dr, San Francisco, CA 94132 ,2 beds,1 bath,1,250 sqft,$941,424
-2097683950,Plan A (Floors 8-16) Plan, The Harrison San Francisco, CA 94105 ,1 bed,1 bath,840 sqft,$704,376
-2097684327,1345 16th Ave APT 4, San Francisco, CA 94122 ,1 bed,1 bath,-- sqft,$541,435
-15086330,2155 Hayes St, San Francisco, CA 94117 ,3 beds,2 baths,1,932 sqft,$1,247,106
-15137636,528 Melrose Ave, San Francisco, CA 94127 ,2 beds,1 bath,890 sqft,$928,751
-15098183,655 10th Ave, San Francisco, CA 94118 ,3 beds,1.5 baths,1,950 sqft,$1,956,961
-79846516,555 4th St UNIT 802, San Francisco, CA 94107 ,1 bed,1 bath,670 sqft,$805,906
-111933043,442 Leland Ave, San Francisco, CA 94134 ,5 beds,3 baths,2,055 sqft,$799,456
-63196414,666 Post St APT 1004, San Francisco, CA 94109 ,1 bed,1 bath,775 sqft,$926,204
-59779896,175 Bluxome St UNIT 204, San Francisco, CA 94107 ,2 beds,2 baths,1,076 sqft,$1,000,674
-15133660,130 Ulloa St, San Francisco, CA 94127 ,3 beds,2 baths,1,792 sqft,$1,506,659
-15162453,21 Bennington St, San Francisco, CA 94110 ,2 beds,1 bath,1,000 sqft,$958,018
-15080138,2425 Francisco St, San Francisco, CA 94123 ,3 beds,2 baths,-- sqft,$2,661,285
-15151660,738 Arkansas St, San Francisco, CA 94107 ,2 beds,2 baths,1,758 sqft,$1,754,629
-15145521,240 Liberty St APT B, San Francisco, CA 94114 ,2 beds,1 bath,892 sqft,$1,142,489
-2098183165,E1010 Plan, Rockwell San Francisco, CA 94109 ,1 bed,1 bath,616 sqft,$843,304
-59700498,155 Harriet St STE 19, San Francisco, CA 94103 ,2 beds,2 baths,1,010 sqft,$903,063
-15132128,86 Midcrest Way, San Francisco, CA 94131 ,3 beds,2 baths,1,383 sqft,$1,269,781
-79845287,501 Crescent Way APT 5311, San Francisco, CA 94134 ,2 beds,2 baths,875 sqft,$584,796
-15192537,130 Majestic Ave, San Francisco, CA 94112 ,3 beds,2 baths,1,250 sqft,$815,137
-2107076991,301 Main St UNIT 24C, San Francisco, CA 94105 ,1 bed,1 bath,809 sqft,$1,396,383
-15167504,258 Harvard St, San Francisco, CA 94134 ,2 beds,2 baths,1,600 sqft,$891,877
-15118751,2262 42nd Ave, San Francisco, CA 94116 ,3 beds,2 baths,905 sqft,$1,086,350
-2097700391,323A 7th Ave # 3, San Francisco, CA 94118 ,3 beds,2 baths,1,485 sqft,$1,287,986
-15165582,18 Dartmouth St, San Francisco, CA 94134 ,4 beds,2 baths,1,207 sqft,$902,025
-2097702990,401 Harrison St # 4C, San Francisco, CA 94105 ,2 beds,2 baths,1,289 sqft,$1,451,575
-2097703618,3790 21st St, San Francisco, CA 94114 ,Studio,-- baths,4,282 sqft,$3,021,259
-2108453273,279 Graystone Ter APT 1, San Francisco, CA 94114 ,1 bed,1 bath,770 sqft,$751,114
-15084914,815 Lyon St, San Francisco, CA 94115 ,2 beds,1 bath,1,075 sqft,$1,163,602
-15131239,771 Panorama Dr, San Francisco, CA 94131 ,3 beds,1 bath,1,298 sqft,$1,485,150
-15086065,625 Divisadero St # 6, San Francisco, CA 94117 ,Studio,1 bath,353 sqft,$661,531
-2099228207,642 Natoma St # A, San Francisco, CA 94103 ,3 beds,2 baths,1,353 sqft,$1,003,787
-15185390,13 Surrey St, San Francisco, CA 94131 ,2 beds,2 baths,1,280 sqft,$1,091,657
-53153388,370 Monterey Blvd APT 101, San Francisco, CA 94131 ,1 bed,1 bath,807 sqft,$346,898
-15138223,176 Yerba Buena Ave, San Francisco, CA 94127 ,4 beds,3.5 baths,2,562 sqft,$2,986,625
-2100755012,263 Thrift St, San Francisco, CA 94112 ,Studio,-- baths,2,529 sqft,$1,332,826
-15078487,853 Hayes St, San Francisco, CA 94117 ,3 beds,3 baths,2,020 sqft,$1,790,358
-15083909,128 Wood St # 1, San Francisco, CA 94118 ,3 beds,2 baths,1,600 sqft,$1,525,416
-89238348,1884 Bush St, San Francisco, CA 94109 ,1 bed,1 bath,934 sqft,$988,785
-80736213,1601 Pacific Ave APT 207, San Francisco, CA 94109 ,2 beds,3 baths,1,274 sqft,$1,189,913
-15175184,125 Britton St, San Francisco, CA 94134 ,1 bed,1 bath,650 sqft,$632,859
-79847573,900 Gilman Ave # 14, San Francisco, CA 94124 ,2 beds,1 bath,899 sqft,$209,999
-2099430840,Residence G1 Plan, Summit 800 San Francisco, CA 94132 ,3 beds,2.5 baths,2,328 sqft,$1,467,998
-2097734745,633-637 Capp St # 635A, San Francisco, CA 94110 ,2 beds,1 bath,-- sqft,$1,429,715
-2099853783,3422 19th St, San Francisco, CA 94110 ,2 beds,2 baths,-- sqft,$1,056,638
-15109495,1668 18th Ave, San Francisco, CA 94122 ,3 beds,2 baths,1,671 sqft,$1,283,574
-15109410,1622 21st Ave, San Francisco, CA 94122 ,5 beds,3 baths,1,275 sqft,$1,385,929
-82786081,425 1st St UNIT 1607, San Francisco, CA 94105 ,1 bed,1 bath,819 sqft,$1,125,633
-15088261,130 Rivoli St, San Francisco, CA 94117 ,3 beds,2 baths,1,700 sqft,$1,491,794
-2099430843,Residence B Plan, Summit 800 San Francisco, CA 94132 ,3 beds,2.5 baths,2,001 sqft,$1,551,465
-15136357,456 Los Palmos Dr, San Francisco, CA 94127 ,4 beds,4 baths,2,000 sqft,$1,474,733
-15086531,255 Central Ave, San Francisco, CA 94117 ,2 beds,2 baths,1,078 sqft,$1,034,709
-2098608398,E1011 Plan, Rockwell San Francisco, CA 94109 ,2 beds,2 baths,1,139 sqft,$1,735,890
-2097755397,388 Fulton St # 411, San Francisco, CA 94102 ,2 beds,1 bath,714 sqft,$964,341
-15129447,337 Douglass St, San Francisco, CA 94114 ,3 beds,3 baths,1,600 sqft,$1,924,900
-2097755733,2121 Webster Street Rh # 2, San Francisco, CA 94115 ,3 beds,3 baths,2,423 sqft,$3,799,157
-2098636651,2475 Clay St, San Francisco, CA 94115 ,3 beds,3 baths,2,423 sqft,$3,865,094
-2097755745,Row House Collection 3-Story Plan, San Francisco, CA 94115 ,3 beds,3 baths,2,423 sqft,$3,799,157
-15177732,465 Stoneridge Ln # 3301, San Francisco, CA 94134 ,2 beds,2 baths,1,111 sqft,$639,403
-2097756977,3138 Scott St, San Francisco, CA 94123 ,2 beds,1 bath,1,130 sqft,$1,230,879
-80745391,563 Minna St APT 1, San Francisco, CA 94103 ,2 beds,2 baths,1,257 sqft,$682,166
-15171782,690 Brussels St, San Francisco, CA 94134 ,4 beds,2 baths,1,712 sqft,$751,600
-15164059,659 Banks St, San Francisco, CA 94110 ,4 beds,6 baths,2,100 sqft,$1,076,254
-15160093,1479 Shotwell St, San Francisco, CA 94110 ,2 beds,1 bath,2,140 sqft,$1,477,012
-15127493,141 States St, San Francisco, CA 94114 ,3 beds,2 baths,1,484 sqft,$1,464,110
-2098636733,Residence 6 Plan, LUMINA San Francisco, CA 94105 ,2 beds,2 baths,1,495 sqft,$2,396,197
-69820113,673 Kansas St # 1, San Francisco, CA 94107 ,2 beds,1 bath,-- sqft,$1,224,528
-61288450,77 Dow Pl APT 108, San Francisco, CA 94107 ,1 bed,1.5 baths,1,057 sqft,$962,176
-15141245,443 Capistrano Ave, San Francisco, CA 94112 ,4 beds,2 baths,1,832 sqft,$1,186,376
-15153310,5 Mabrey Ct, San Francisco, CA 94124 ,3 beds,2 baths,1,776 sqft,$784,767
-82786088,425 1st St UNIT 1707, San Francisco, CA 94105 ,1 bed,1 bath,819 sqft,$1,137,762
-2097768822,365 67 12th St, San Francisco, CA 94103 ,-- beds,-- baths,1,902 sqft,$1,160,607
-2099276061,1931 15th St, San Francisco, CA 94114 ,3 beds,2 baths,2,580 sqft,$2,625,285
-89237610,432 Jersey St, San Francisco, CA 94114 ,2 beds,1 bath,1,053 sqft,$1,123,788
-96041763,1299 Bush St APT 201, San Francisco, CA 94109 ,2 beds,3 baths,1,530 sqft,$1,707,172
-15100883,1229 45th Ave, San Francisco, CA 94122 ,Studio,-- baths,1,460 sqft,$945,750
-15073451,2225-2227 Pacific Ave, San Francisco, CA 94115 ,6 beds,5 baths,4,700 sqft,$4,927,308
-15153857,1243 Quesada Ave, San Francisco, CA 94124 ,3 beds,1 bath,1,440 sqft,$738,231
-89240309,425 1st St UNIT 4605, San Francisco, CA 94105 ,1 bed,1 bath,860 sqft,$998,515
-15069888,37 Rico Way, San Francisco, CA 94123 ,3 beds,1 bath,1,845 sqft,$2,403,426
-2097772510,1401 Waller St, San Francisco, CA 94117 ,Studio,-- baths,2,606 sqft,$1,716,694
-15193845,316 Orizaba Ave, San Francisco, CA 94132 ,2 beds,1 bath,800 sqft,$623,718
-15140297,67 Paulding St, San Francisco, CA 94112 ,2 beds,1 bath,1,000 sqft,$885,111
-15074424,2200 Sacramento St APT 706, San Francisco, CA 94115 ,2 beds,2 baths,1,110 sqft,$1,243,043
-119685059,941 Cayuga Ave, San Francisco, CA 94112 ,3 beds,2.5 baths,1,660 sqft,$994,034
-63196194,1333 Jones St APT 802, San Francisco, CA 94109 ,1 bed,2 baths,-- sqft,$1,762,784
-2099430833,Residence F2 Plan, Summit 800 San Francisco, CA 94132 ,3 beds,2.5 baths,2,207 sqft,$1,465,295
-15072728,1998 Broadway APT 507, San Francisco, CA 94109 ,2 beds,2 baths,1,030 sqft,$1,147,323
-15124993,2632 35th Ave, San Francisco, CA 94116 ,3 beds,1 bath,1,500 sqft,$1,089,690
-67090195,400 Beale St APT 1005, San Francisco, CA 94105 ,1 bed,1 bath,828 sqft,$911,905
-15187305,449 Urbano Dr, San Francisco, CA 94127 ,-- beds,1 bath,1,600 sqft,$1,534,148
-15085160,2028 Mcallister St, San Francisco, CA 94118 ,-- beds,1 bath,1,545 sqft,$1,609,358
-15138751,424 Gennessee St, San Francisco, CA 94127 ,4 beds,2 baths,1,838 sqft,$1,306,640
-15069423,631 Ofarrell St APT 414, San Francisco, CA 94109 ,Studio,1 bath,520 sqft,$472,168
-15158160,206 Bridgeview Dr, San Francisco, CA 94124 ,3 beds,2 baths,1,440 sqft,$759,780
-2097784789,654 Castro St, San Francisco, CA 94114 ,-- beds,-- baths,4,386 sqft,$2,790,051
-82786241,177 Townsend St UNIT 335, San Francisco, CA 94107 ,1 bed,1 bath,815 sqft,$920,942
-15090814,362 28th Ave, San Francisco, CA 94121 ,2 beds,1 bath,1,090 sqft,$1,279,508
-15143092,236 Guerrero St, San Francisco, CA 94103 ,3 beds,2 baths,1,539 sqft,$1,455,470
-2097786533,590 24th Ave, San Francisco, CA 94121 ,Studio,-- baths,2,208 sqft,$1,419,521
-2097786535,430 Eddy St, San Francisco, CA 94109 ,3,576 sqft,Unavailable
-15141202,115 San Juan Ave, San Francisco, CA 94112 ,3 beds,2 baths,2,247 sqft,$1,070,415
-15086395,964 Page St, San Francisco, CA 94117 ,2 beds,1 bath,1,122 sqft,$1,176,541
-2102211687,149-151 Masonic Ave San Francisco Ca # 94118, San Francisco, CA 94118 ,4 beds,2 baths,2,672 sqft,$1,998,899
-116156185,435 China Basin St UNIT 335, San Francisco, CA 94158 ,2 beds,2 baths,-- sqft,$1,339,856
-64972219,20 Quickstep Ln APT 2, San Francisco, CA 94115 ,2 beds,1 bath,840 sqft,$781,351
-15109582,1669 15th Ave, San Francisco, CA 94122 ,7 beds,4 baths,3,681 sqft,$2,440,840
-15155974,1129 Mendell St, San Francisco, CA 94124 ,Studio,-- baths,912 sqft,$607,854
-15162772,312 Cortland Ave, San Francisco, CA 94110 ,3 beds,2 baths,1,200 sqft,$1,137,258
-15162462,600 Eugenia Ave, San Francisco, CA 94110 ,4 beds,2 baths,1,901 sqft,$1,621,854
-15064354,358-360 Lombard St, San Francisco, CA 94133 ,-- beds,-- baths,1,924 sqft,$2,860,610
-15129550,4555 19th St, San Francisco, CA 94114 ,4 beds,4 baths,4,072 sqft,$1,928,966
-15178914,850C Brunswick St, San Francisco, CA 94112 ,4 beds,3 baths,2,178 sqft,$1,139,171
-15185234,50 Burnside Ave, San Francisco, CA 94131 ,2 beds,1 bath,1,273 sqft,$1,223,448
-2100435456,280 10th Ave, San Francisco, CA 94118 ,-- beds,-- baths,-- sqft,$2,461,423
-15100736,855 La Playa St APT 159, San Francisco, CA 94121 ,2 beds,2 baths,1,178 sqft,$803,706
-111929260,830 Minnesota St, San Francisco, CA 94107 ,2 beds,3 baths,1,659 sqft,$1,683,046
-15144377,465-469 Castro St, San Francisco, CA 94114 ,Studio,-- baths,5,390 sqft,$4,799,087
-59700490,155 Harriet St STE 9, San Francisco, CA 94103 ,2 beds,2 baths,930 sqft,$930,326
-2098035537,W901 Plan, Rockwell San Francisco, CA 94109 ,2 beds,2 baths,955 sqft,$1,332,909
-15136755,128 San Pablo Ave, San Francisco, CA 94127 ,4 beds,4 baths,2,674 sqft,$2,486,307
-2098636730,Residence 7 Plan, LUMINA San Francisco, CA 94105 ,1 bed,1 bath,972 sqft,$1,399,293
-89240111,83 Mcallister St APT 403, San Francisco, CA 94102 ,Studio,1 bath,265 sqft,$477,311
-15064463,2125 Mason St, San Francisco, CA 94133 ,Studio,-- baths,3,204 sqft,$2,957,653
-15078432,420-422 Linden St, San Francisco, CA 94102 ,-- beds,-- baths,2,200 sqft,$1,661,648
-80749566,650 2nd St UNIT 304, San Francisco, CA 94107 ,1 bed,1.5 baths,1,798 sqft,Unavailable
-117672833,437 25th Ave APT 3, San Francisco, CA 94121 ,3 beds,2 baths,1,693 sqft,$1,194,029
-69819674,260 King St UNIT 1305, San Francisco, CA 94107 ,2 beds,2 baths,1,488 sqft,$1,518,161
-2097847511,2725 Pine St, San Francisco, CA 94115 ,3 beds,2 baths,1,777 sqft,$1,667,738
-52437151,2836 Folsom St, San Francisco, CA 94110 ,2 beds,2 baths,2,258 sqft,$1,645,320
-2097847690,3633 Webster St, San Francisco, CA 94123 ,2 beds,2 baths,1,720 sqft,$1,811,075
-2097847688,9-11 14th Ave, San Francisco, CA 94118 ,5 beds,3 baths,3,296 sqft,$2,479,955
-15095248,591 18th Ave, San Francisco, CA 94121 ,4 beds,2 baths,2,020 sqft,$1,794,601
-15081369,3045 Jackson St APT 203, San Francisco, CA 94115 ,1 bed,1 bath,-- sqft,$1,159,333
-15163483,30 Patton St, San Francisco, CA 94110 ,4 beds,3 baths,1,733 sqft,$1,174,947
-15141265,140 Ocean Ave, San Francisco, CA 94112 ,3 beds,2 baths,1,152 sqft,$961,819
-15109153,1674 26th Ave, San Francisco, CA 94122 ,5 beds,3 baths,2,075 sqft,$1,389,008
-15152397,1242 Hampshire St, San Francisco, CA 94110 ,2 beds,2 baths,1,298 sqft,$1,331,042
-2097853526,740 Shotwell St, San Francisco, CA 94110 ,Studio,-- baths,2,227 sqft,$929,109
-2099140356,# 602 Three-Bed & Three-Bath Plan, 6 Mint Plaza San Francisco, CA 94103 ,3 beds,3 baths,1,805 sqft,$2,693,241
-124397847,8 Buchanan St UNIT 613, San Francisco, CA 94102 ,2 beds,2 baths,985 sqft,$1,185,375
-2097854526,2405 41st Ave, San Francisco, CA 94116 ,Studio,-- baths,2,150 sqft,$1,084,262
-2097854989,900 Clarendon Ave, San Francisco, CA 94131 ,-- beds,-- baths,-- sqft,$1,459,433
-2097855544,236 Shipley St # 204, San Francisco, CA 94107 ,2 beds,2 baths,858 sqft,$922,392
-15140588,137 Eastwood Dr, San Francisco, CA 94112 ,6 beds,3 baths,2,762 sqft,$1,531,306
-2097856271,150 152 San Carlos St, San Francisco, CA 94110 ,2 beds,1 bath,926 sqft,$1,035,234
-2097856807,236 Shipley St # 305, San Francisco, CA 94107 ,1 bed,1 bath,514 sqft,$660,413
-15138115,250 Santa Paula Ave, San Francisco, CA 94127 ,5 beds,6 baths,3,028 sqft,$4,125,391
-15160632,1706 Alabama St, San Francisco, CA 94110 ,2 beds,1 bath,988 sqft,$1,412,659
-89238408,323-A 7th Ave, San Francisco, CA 94118 ,3 beds,2 baths,1,485 sqft,$1,229,531
-80733090,650 Delancey St APT 406, San Francisco, CA 94107 ,1 bed,2 baths,-- sqft,$1,797,802
-119685612,1338 48th Ave, San Francisco, CA 94122 ,2 beds,2 baths,1,510 sqft,$979,972
-89230177,330 Mission Bay Blvd N UNIT 502, San Francisco, CA 94158 ,1 bed,1.5 baths,1,010 sqft,$1,142,656
-15088522,39 Carmel St, San Francisco, CA 94117 ,2 beds,2 baths,-- sqft,$2,025,428
-119685581,5900 3rd St UNIT 2309, San Francisco, CA 94124 ,2 beds,2 baths,1,295 sqft,$803,395
-96034175,300 Berry St UNIT 305, San Francisco, CA 94158 ,1 bed,1 bath,-- sqft,$896,353
-80745668,175 Bluxome St UNIT 209, San Francisco, CA 94107 ,2 beds,2 baths,1 sqft,$1,003,215
-15178505,2 Curtis St, San Francisco, CA 94112 ,3 beds,4 baths,1,445 sqft,$931,582
-80741435,563 Minna St APT 2, San Francisco, CA 94103 ,1 bed,2 baths,814 sqft,Unavailable
-15160839,188 Brewster St, San Francisco, CA 94110 ,4 beds,4 baths,2,128 sqft,$2,731,316
-2097864414,160 Julian Ave, San Francisco, CA 94103 ,3 beds,3 baths,2,300 sqft,$2,015,806
-82786220,310 Townsend St APT 408, San Francisco, CA 94107 ,1 bed,1 bath,803 sqft,$819,086
-15123561,2555 28th Ave, San Francisco, CA 94116 ,3 beds,3 baths,1,870 sqft,$1,276,896
-15138874,120 Santa Ana Ave, San Francisco, CA 94127 ,5 beds,6 baths,4,800 sqft,$4,264,807
-80729601,2875 21st St APT 5, San Francisco, CA 94110 ,1 bed,2 baths,1,137 sqft,$1,083,931
-2097869025,1685 Oak St APT 201, San Francisco, CA 94117 ,2 beds,2 baths,1,430 sqft,$1,249,380
-15074186,1776 Sacramento St APT 305, San Francisco, CA 94109 ,2 beds,2 baths,1,091 sqft,$1,210,478
-80736607,317 Harriet St # 7, San Francisco, CA 94103 ,1 bed,2 baths,1,067 sqft,$705,515
-15106175,1559 7th Ave, San Francisco, CA 94122 ,3 beds,2 baths,1,625 sqft,$1,515,116
-2097876725,2937 Webster St, San Francisco, CA 94123 ,3 beds,2 baths,1,338 sqft,$1,753,661
-64972583,355 1st St UNIT S204, San Francisco, CA 94105 ,2 beds,2 baths,963 sqft,$1,158,840
-2099440337,400 Franconia St, San Francisco, CA 94110 ,10 beds,11 baths,4,950 sqft,$3,470,716
-111710847,151 Ames St, San Francisco, CA 94110 ,3 beds,3 baths,1,986 sqft,$1,973,700
-2097883315,621 Lincoln Way APT 4, San Francisco, CA 94122 ,1 bed,1 bath,-- sqft,$875,491
-15071633,2517-2521 Van Ness Ave, San Francisco, CA 94109 ,-- beds,-- baths,6,934 sqft,$6,290,535
-2108320096,192 Laidley St, San Francisco, CA 94131 ,1 bed,1 bath,830 sqft,$1,145,222
-15095669,614 28th Ave, San Francisco, CA 94121 ,3 beds,3.5 baths,2,688 sqft,$1,796,603
-80751244,1090 Chestnut St # 2, San Francisco, CA 94109 ,4 beds,4 baths,3,260 sqft,$6,179,191
-2097911988,228 Filbert St, San Francisco, CA 94133 ,3 beds,3 baths,1,525 sqft,$2,084,356
-2097945499,Residence D2 Plan, Summit 800 San Francisco, CA 94132 ,3 beds,3.5 baths,2,020 sqft,$1,442,453
-15065717,25 Alta St, San Francisco, CA 94133 ,Studio,-- baths,2,450 sqft,$2,662,841
-15187220,2061 Ocean Ave, San Francisco, CA 94127 ,4 beds,1 bath,1,394 sqft,$1,381,690
-2114645944,2200 Beach St APT 103, San Francisco, CA 94123 ,1 bed,1 bath,883 sqft,$1,016,506
-2099019990,198 Carl St, San Francisco, CA 94117 ,Studio,-- baths,6,750 sqft,$3,447,410
-2097928873,1331 Grant Ave, San Francisco, CA 94133 ,Studio,-- baths,6,120 sqft,$2,878,046
-15067669,11 Shepard Pl, San Francisco, CA 94108 ,5 beds,3 baths,1,951 sqft,$2,053,992
-15105300,1415 23rd Ave, San Francisco, CA 94122 ,3 beds,3 baths,1,555 sqft,$1,368,547
-2097927821,318 Spear St UNIT 7F, San Francisco, CA 94105 ,3 beds,2 baths,1,661 sqft,$1,997,384
-15099743,843-845 30TH Ave, San Francisco, CA 94121 ,2 beds,1 bath,2,280 sqft,$1,318,889
-15134721,121 Juanita Way, San Francisco, CA 94127 ,3 beds,1 bath,1,416 sqft,$1,499,238
-63197369,765 Market St APT 34C, San Francisco, CA 94103 ,1 bed,1.5 baths,947 sqft,$1,673,993
-15065330,166-170 Valparaiso St, San Francisco, CA 94133 ,5 beds,3 baths,2,370 sqft,$1,890,300
-15066592,411 Vallejo St, San Francisco, CA 94133 ,2 beds,3 baths,1,240 sqft,$2,123,959
-64969763,1578 Indiana St APT 4, San Francisco, CA 94107 ,1 bed,2 baths,1,244 sqft,$869,888
-119684814,58 Wilmot St, San Francisco, CA 94115 ,3 beds,4 baths,2,689 sqft,$3,860,323
-15147476,469 Clementina St APT 7, San Francisco, CA 94103 ,1 bed,1 bath,582 sqft,$647,166
-64971331,333 Grant Ave APT 703, San Francisco, CA 94108 ,1 bed,2 baths,834 sqft,$1,023,312
-15116085,2050 31st Ave, San Francisco, CA 94116 ,3 beds,1 bath,1,300 sqft,$1,050,667
-15093766,547 27th Ave, San Francisco, CA 94121 ,4 beds,3 baths,2,544 sqft,$1,691,964
-2097941627,2 Fallon Pl APT 53, San Francisco, CA 94133 ,2 beds,2 baths,1,466 sqft,$1,893,993
-15122575,2478 23rd Ave, San Francisco, CA 94116 ,3 beds,2 baths,2,100 sqft,$1,395,068
-15136304,1 Stanford Heights Ave, San Francisco, CA 94127 ,3 beds,2 baths,1,203 sqft,$1,125,235
-15188709,25 Baywood Ct, San Francisco, CA 94112 ,2 beds,1 bath,800 sqft,$685,260
-115828635,480 Mission Bay Blvd N UNIT 514, San Francisco, CA 94158 ,2 beds,2 baths,1,383 sqft,$1,577,817
-15067438,1 Mccormick St, San Francisco, CA 94109 ,1,805 sqft,Unavailable
-79842594,555 4th St UNIT 522, San Francisco, CA 94107 ,2 beds,2 baths,1,183 sqft,$1,137,420
-15070865,2806 Van Ness Ave, San Francisco, CA 94109 ,10 beds,6 baths,4,921 sqft,$4,890,196
-15144477,595-599 Noe St, San Francisco, CA 94114 ,Studio,-- baths,3,777 sqft,$2,491,122
-15170217,349 Bacon St, San Francisco, CA 94134 ,3 beds,1 bath,1,680 sqft,$1,310,905
-63179419,8100 Oceanview Ter APT 314, San Francisco, CA 94132 ,2 beds,2 baths,1,019 sqft,$648,341
-2097949681,358 Lombard St, San Francisco, CA 94133 ,3 beds,2 baths,1,924 sqft,$2,861,907
-15181858,3790 Cesar Chavez, San Francisco, CA 94110 ,3 beds,3 baths,1,946 sqft,Unavailable
-80735907,2002 3rd St APT 203, San Francisco, CA 94107 ,2 beds,3 baths,2,543 sqft,$1,766,012
-2097950676,1333 Jones St UNIT T321, San Francisco, CA 94109 ,-- beds,1 bath,-- sqft,$778,493
-2097951141,819 Ellis St # 3RD, San Francisco, CA 94109 ,-- beds,0.5 baths,28,800 sqft,$4,261,835
-15131928,21 Panorama Dr, San Francisco, CA 94131 ,3 beds,1 bath,1,150 sqft,$1,185,882
-15158996,5512 3rd St, San Francisco, CA 94124 ,Studio,-- baths,-- sqft,$983,384
-2097952476,3437-3441 Mission St, San Francisco, CA 94110 ,8 beds,7 baths,4,130 sqft,$2,313,367
-119685295,859 Alabama St, San Francisco, CA 94110 ,3 beds,4 baths,2,200 sqft,$2,630,980
-83154260,74 New Montgomery St UNIT 508, San Francisco, CA 94105 ,2 beds,1 bath,952 sqft,$1,271,811
-15199728,60 Ora Way APT 203H, San Francisco, CA 94131 ,Studio,1 bath,409 sqft,$131,445
-2097957961,28 Parker Ave APT 201, San Francisco, CA 94118 ,2 beds,2 baths,-- sqft,Unavailable
-69819288,501 Beale St UNIT 10D, San Francisco, CA 94105 ,2 beds,2 baths,1,259 sqft,$1,893,728
-15151600,880 Wisconsin St, San Francisco, CA 94107 ,4 beds,3 baths,1,500 sqft,$1,518,935
-82785962,74 New Montgomery St UNIT 305, San Francisco, CA 94105 ,1 bed,1 bath,792 sqft,$900,948
-114316171,301 Mission St APT 405, San Francisco, CA 94105 ,2 beds,2 baths,1,731 sqft,$2,282,043
-15068328,1335 California St, San Francisco, CA 94109 ,2 beds,1 bath,1,500 sqft,$1,392,941
-15160832,146 Brewster St, San Francisco, CA 94110 ,3 beds,2 baths,1,430 sqft,$1,674,199
-64971471,135 12th Ave, San Francisco, CA 94118 ,3 beds,2 baths,1,782 sqft,$1,685,260
-2097962619,420 Linden St, San Francisco, CA 94102 ,Studio,-- baths,2,200 sqft,$1,268,863
-2097962620,422 Linden St, San Francisco, CA 94102 ,1 bed,1 bath,2,200 sqft,$962,756
-2097962622,318 25th Ave, San Francisco, CA 94121 ,Studio,-- baths,3,832 sqft,$1,986,661
-83152889,1160 Mission St UNIT 2202, San Francisco, CA 94103 ,1 bed,1 bath,864 sqft,$916,749
-82785810,752 S Van Ness Ave, San Francisco, CA 94110 ,3 beds,2 baths,1,735 sqft,$1,101,768
-15145237,3808 21st St, San Francisco, CA 94114 ,3 beds,1 bath,1,784 sqft,$2,529,341
-15156705,1408 Rankin St, San Francisco, CA 94124 ,3 beds,1 bath,995 sqft,$763,025
-15091833,31 Tacoma St, San Francisco, CA 94118 ,Studio,-- baths,1,200 sqft,$1,107,455
-15081192,2786 Jackson St # A, San Francisco, CA 94115 ,Studio,-- baths,472 sqft,$590,583
-2097966685,3062 22nd St, San Francisco, CA 94110 ,Studio,-- baths,3,915 sqft,$2,391,477
-2097967564,12 Esquina Dr, San Francisco, CA 94134 ,4 beds,2 baths,1,525 sqft,$818,847
-15099030,750 Funston Ave, San Francisco, CA 94118 ,4 beds,3 baths,3,330 sqft,$2,866,918
-2097968226,1884 Bush St, San Francisco, CA 94109 ,1 bed,1 bath,934 sqft,$968,072
-2134087564,60 Alpine Ter, San Francisco, CA 94117 ,Studio,-- baths,-- sqft,$1,898,704
-2097971236,174 Turk St, San Francisco, CA 94102 ,Studio,-- baths,13,464 sqft,$3,755,548
-15070382,1500 Francisco St APT 11, San Francisco, CA 94123 ,3 beds,2 baths,1,787 sqft,$1,910,964
-89240090,338 Spear St UNIT 22F, San Francisco, CA 94105 ,2 beds,2 baths,1,318 sqft,$1,351,908
-2097974744,3032 Clement St # 202, San Francisco, CA 94121 ,3 beds,2 baths,1,661 sqft,$1,471,551
-15160715,3401 Folsom St, San Francisco, CA 94110 ,4 beds,4 baths,2,072 sqft,$1,748,273
-69819744,260 King St UNIT 553, San Francisco, CA 94107 ,Studio,1 bath,556 sqft,$632,054
-15071573,2325-2327 Larkin St, San Francisco, CA 94109 ,-- beds,-- baths,2,820 sqft,$2,694,606
-15130450,720 Castro St, San Francisco, CA 94114 ,3 beds,2.5 baths,2,020 sqft,$2,664,149
-15068164,30 Miller Pl APT 11, San Francisco, CA 94108 ,3 beds,2 baths,1,782 sqft,$2,042,931
-125308985,1515 15th St APT 503, San Francisco, CA 94103 ,1 bed,1 bath,650 sqft,$851,098
-2099345105,3437 Mission St, San Francisco, CA 94110 ,Studio,-- baths,-- sqft,$1,733,395
-2099430839,Residence A2 Plan, Summit 800 San Francisco, CA 94132 ,3 beds,2.5 baths,1,824 sqft,$1,250,098
-2097986215,2325 Larkin St, San Francisco, CA 94109 ,Studio,-- baths,2,820 sqft,$1,337,630
-15158481,135 Ledyard St, San Francisco, CA 94124 ,4 beds,2 baths,1,625 sqft,$767,438
-69819230,69 Clementina St UNIT 403, San Francisco, CA 94105 ,1 bed,1 bath,476 sqft,$656,356
-123952713,301 Mission St APT 34E, San Francisco, CA 94105 ,2 beds,2 baths,1,714 sqft,$2,402,354
-2119198400,666 S Van Ness Ave, San Francisco, CA 94110 ,Studio,-- baths,3,106 sqft,$2,177,393
-15156254,1683 Newcomb Ave, San Francisco, CA 94124 ,2 beds,1 bath,1,090 sqft,$608,855
-15179455,275 Concord St, San Francisco, CA 94112 ,4 beds,3 baths,2,400 sqft,$879,943
-15154182,1463 Thomas Ave, San Francisco, CA 94124 ,6 beds,3 baths,995 sqft,$702,736
-15177816,125 Lapham Way, San Francisco, CA 94112 ,2 beds,1 bath,1,055 sqft,$843,250
-79845037,1587 15th St APT 404, San Francisco, CA 94103 ,2 beds,1 bath,919 sqft,$873,318
-15072786,1998 Broadway APT 1502, San Francisco, CA 94109 ,1 bed,1 bath,700 sqft,$822,562
-63196473,1050 N Point St APT 508, San Francisco, CA 94109 ,1 bed,1 bath,-- sqft,$1,257,964
-52273849,219 Brannan St UNIT 2H, San Francisco, CA 94107 ,2 beds,2 baths,1,206 sqft,$1,568,866
-2098636731,Residence 3 Plan, LUMINA San Francisco, CA 94105 ,2 beds,2 baths,1,366 sqft,$1,466,416
-2098008405,123 Corwin St # C, San Francisco, CA 94114 ,3 beds,2 baths,1,609 sqft,$1,466,281
-15107139,1563 28th Ave, San Francisco, CA 94122 ,4 beds,3 baths,2,920 sqft,$1,440,274
-2098010833,4660-62 18th St, San Francisco, CA 94114 ,8 beds,8 baths,-- sqft,$1,856,231
-15078220,457 Fulton St, San Francisco, CA 94102 ,2 beds,2 baths,1,506 sqft,$1,602,667
-2099430841,Residence F1 Plan, Summit 800 San Francisco, CA 94132 ,3 beds,2.5 baths,2,249 sqft,$1,465,419
-82786533,325 Berry St APT 302, San Francisco, CA 94158 ,2 beds,2 baths,1,589 sqft,$1,760,330
-15064594,1150 Lombard St APT 35, San Francisco, CA 94109 ,3 beds,2.5 baths,1,854 sqft,$2,802,782
-2098024875,2017 Powell St, San Francisco, CA 94133 ,Studio,-- baths,3,990 sqft,$2,766,503
-15155224,2144 Bay Shore Blvd, San Francisco, CA 94134 ,2 beds,1 bath,800 sqft,$696,885
-2098636729,Residence 4 Plan, LUMINA San Francisco, CA 94105 ,2 beds,2 baths,1,401 sqft,$1,433,057
-61325260,20 Arco Way, San Francisco, CA 94112 ,3 beds,2.5 baths,1,762 sqft,$1,155,345
-2098035539,1688 Pine St # W407, San Francisco, CA 94109 ,2 beds,2 baths,1,164 sqft,$1,492,004
-2098035538,1688 Pine St # W901, San Francisco, CA 94109 ,2 beds,2 baths,955 sqft,$1,332,909
-15117826,2135 24th Ave, San Francisco, CA 94116 ,3 beds,2 baths,1,162 sqft,$1,176,651
-111710873,16 Jessie St APT 304, San Francisco, CA 94105 ,2 beds,2 baths,1,046 sqft,$1,438,642
-89237919,425 1st St UNIT 4504, San Francisco, CA 94105 ,1 bed,1 bath,605 sqft,$913,298
-15135465,266 Juanita Way, San Francisco, CA 94127 ,4 beds,3 baths,3,009 sqft,$2,465,843
-15066509,524-526 Vallejo St, San Francisco, CA 94133 ,4 beds,6 baths,2,420 sqft,$2,611,822
-15131097,74 Farview Ct, San Francisco, CA 94131 ,2 beds,1 bath,1,128 sqft,$1,096,331
-15131661,616-618 Diamond St, San Francisco, CA 94114 ,2 beds,1 bath,2,764 sqft,$2,179,817
-15067429,3 Mccormick St, San Francisco, CA 94109 ,2 beds,2 baths,1,496 sqft,$1,971,557
-2098183168,E1105 Plan, Rockwell San Francisco, CA 94109 ,1 bed,1 bath,690 sqft,$950,998
-15081441,3249 Jackson St, San Francisco, CA 94118 ,6 beds,5 baths,5,627 sqft,$8,980,962
-15147436,1 Rausch St APT A, San Francisco, CA 94103 ,1 bed,2 baths,1,044 sqft,$1,010,630
-15144457,562 Sanchez St, San Francisco, CA 94114 ,3 beds,4 baths,4,000 sqft,$3,915,576
-119685501,5800 3rd St UNIT 1211, San Francisco, CA 94124 ,1 bed,1 bath,817 sqft,$632,397
-15151972,1221 San Bruno Ave, San Francisco, CA 94110 ,2 beds,1 bath,1,005 sqft,$958,922
-2098085721,3039-41 California St, San Francisco, CA 94115 ,Studio,-- baths,3,852 sqft,$1,828,857
-2104833493,425 1st St, San Francisco, CA 94105 ,1 bed,2 baths,819 sqft,$1,520,807
-2098087502,534 25th Ave, San Francisco, CA 94121 ,Studio,-- baths,5,091 sqft,$2,562,540
-2098089874,2693 22nd St, San Francisco, CA 94110 ,Studio,-- baths,4,050 sqft,$3,979,557
-2098093137,2697 22nd St # 1, San Francisco, CA 94110 ,3 beds,2 baths,1,295 sqft,$1,388,475
-2098096943,2695 22nd St # 1, San Francisco, CA 94110 ,3 beds,2 baths,1,399 sqft,$1,408,974
-15107183,1539 29th Ave, San Francisco, CA 94122 ,5 beds,5 baths,2,875 sqft,$1,398,907
-80741786,385 10th St APT 7, San Francisco, CA 94103 ,1 bed,1 bath,602 sqft,$657,837
-82785897,1160 Mission St UNIT 1206, San Francisco, CA 94103 ,2 beds,2 baths,1,146 sqft,$1,313,484
-64972752,355 1st St PH 2703, San Francisco, CA 94105 ,2 beds,2 baths,1,480 sqft,$2,001,549
-15151914,1183-1185 Hampshire St, San Francisco, CA 94110 ,5 beds,4 baths,2,180 sqft,$1,383,952
-15199505,18 Jade Pl, San Francisco, CA 94131 ,5 beds,5 baths,3,550 sqft,$3,006,364
-111710950,301 Mission St APT 19A, San Francisco, CA 94105 ,2 beds,2 baths,1,469 sqft,$1,789,143
-15066065,1925 Leavenworth St APT 4, San Francisco, CA 94133 ,1 bed,1 bath,534 sqft,$643,293
-80744446,701 Minna St APT 17, San Francisco, CA 94103 ,2 beds,3 baths,1,778 sqft,$1,311,638
-71713737,50 Lansing St UNIT 604, San Francisco, CA 94105 ,2 beds,2 baths,1,066 sqft,$1,206,241
-2098108886,83 Panorama Dr, San Francisco, CA 94131 ,3 beds,5 baths,3,208 sqft,$1,933,388
-111930151,301 Mission St APT 6A, San Francisco, CA 94105 ,2 beds,2 baths,1,479 sqft,$1,801,275
-15064106,220 Lombard St APT 823, San Francisco, CA 94111 ,3 beds,2 baths,1,817 sqft,$1,992,012
-15144415,120 Hartford St, San Francisco, CA 94114 ,4 beds,3 baths,2,447 sqft,$2,668,692
-2106821447,1725 Kearny St APT 1, San Francisco, CA 94133 ,3 beds,4 baths,2,450 sqft,$3,521,292
-2098118196,1979 Ofarrell St APT B, San Francisco, CA 94115 ,2 beds,1 bath,875 sqft,$738,743
-111922444,301 Mission St APT 6D, San Francisco, CA 94105 ,1 bed,1 bath,789 sqft,$1,046,376
-80746401,370 De Haro St # TB5, San Francisco, CA 94103 ,1 bed,2 baths,1,180 sqft,$1,113,268
-89239041,300 Berry St UNIT 201, San Francisco, CA 94158 ,2 beds,1 bath,917 sqft,$1,115,256
-59700600,1800 Bryant St STE 106, San Francisco, CA 94110 ,1 bed,2 baths,778 sqft,$860,828
-2135966161,56 Sanchez St APT 3, San Francisco, CA 94114 ,1 bed,1 bath,-- sqft,$649,681
-15093792,558 27th Ave, San Francisco, CA 94121 ,2 beds,1 bath,1,160 sqft,$1,051,246
-15077373,1979B Ofarrell St # 10, San Francisco, CA 94115 ,2 beds,1 bath,875 sqft,$756,672
-2106364114,2136 Broderick St, San Francisco, CA 94115 ,Studio,-- baths,6,585 sqft,$7,442,758
-53153375,767 Corbett Ave APT 1, San Francisco, CA 94131 ,2 beds,3 baths,1,207 sqft,$1,305,702
-15124164,2542 42nd Ave, San Francisco, CA 94116 ,2 beds,1 bath,1,000 sqft,$941,495
-15193183,371 Victoria St, San Francisco, CA 94132 ,2 beds,1 bath,1,050 sqft,$783,897
-15105275,1466 25th Ave, San Francisco, CA 94122 ,3 beds,3 baths,1,920 sqft,$1,324,652
-2098129870,98 Broderick St # 98, San Francisco, CA 94117 ,1 bed,1 bath,800 sqft,$876,945
-2098130464,2808 Folsom St, San Francisco, CA 94110 ,Studio,-- baths,5,040 sqft,$3,350,151
-2098131113,991 Haight St, San Francisco, CA 94117 ,3 beds,3 baths,1,600 sqft,$1,444,466
-83153434,55 Page St APT 513, San Francisco, CA 94102 ,2 beds,2 baths,1,037 sqft,$1,313,175
-15198472,139 S Lake Merced Hls APT 1D, San Francisco, CA 94132 ,2 beds,2 baths,1,384 sqft,$759,247
-2098135782,198 Coleman St, San Francisco, CA 94124 ,3 beds,2.5 baths,1,285 sqft,$1,290,293
-2102398145,4479 Mission St, San Francisco, CA 94112 ,Studio,-- baths,-- sqft,$936,744
-15069446,631 Ofarrell St APT 610, San Francisco, CA 94109 ,-- beds,1 bath,520 sqft,$478,107
-15172243,878 Goettingen St, San Francisco, CA 94134 ,2 beds,1 bath,1,025 sqft,$733,060
-2129682652,170 Pacific Ave APT 21, San Francisco, CA 94111 ,3 beds,3 baths,1,993 sqft,$2,393,811
-89237483,733 Front St UNIT 508, San Francisco, CA 94111 ,2 beds,2 baths,1,459 sqft,$1,201,868
-2098153663,3201 Mission St, San Francisco, CA 94110 ,Studio,-- baths,10,494 sqft,$3,738,261
-2098158072,989 Haight St, San Francisco, CA 94117 ,3 beds,3 baths,1,750 sqft,$1,381,936
-2121227871,80 Retiro Way APT 3, San Francisco, CA 94123 ,1 bed,1 bath,800 sqft,$950,218
-2098159834,3953 24th St # C2, San Francisco, CA 94114 ,-- beds,-- baths,490 sqft,$451,496
-2098159833,3953 24th St # C1, San Francisco, CA 94114 ,-- beds,-- baths,1,306 sqft,$757,573
-15078080,1390 Mcallister St, San Francisco, CA 94115 ,3 beds,2 baths,1,711 sqft,$1,772,338
-2098169578,4662 18th St, San Francisco, CA 94114 ,4 beds,3.5 baths,2,403 sqft,$3,016,949
-15129997,498 Corbett Ave, San Francisco, CA 94114 ,4 beds,3.5 baths,2,850 sqft,$2,504,244
-2103068387,1541 Filbert St APT 3, San Francisco, CA 94123 ,3 beds,2 baths,1,350 sqft,$1,654,800
-2098171100,195 Brewster St, San Francisco, CA 94110 ,3 beds,3 baths,-- sqft,$2,649,794
-2098177141,2620 Sutter St # 1/2, San Francisco, CA 94115 ,2 beds,2 baths,-- sqft,$1,592,533
-2098177212,2844 2850 Cabrillo St, San Francisco, CA 94121 ,-- beds,-- baths,3,375 sqft,$2,485,517
+15155004	17 Jennings Ct	 San Francisco	CA	94124	3 beds	2 baths	1,642 sqft	$786,690
+2097585255	2315 Lake St	 San Francisco	CA	94121	Studio	-- baths	2,847 sqft	Unavailable
+96034546	1327 7th Ave APT 6	 San Francisco	CA	94122	1 bed	1.5 baths	1,134 sqft	$1,102,886
+15081928	3002 Clay St	 San Francisco	CA	94115	3 beds	2 baths	2,032 sqft	$2,201,587
+69819129	10 Mint Plz # 1	 San Francisco	CA	94103	1 bed	2 baths	1,559 sqft	$2,276,925
+2097586438	4014 25th St	 San Francisco	CA	94114	2 beds	1 bath	-- sqft	Unavailable
+2097586740	2558 Mission St # 312	 San Francisco	CA	94110	1 bed	1 bath	-- sqft	Unavailable
+2130220123	324 Connecticut St	 San Francisco	CA	94107	Studio	-- baths	4,810 sqft	$3,522,710
+2099430832	Residence G2 Plan	 Summit 800 San Francisco	CA	94132	3 beds	2.5 baths	1,850 sqft	$1,423,223
+69819957	1751 Lake St	 San Francisco	CA	94121	5 beds	4 baths	6,027 sqft	$5,689,386
+15179593	21 Byron Ct	 San Francisco	CA	94112	5 beds	3 baths	2,242 sqft	$716,030
+83153449	177 Townsend St UNIT 531	 San Francisco	CA	94107	Studio	1 bath	484 sqft	$628,138
+15076178	1450 Post St APT 302	 San Francisco	CA	94109	1 bed	1 bath	540 sqft	$486,729
+111925735	830 York St	 San Francisco	CA	94110	2 beds	1 bath	998 sqft	$951,739
+2097587189	484 Belvedere St	 San Francisco	CA	94117	2 beds	1 bath	1,137 sqft	Unavailable
+15133564	245 Fowler Ave	 San Francisco	CA	94127	3 beds	3 baths	1,736 sqft	$1,255,917
+2097588061	191 Brewster St	 San Francisco	CA	94110	4 beds	3.5 baths	-- sqft	Unavailable
+89238613	338 Spear St UNIT 31A	 San Francisco	CA	94105	2 beds	2 baths	1,274 sqft	$2,358,191
+15088141	482 Belvedere St	 San Francisco	CA	94117	Studio	-- baths	2,274 sqft	$1,756,534
+80738489	855 Folsom St APT 502	 San Francisco	CA	94107	1 bed	1 bath	722 sqft	$362,583
+15132399	200 Dellbrook Ave	 San Francisco	CA	94131	3 beds	2 baths	937 sqft	$1,159,275
+80732333	370 De Haro St # B14	 San Francisco	CA	94103	1 bed	2 baths	1,180 sqft	$1,124,047
+15120375	2374 20th Ave	 San Francisco	CA	94116	3 beds	1 bath	1,250 sqft	$1,090,907
+2097589296	1788 Clay St APT 803	 San Francisco	CA	94109	2 beds	2 baths	1,235 sqft	Unavailable
+15133376	100 Woodside Ave	 San Francisco	CA	94127	2 beds	1 bath	1,285 sqft	$1,313,009
+2097592385	160 Julian Ave APT 2	 San Francisco	CA	94103	1 bed	1 bath	-- sqft	Unavailable
+2125071832	150 Lombard St APT 403	 San Francisco	CA	94111	2 beds	2 baths	1,400 sqft	$1,138,127
+15137614	21 Brentwood Ave	 San Francisco	CA	94127	4 beds	5 baths	2,548 sqft	$1,663,682
+15189321	342 Faxon Ave	 San Francisco	CA	94112	2 beds	1 bath	1,500 sqft	$924,680
+2097592787	160 Julian Ave APT 1	 San Francisco	CA	94103	Studio	1 bath	-- sqft	Unavailable
+79845400	555 4th St UNIT 632	 San Francisco	CA	94107	1 bed	1 bath	720 sqft	$763,672
+2097593461	2 Mint Plz # 802/4	 San Francisco	CA	94103	2 beds	2 baths	2,653 sqft	Unavailable
+2107753907	86 John St	 San Francisco	CA	94133	1 bed	1 bath	-- sqft	$1,120,297
+15175811	260 Santos St	 San Francisco	CA	94134	2 beds	1 bath	1,019 sqft	$576,047
+15127720	4532 17th St	 San Francisco	CA	94114	3 beds	3 baths	2,800 sqft	$2,624,148
+2097595508	985 Greenwich St	 San Francisco	CA	94133	Studio	-- baths	4,660 sqft	$2,627,058
+2098324439	750 Andover St	 San Francisco	CA	94110	3 beds	2 baths	1,508 sqft	$1,678,579
+15140675	10 Homewood Ct	 San Francisco	CA	94112	3 beds	2 baths	1,300 sqft	$1,308,153
+2097595892	821 Taraval St APT B	 San Francisco	CA	94116	3 beds	2 baths	-- sqft	$938,582
+15161183	114-116 Coleridge St	 San Francisco	CA	94110	Studio	-- baths	-- sqft	$1,441,354
+15163000	63 Bronte St	 San Francisco	CA	94110	2 beds	1 bath	1,025 sqft	$989,400
+15182628	160-162 28TH St	 San Francisco	CA	94131	3 beds	2 baths	1,317 sqft	$1,653,076
+2097596652	4839-4841 Mission St	 San Francisco	CA	94112	2 beds	1 bath	1,925 sqft	$978,637
+15170703	712 Brazil Ave	 San Francisco	CA	94112	4 beds	2 baths	1,895 sqft	$860,552
+15138409	627 Mangels Ave	 San Francisco	CA	94127	1 bed	1 bath	975 sqft	$937,103
+15084079	164 Terra Vista Ave	 San Francisco	CA	94115	3 beds	3 baths	2,600 sqft	$1,824,450
+2097597939	2401 45th Ave APT 3	 San Francisco	CA	94116	2 beds	1 bath	-- sqft	$444,657
+2097597938	1690 Grove St	 San Francisco	CA	94117	Studio	-- baths	9,375 sqft	$5,259,164
+15125805	2729 34th Ave	 San Francisco	CA	94116	3 beds	3 baths	1,470 sqft	$1,285,848
+15178003	39 Naylor St	 San Francisco	CA	94112	5 beds	4 baths	3,030 sqft	$1,282,759
+15184786	60 College Ave	 San Francisco	CA	94112	3 beds	4 baths	1,620 sqft	$1,100,136
+2131113166	California StIncomplete address or missing price?Sometimes listing partners send Zillow listings that do not include a full address or price.To get more details on this property	 please contact the listing agent	 brokerage	 or listing provider. San Francisco	CA	94108	Studio	1 bath	656 sqft	$839,142
+2131113166	California StIncomplete address or missing price?Sometimes listing partners send Zillow listings that do not include a full address or price.To get more details on this property	 please contact the listing agent	 brokerage	 or listing provider. San Francisco	CA	94108	Studio	1 bath	656 sqft	$839,142
+15184331	16 Richland Ave	 San Francisco	CA	94110	1 bed	1 bath	608 sqft	$656,993
+15073318	2410 Pacific Ave APT 4	 San Francisco	CA	94115	1 bed	1 bath	862 sqft	$634,375
+15149759	537 Wisconsin St	 San Francisco	CA	94107	2 beds	2 baths	-- sqft	$1,152,316
+54854616	3379 22nd St	 San Francisco	CA	94110	4 beds	3 baths	2,170 sqft	$1,513,361
+15185656	121 Chilton Ave	 San Francisco	CA	94131	2 beds	1 bath	1,439 sqft	$1,249,905
+61325135	28 Ashbury St	 San Francisco	CA	94117	2 beds	2 baths	1,585 sqft	$1,376,879
+15134850	500 Myra Way	 San Francisco	CA	94127	3 beds	2 baths	1,306 sqft	$975,674
+15063958	152 Lombard St APT 507G	 San Francisco	CA	94111	2 beds	2 baths	1,146 sqft	$1,121,451
+15182958	374 Valley St	 San Francisco	CA	94131	3 beds	2 baths	1,742 sqft	$1,113,401
+2097607936	432 Laurel St	 San Francisco	CA	94118	2 beds	2 baths	-- sqft	$1,605,813
+2097608228	Unit B Plan	 72 Townsend San Francisco	CA	94107	1 bed	1 bath	900 sqft	$994,352
+2097608227	Unit E Plan	 72 Townsend San Francisco	CA	94107	1 bed	1 bath	632 sqft	$857,737
+2097608226	Unit C Plan	 72 Townsend San Francisco	CA	94107	1 bed	2 baths	785 sqft	$923,154
+2097608222	Unit H Plan	 72 Townsend San Francisco	CA	94107	1 bed	2 baths	950 sqft	$1,028,645
+15084111	184 Ewing Ter	 San Francisco	CA	94118	5 beds	4 baths	2,600 sqft	$2,755,627
+15147563	75 Folsom St APT 1200	 San Francisco	CA	94105	1 bed	1 bath	993 sqft	$1,145,237
+15176270	751 Madrid St	 San Francisco	CA	94112	2 beds	2 baths	1,244 sqft	$611,986
+15181020	4322 25th St	 San Francisco	CA	94114	5 beds	4 baths	-- sqft	$3,715,798
+15181594	551 Clipper St	 San Francisco	CA	94114	2 beds	1 bath	1,126 sqft	$1,207,784
+15140819	1351 Plymouth Ave	 San Francisco	CA	94112	2 beds	1 bath	1,315 sqft	$1,353,827
+15179101	107 Guttenberg St	 San Francisco	CA	94112	3 beds	1 bath	1,525 sqft	$907,017
+15095624	3547 Anza St	 San Francisco	CA	94121	2 beds	1 bath	1,325 sqft	$1,398,002
+79847285	555 4th St UNIT 740	 San Francisco	CA	94107	1 bed	1 bath	680 sqft	$757,382
+15144809	550 Shotwell St	 San Francisco	CA	94110	2 beds	1 bath	851 sqft	$993,291
+15144810	552 Shotwell St	 San Francisco	CA	94110	2 beds	1 bath	818 sqft	$1,044,194
+79845949	988 Fulton St APT 116	 San Francisco	CA	94117	1 bed	1 bath	695 sqft	$719,364
+15164939	340 Justin Dr	 San Francisco	CA	94112	3 beds	2 baths	-- sqft	$1,149,347
+15112773	1871 30th Ave	 San Francisco	CA	94122	4 beds	3 baths	2,560 sqft	$1,276,801
+15103190	1379-1383 25TH Ave	 San Francisco	CA	94122	6 beds	5 baths	3,754 sqft	$1,779,930
+64972549	333 1st St UNIT 1606	 San Francisco	CA	94105	Studio	1 bath	506 sqft	$681,521
+15196645	3010 23rd Ave	 San Francisco	CA	94132	5 beds	6 baths	3,924 sqft	$3,147,633
+2097628937	13 Surrey St # A	 San Francisco	CA	94131	1 bed	1 bath	-- sqft	$667,494
+2097755746	207 Plan	 San Francisco	CA	94115	2 beds	2 baths	1,401 sqft	$2,510,146
+119685831	5800 3rd St UNIT 1105	 San Francisco	CA	94124	2 beds	2 baths	1,021 sqft	$684,122
+82786118	425 1st St UNIT 2205	 San Francisco	CA	94105	1 bed	1 bath	-- sqft	$957,317
+116156390	435 China Basin St UNIT 534	 San Francisco	CA	94158	2 beds	2 baths	1,391 sqft	$1,517,657
+64972004	35 Lottie Bennett Ln APT 2	 San Francisco	CA	94115	1 bed	1 bath	-- sqft	$16,427
+2097744720	Unit L Plan	 72 Townsend San Francisco	CA	94107	1 bed	1 bath	1,106 sqft	$1,188,276
+15159329	1830-1832 Egbert Ave	 San Francisco	CA	94124	Studio	-- baths	880 sqft	$622,536
+69819778	260 King St UNIT 741	 San Francisco	CA	94107	1 bed	1 bath	854 sqft	$822,147
+15179445	245 Concord St	 San Francisco	CA	94112	2 beds	2 baths	1,670 sqft	$921,601
+2097661525	Residence 1 Plan	 LUMINA San Francisco	CA	94105	1 bed	1 bath	876 sqft	$997,528
+15168919	362 Princeton St	 San Francisco	CA	94134	3 beds	2 baths	1,356 sqft	$827,947
+15067931	1151 Taylor St APT 1	 San Francisco	CA	94108	2 beds	2 baths	1,191 sqft	$1,346,496
+2097657203	1530 Mcallister St APT 6	 San Francisco	CA	94115	2 beds	1 bath	754 sqft	$769,131
+15135015	10 El Sereno Ct	 San Francisco	CA	94127	2 beds	3 baths	1,718 sqft	$1,647,497
+96031913	300 Berry St UNIT 1405	 San Francisco	CA	94158	1 bed	1 bath	732 sqft	$900,364
+15075119	1905 Laguna St APT 306	 San Francisco	CA	94115	1 bed	1 bath	685 sqft	$756,790
+15071190	3233-3235 Steiner St	 San Francisco	CA	94123	4 beds	2 baths	2,830 sqft	$3,267,377
+2098636734	Residence 2 Plan	 LUMINA San Francisco	CA	94105	2 beds	2 baths	1,189 sqft	$1,459,298
+15191450	341 Howth St	 San Francisco	CA	94112	5 beds	5 baths	2,000 sqft	$998,091
+2097658751	633 Capp St # 635A	 San Francisco	CA	94110	2 beds	1 bath	-- sqft	$783,050
+2098035536	W407 Plan	 Rockwell San Francisco	CA	94109	2 beds	2 baths	1,164 sqft	$1,491,860
+2097661270	228 And 228a Filbert St	 San Francisco	CA	94133	3 beds	3 baths	1,525 sqft	$2,081,624
+15089336	64 7th Ave	 San Francisco	CA	94118	3 beds	3 baths	2,375 sqft	$2,045,043
+2097661538	201 Folsom St # 6F	 San Francisco	CA	94105	2 beds	2 baths	1,187 sqft	$1,398,504
+15142662	85 Duboce Ave APT 203	 San Francisco	CA	94103	2 beds	1 bath	1,040 sqft	$946,242
+80744991	1011 23rd St APT 10	 San Francisco	CA	94107	1 bed	1.5 baths	-- sqft	$733,312
+119685654	744 Church St	 San Francisco	CA	94114	2 beds	1 bath	1,005 sqft	$1,298,566
+15163351	155 Newman St	 San Francisco	CA	94110	2 beds	1 bath	1,085 sqft	$940,019
+15100317	835 42nd Ave	 San Francisco	CA	94121	3 beds	2.5 baths	2,477 sqft	$1,341,692
+2098960305	2758 23rd St	 San Francisco	CA	94110	Studio	-- baths	1,372 sqft	$793,634
+2106908379	1710 48th Ave	 San Francisco	CA	94122	2 beds	1 bath	1,000 sqft	$759,393
+2097665408	3233 Steiner St	 San Francisco	CA	94123	Studio	-- baths	-- sqft	$2,473,583
+116156046	1134 Page St	 San Francisco	CA	94117	3 beds	3 baths	1,609 sqft	$1,540,588
+2097667876	48 Lower Ter # 48	 San Francisco	CA	94114	3 beds	3 baths	1,893 sqft	$1,979,118
+2101439205	5114 5116 3rd St	 San Francisco	CA	94124	-- beds	-- baths	2,000 sqft	$912,839
+15090782	332 29th Ave	 San Francisco	CA	94121	4 beds	1 bath	1,168 sqft	$1,072,623
+64972516	333 1st St UNIT 1001	 San Francisco	CA	94105	2 beds	2 baths	-- sqft	$1,230,850
+2143414544	3334 Clay St	 San Francisco	CA	94118	3 beds	2 baths	2,150 sqft	$1,899,574
+15130401	4407-4409 20TH St	 San Francisco	CA	94114	4 beds	2 baths	2,510 sqft	$2,209,415
+15114554	1601 Ortega St	 San Francisco	CA	94122	2 beds	1 bath	1,221 sqft	$1,041,369
+15082851	730 Euclid Ave	 San Francisco	CA	94118	4 beds	3 baths	3,425 sqft	$4,393,619
+15135507	1290 Portola Dr	 San Francisco	CA	94127	3 beds	3 baths	2,352 sqft	$2,409,984
+15068322	3 Helen St # 101	 San Francisco	CA	94109	2 beds	3 baths	2,030 sqft	$1,669,516
+15132258	965 Elizabeth St	 San Francisco	CA	94114	2 beds	3 baths	1,279 sqft	$1,495,985
+82785263	181 Ofarrell St STE 305	 San Francisco	CA	94102	1 bed	2 baths	1,334 sqft	$1,245,017
+2097671492	2596 24th Ave	 San Francisco	CA	94116	Studio	-- baths	2,850 sqft	$1,423,563
+15081454	115 Walnut St	 San Francisco	CA	94118	3 beds	3.5 baths	2,600 sqft	$3,801,291
+15157202	1550 Shafter Ave	 San Francisco	CA	94124	5 beds	2 baths	1,750 sqft	$771,487
+15172634	15 Bishop St	 San Francisco	CA	94134	4 beds	3 baths	2,200 sqft	$1,280,512
+89239005	445 Baker St	 San Francisco	CA	94117	2 beds	1 bath	1,211 sqft	$1,278,501
+69819344	2913 25th St	 San Francisco	CA	94110	1 bed	1 bath	1,053 sqft	$962,404
+2143405194	228 Oneida Ave	 San Francisco	CA	94112	4 beds	3 baths	2,114 sqft	$1,163,326
+63196468	1050 N Point St APT 503	 San Francisco	CA	94109	1 bed	1 bath	615 sqft	$830,977
+125243731	101 Lundys Ln	 San Francisco	CA	94110	Studio	-- baths	2,249 sqft	$662,610
+15065815	422 Green St	 San Francisco	CA	94133	Studio	-- baths	1,295 sqft	$1,375,077
+2097679306	112 Ripley St APT 2	 San Francisco	CA	94110	1 bed	1 bath	-- sqft	$776,803
+15131651	4121 23rd St	 San Francisco	CA	94114	4 beds	3 baths	2,657 sqft	$2,206,416
+15164756	4219 Folsom St	 San Francisco	CA	94110	3 beds	2 baths	1,539 sqft	$971,556
+2097680187	870 Harrison St UNIT 605	 San Francisco	CA	94107	2 beds	1.5 baths	-- sqft	$943,276
+15134406	736 Myra Way	 San Francisco	CA	94127	3 beds	1 bath	-- sqft	$966,507
+2103084745	3055 California St # A	 San Francisco	CA	94115	2 beds	2 baths	966 sqft	$1,035,341
+15082192	3319 Clay St	 San Francisco	CA	94118	Studio	-- baths	2,800 sqft	$3,075,849
+64946643	475 Tehama St STE 202	 San Francisco	CA	94103	1 bed	1 bath	605 sqft	$623,839
+15179776	105 Hanover St	 San Francisco	CA	94112	3 beds	3 baths	1,650 sqft	$842,651
+15162782	127 Ellert St	 San Francisco	CA	94110	3 beds	1 bath	950 sqft	Unavailable
+15198441	249 N Lake Merced Hls	 San Francisco	CA	94132	3 beds	2.5 baths	1,904 sqft	$983,147
+2097683628	465 Castro St	 San Francisco	CA	94114	3 beds	2 baths	1,475 sqft	$1,468,334
+2097683627	467 Castro St	 San Francisco	CA	94114	3 beds	3 baths	1,855 sqft	$2,061,075
+15198058	419 Lakeshore Dr	 San Francisco	CA	94132	2 beds	1 bath	1,250 sqft	$941,338
+2097683950	Plan A (Floors 8-16) Plan	 The Harrison San Francisco	CA	94105	1 bed	1 bath	840 sqft	$705,250
+2097684327	1345 16th Ave APT 4	 San Francisco	CA	94122	1 bed	1 bath	-- sqft	$541,714
+15086330	2155 Hayes St	 San Francisco	CA	94117	3 beds	2 baths	1,932 sqft	$1,249,495
+15137636	528 Melrose Ave	 San Francisco	CA	94127	2 beds	1 bath	890 sqft	$928,818
+15098183	655 10th Ave	 San Francisco	CA	94118	3 beds	1.5 baths	1,950 sqft	$1,955,958
+79846516	555 4th St UNIT 802	 San Francisco	CA	94107	1 bed	1 bath	670 sqft	$806,305
+111933043	442 Leland Ave	 San Francisco	CA	94134	5 beds	3 baths	2,055 sqft	$804,133
+63196414	666 Post St APT 1004	 San Francisco	CA	94109	1 bed	1 bath	775 sqft	$923,966
+59779896	175 Bluxome St UNIT 204	 San Francisco	CA	94107	2 beds	2 baths	1,076 sqft	$1,000,937
+15133660	130 Ulloa St	 San Francisco	CA	94127	3 beds	2 baths	1,792 sqft	$1,511,022
+15162453	21 Bennington St	 San Francisco	CA	94110	2 beds	1 bath	1,000 sqft	$958,594
+15080138	2425 Francisco St	 San Francisco	CA	94123	3 beds	2 baths	-- sqft	$2,661,712
+15151660	738 Arkansas St	 San Francisco	CA	94107	2 beds	2 baths	1,758 sqft	$1,752,651
+15145521	240 Liberty St APT B	 San Francisco	CA	94114	2 beds	1 bath	892 sqft	$1,142,833
+2098183165	E1010 Plan	 Rockwell San Francisco	CA	94109	1 bed	1 bath	616 sqft	$842,966
+59700498	155 Harriet St STE 19	 San Francisco	CA	94103	2 beds	2 baths	1,010 sqft	$906,034
+15132128	86 Midcrest Way	 San Francisco	CA	94131	3 beds	2 baths	1,383 sqft	$1,267,611
+79845287	501 Crescent Way APT 5311	 San Francisco	CA	94134	2 beds	2 baths	875 sqft	$585,379
+15192537	130 Majestic Ave	 San Francisco	CA	94112	3 beds	2 baths	1,250 sqft	$815,222
+2107076991	301 Main St UNIT 24C	 San Francisco	CA	94105	1 bed	1 bath	809 sqft	$1,396,016
+15167504	258 Harvard St	 San Francisco	CA	94134	2 beds	2 baths	1,600 sqft	$893,923
+15118751	2262 42nd Ave	 San Francisco	CA	94116	3 beds	2 baths	905 sqft	$1,084,145
+2097700391	323A 7th Ave # 3	 San Francisco	CA	94118	3 beds	2 baths	1,485 sqft	$1,286,672
+15165582	18 Dartmouth St	 San Francisco	CA	94134	4 beds	2 baths	1,207 sqft	$900,838
+2097702990	401 Harrison St # 4C	 San Francisco	CA	94105	2 beds	2 baths	1,289 sqft	$1,450,882
+2097703618	3790 21st St	 San Francisco	CA	94114	Studio	-- baths	4,282 sqft	$3,023,776
+2108453273	279 Graystone Ter APT 1	 San Francisco	CA	94114	1 bed	1 bath	770 sqft	$764,660
+15084914	815 Lyon St	 San Francisco	CA	94115	2 beds	1 bath	1,075 sqft	$1,163,389
+15131239	771 Panorama Dr	 San Francisco	CA	94131	3 beds	1 bath	1,298 sqft	$1,484,982
+15086065	625 Divisadero St # 6	 San Francisco	CA	94117	Studio	1 bath	353 sqft	$661,616
+2099228207	642 Natoma St # A	 San Francisco	CA	94103	3 beds	2 baths	1,353 sqft	$1,003,942
+15185390	13 Surrey St	 San Francisco	CA	94131	2 beds	2 baths	1,280 sqft	$1,091,346
+53153388	370 Monterey Blvd APT 101	 San Francisco	CA	94131	1 bed	1 bath	807 sqft	$347,088
+15138223	176 Yerba Buena Ave	 San Francisco	CA	94127	4 beds	3.5 baths	2,562 sqft	$2,987,290
+2100755012	263 Thrift St	 San Francisco	CA	94112	Studio	-- baths	2,529 sqft	$1,330,045
+15078487	853 Hayes St	 San Francisco	CA	94117	3 beds	3 baths	2,020 sqft	$1,794,834
+15083909	128 Wood St # 1	 San Francisco	CA	94118	3 beds	2 baths	1,600 sqft	$1,525,391
+89238348	1884 Bush St	 San Francisco	CA	94109	1 bed	1 bath	934 sqft	$988,867
+80736213	1601 Pacific Ave APT 207	 San Francisco	CA	94109	2 beds	3 baths	1,274 sqft	$1,192,753
+15175184	125 Britton St	 San Francisco	CA	94134	1 bed	1 bath	650 sqft	$632,865
+79847573	900 Gilman Ave # 14	 San Francisco	CA	94124	2 beds	1 bath	899 sqft	$209,999
+2099430840	Residence G1 Plan	 Summit 800 San Francisco	CA	94132	3 beds	2.5 baths	2,328 sqft	$1,468,445
+2097734745	633-637 Capp St # 635A	 San Francisco	CA	94110	2 beds	1 bath	-- sqft	$1,425,576
+2099853783	3422 19th St	 San Francisco	CA	94110	2 beds	2 baths	-- sqft	$1,057,070
+15109495	1668 18th Ave	 San Francisco	CA	94122	3 beds	2 baths	1,671 sqft	$1,283,152
+15109410	1622 21st Ave	 San Francisco	CA	94122	5 beds	3 baths	1,275 sqft	$1,387,018
+82786081	425 1st St UNIT 1607	 San Francisco	CA	94105	1 bed	1 bath	819 sqft	$1,126,418
+15088261	130 Rivoli St	 San Francisco	CA	94117	3 beds	2 baths	1,700 sqft	$1,491,845
+2099430843	Residence B Plan	 Summit 800 San Francisco	CA	94132	3 beds	2.5 baths	2,001 sqft	$1,552,351
+15136357	456 Los Palmos Dr	 San Francisco	CA	94127	4 beds	4 baths	2,000 sqft	$1,474,006
+15086531	255 Central Ave	 San Francisco	CA	94117	2 beds	2 baths	1,078 sqft	$1,035,115
+2098608398	E1011 Plan	 Rockwell San Francisco	CA	94109	2 beds	2 baths	1,139 sqft	$1,734,544
+2097755397	388 Fulton St # 411	 San Francisco	CA	94102	2 beds	1 bath	714 sqft	$965,095
+15129447	337 Douglass St	 San Francisco	CA	94114	3 beds	3 baths	1,600 sqft	$1,923,601
+2097755733	2121 Webster Street Rh # 2	 San Francisco	CA	94115	3 beds	3 baths	2,423 sqft	$3,800,598
+2098636651	2475 Clay St	 San Francisco	CA	94115	3 beds	3 baths	2,423 sqft	$3,864,358
+2097755745	Row House Collection 3-Story Plan	 San Francisco	CA	94115	3 beds	3 baths	2,423 sqft	$3,800,598
+15177732	465 Stoneridge Ln # 3301	 San Francisco	CA	94134	2 beds	2 baths	1,111 sqft	$639,378
+2097756977	3138 Scott St	 San Francisco	CA	94123	2 beds	1 bath	1,130 sqft	$1,231,442
+80745391	563 Minna St APT 1	 San Francisco	CA	94103	2 beds	2 baths	1,257 sqft	$689,034
+15171782	690 Brussels St	 San Francisco	CA	94134	4 beds	2 baths	1,712 sqft	$755,168
+15164059	659 Banks St	 San Francisco	CA	94110	4 beds	6 baths	2,100 sqft	$1,096,005
+15160093	1479 Shotwell St	 San Francisco	CA	94110	2 beds	1 bath	2,140 sqft	$1,696,895
+15127493	141 States St	 San Francisco	CA	94114	3 beds	2 baths	1,484 sqft	$1,464,833
+2098636733	Residence 6 Plan	 LUMINA San Francisco	CA	94105	2 beds	2 baths	1,495 sqft	$2,396,868
+69820113	673 Kansas St # 1	 San Francisco	CA	94107	2 beds	1 bath	-- sqft	$1,218,964
+61288450	77 Dow Pl APT 108	 San Francisco	CA	94107	1 bed	1.5 baths	1,057 sqft	$962,538
+15141245	443 Capistrano Ave	 San Francisco	CA	94112	4 beds	2 baths	1,832 sqft	$1,185,283
+15153310	5 Mabrey Ct	 San Francisco	CA	94124	3 beds	2 baths	1,776 sqft	$812,180
+82786088	425 1st St UNIT 1707	 San Francisco	CA	94105	1 bed	1 bath	819 sqft	$1,138,244
+2097768822	365 67 12th St	 San Francisco	CA	94103	-- beds	-- baths	1,902 sqft	$1,160,897
+2099276061	1931 15th St	 San Francisco	CA	94114	3 beds	2 baths	2,580 sqft	$2,626,223
+89237610	432 Jersey St	 San Francisco	CA	94114	2 beds	1 bath	1,053 sqft	$1,124,159
+96041763	1299 Bush St APT 201	 San Francisco	CA	94109	2 beds	3 baths	1,530 sqft	$1,706,890
+15100883	1229 45th Ave	 San Francisco	CA	94122	Studio	-- baths	1,460 sqft	$945,311
+15073451	2225-2227 Pacific Ave	 San Francisco	CA	94115	6 beds	5 baths	4,700 sqft	$4,929,160
+15153857	1243 Quesada Ave	 San Francisco	CA	94124	3 beds	1 bath	1,440 sqft	$739,092
+89240309	425 1st St UNIT 4605	 San Francisco	CA	94105	1 bed	1 bath	860 sqft	$998,364
+15069888	37 Rico Way	 San Francisco	CA	94123	3 beds	1 bath	1,845 sqft	$2,404,211
+2097772510	1401 Waller St	 San Francisco	CA	94117	Studio	-- baths	2,606 sqft	$1,717,369
+15193845	316 Orizaba Ave	 San Francisco	CA	94132	2 beds	1 bath	800 sqft	$631,785
+15140297	67 Paulding St	 San Francisco	CA	94112	2 beds	1 bath	1,000 sqft	$885,405
+15074424	2200 Sacramento St APT 706	 San Francisco	CA	94115	2 beds	2 baths	1,110 sqft	$1,243,178
+119685059	941 Cayuga Ave	 San Francisco	CA	94112	3 beds	2.5 baths	1,660 sqft	$993,937
+63196194	1333 Jones St APT 802	 San Francisco	CA	94109	1 bed	2 baths	-- sqft	$1,764,443
+2099430833	Residence F2 Plan	 Summit 800 San Francisco	CA	94132	3 beds	2.5 baths	2,207 sqft	$1,465,675
+15072728	1998 Broadway APT 507	 San Francisco	CA	94109	2 beds	2 baths	1,030 sqft	$1,147,550
+15124993	2632 35th Ave	 San Francisco	CA	94116	3 beds	1 bath	1,500 sqft	$1,097,622
+67090195	400 Beale St APT 1005	 San Francisco	CA	94105	1 bed	1 bath	828 sqft	$909,046
+15187305	449 Urbano Dr	 San Francisco	CA	94127	-- beds	1 bath	1,600 sqft	$1,532,875
+15085160	2028 Mcallister St	 San Francisco	CA	94118	-- beds	1 bath	1,545 sqft	$1,610,073
+15138751	424 Gennessee St	 San Francisco	CA	94127	4 beds	2 baths	1,838 sqft	$1,307,554
+15069423	631 Ofarrell St APT 414	 San Francisco	CA	94109	Studio	1 bath	520 sqft	$472,543
+15158160	206 Bridgeview Dr	 San Francisco	CA	94124	3 beds	2 baths	1,440 sqft	$759,888
+2097784789	654 Castro St	 San Francisco	CA	94114	-- beds	-- baths	4,386 sqft	$2,793,625
+82786241	177 Townsend St UNIT 335	 San Francisco	CA	94107	1 bed	1 bath	815 sqft	$921,272
+15090814	362 28th Ave	 San Francisco	CA	94121	2 beds	1 bath	1,090 sqft	$1,280,636
+15143092	236 Guerrero St	 San Francisco	CA	94103	3 beds	2 baths	1,539 sqft	$1,455,487
+2097786533	590 24th Ave	 San Francisco	CA	94121	Studio	-- baths	2,208 sqft	$1,420,867
+2097786535	430 Eddy St	 San Francisco	CA	94109	3,576 sqft	Unavailable
+15141202	115 San Juan Ave	 San Francisco	CA	94112	3 beds	2 baths	2,247 sqft	$1,070,251
+15086395	964 Page St	 San Francisco	CA	94117	2 beds	1 bath	1,122 sqft	$1,175,806
+2102211687	149-151 Masonic Ave San Francisco Ca # 94118	 San Francisco	CA	94118	4 beds	2 baths	2,672 sqft	$1,998,223
+116156185	435 China Basin St UNIT 335	 San Francisco	CA	94158	2 beds	2 baths	-- sqft	$1,339,763
+64972219	20 Quickstep Ln APT 2	 San Francisco	CA	94115	2 beds	1 bath	840 sqft	$808,826
+15109582	1669 15th Ave	 San Francisco	CA	94122	7 beds	4 baths	3,681 sqft	$2,455,592
+15155974	1129 Mendell St	 San Francisco	CA	94124	Studio	-- baths	912 sqft	$632,306
+15162772	312 Cortland Ave	 San Francisco	CA	94110	3 beds	2 baths	1,200 sqft	$1,137,706
+15162462	600 Eugenia Ave	 San Francisco	CA	94110	4 beds	2 baths	1,901 sqft	$1,619,501
+15064354	358-360 Lombard St	 San Francisco	CA	94133	-- beds	-- baths	1,924 sqft	$2,861,672
+15129550	4555 19th St	 San Francisco	CA	94114	4 beds	4 baths	4,072 sqft	$1,977,936
+15178914	850C Brunswick St	 San Francisco	CA	94112	4 beds	3 baths	2,178 sqft	$1,138,948
+15185234	50 Burnside Ave	 San Francisco	CA	94131	2 beds	1 bath	1,273 sqft	$1,227,783
+2100435456	280 10th Ave	 San Francisco	CA	94118	-- beds	-- baths	-- sqft	$2,463,135
+15100736	855 La Playa St APT 159	 San Francisco	CA	94121	2 beds	2 baths	1,178 sqft	$802,637
+111929260	830 Minnesota St	 San Francisco	CA	94107	2 beds	3 baths	1,659 sqft	$1,683,099
+15144377	465-469 Castro St	 San Francisco	CA	94114	Studio	-- baths	5,390 sqft	$4,784,626
+59700490	155 Harriet St STE 9	 San Francisco	CA	94103	2 beds	2 baths	930 sqft	$931,391
+2098035537	W901 Plan	 Rockwell San Francisco	CA	94109	2 beds	2 baths	955 sqft	$1,332,003
+15136755	128 San Pablo Ave	 San Francisco	CA	94127	4 beds	4 baths	2,674 sqft	$2,486,758
+2098636730	Residence 7 Plan	 LUMINA San Francisco	CA	94105	1 bed	1 bath	972 sqft	$1,398,878
+89240111	83 Mcallister St APT 403	 San Francisco	CA	94102	Studio	1 bath	265 sqft	$477,363
+15064463	2125 Mason St	 San Francisco	CA	94133	Studio	-- baths	3,204 sqft	$2,955,596
+15078432	420-422 Linden St	 San Francisco	CA	94102	-- beds	-- baths	2,200 sqft	$1,658,426
+80749566	650 2nd St UNIT 304	 San Francisco	CA	94107	1 bed	1.5 baths	1,798 sqft	Unavailable
+117672833	437 25th Ave APT 3	 San Francisco	CA	94121	3 beds	2 baths	1,693 sqft	$1,193,452
+69819674	260 King St UNIT 1305	 San Francisco	CA	94107	2 beds	2 baths	1,488 sqft	$1,517,223
+2097847511	2725 Pine St	 San Francisco	CA	94115	3 beds	2 baths	1,777 sqft	$1,667,149
+52437151	2836 Folsom St	 San Francisco	CA	94110	2 beds	2 baths	2,258 sqft	$1,645,305
+2097847690	3633 Webster St	 San Francisco	CA	94123	2 beds	2 baths	1,720 sqft	$1,811,958
+2097847688	9-11 14th Ave	 San Francisco	CA	94118	5 beds	3 baths	3,296 sqft	$2,479,569
+15095248	591 18th Ave	 San Francisco	CA	94121	4 beds	2 baths	2,020 sqft	$1,795,670
+15081369	3045 Jackson St APT 203	 San Francisco	CA	94115	1 bed	1 bath	-- sqft	$1,158,435
+15163483	30 Patton St	 San Francisco	CA	94110	4 beds	3 baths	1,733 sqft	$1,176,060
+15141265	140 Ocean Ave	 San Francisco	CA	94112	3 beds	2 baths	1,152 sqft	$963,878
+15109153	1674 26th Ave	 San Francisco	CA	94122	5 beds	3 baths	2,075 sqft	$1,389,688
+15152397	1242 Hampshire St	 San Francisco	CA	94110	2 beds	2 baths	1,298 sqft	$1,331,033
+2097853526	740 Shotwell St	 San Francisco	CA	94110	Studio	-- baths	2,227 sqft	$929,068
+2099140356	# 602 Three-Bed & Three-Bath Plan	 6 Mint Plaza San Francisco	CA	94103	3 beds	3 baths	1,805 sqft	$2,696,834
+124397847	8 Buchanan St UNIT 613	 San Francisco	CA	94102	2 beds	2 baths	985 sqft	$1,186,820
+2097854526	2405 41st Ave	 San Francisco	CA	94116	Studio	-- baths	2,150 sqft	$1,084,261
+2097854989	900 Clarendon Ave	 San Francisco	CA	94131	-- beds	-- baths	-- sqft	$1,460,117
+2097855544	236 Shipley St # 204	 San Francisco	CA	94107	2 beds	2 baths	858 sqft	$922,092
+15140588	137 Eastwood Dr	 San Francisco	CA	94112	6 beds	3 baths	2,762 sqft	$1,531,328
+2097856271	150 152 San Carlos St	 San Francisco	CA	94110	2 beds	1 bath	926 sqft	$1,035,064
+2097856807	236 Shipley St # 305	 San Francisco	CA	94107	1 bed	1 bath	514 sqft	$660,683
+15138115	250 Santa Paula Ave	 San Francisco	CA	94127	5 beds	6 baths	3,028 sqft	$4,096,022
+15160632	1706 Alabama St	 San Francisco	CA	94110	2 beds	1 bath	988 sqft	$1,413,239
+89238408	323-A 7th Ave	 San Francisco	CA	94118	3 beds	2 baths	1,485 sqft	$1,229,531
+80733090	650 Delancey St APT 406	 San Francisco	CA	94107	1 bed	2 baths	-- sqft	$1,792,419
+119685612	1338 48th Ave	 San Francisco	CA	94122	2 beds	2 baths	1,510 sqft	$979,866
+89230177	330 Mission Bay Blvd N UNIT 502	 San Francisco	CA	94158	1 bed	1.5 baths	1,010 sqft	$1,142,846
+15088522	39 Carmel St	 San Francisco	CA	94117	2 beds	2 baths	-- sqft	$2,024,372
+119685581	5900 3rd St UNIT 2309	 San Francisco	CA	94124	2 beds	2 baths	1,295 sqft	$804,954
+96034175	300 Berry St UNIT 305	 San Francisco	CA	94158	1 bed	1 bath	-- sqft	$896,874
+80745668	175 Bluxome St UNIT 209	 San Francisco	CA	94107	2 beds	2 baths	1 sqft	$1,004,607
+15178505	2 Curtis St	 San Francisco	CA	94112	3 beds	4 baths	1,020 sqft	$932,957
+80741435	563 Minna St APT 2	 San Francisco	CA	94103	1 bed	2 baths	814 sqft	Unavailable
+15160839	188 Brewster St	 San Francisco	CA	94110	4 beds	4 baths	2,128 sqft	$2,734,560
+2097864414	160 Julian Ave	 San Francisco	CA	94103	3 beds	3 baths	2,300 sqft	$2,017,138
+82786220	310 Townsend St APT 408	 San Francisco	CA	94107	1 bed	1 bath	803 sqft	$819,163
+15123561	2555 28th Ave	 San Francisco	CA	94116	3 beds	3 baths	1,870 sqft	$1,282,121
+15138874	120 Santa Ana Ave	 San Francisco	CA	94127	5 beds	6 baths	4,800 sqft	$4,274,321
+80729601	2875 21st St APT 5	 San Francisco	CA	94110	1 bed	2 baths	1,137 sqft	$1,084,630
+2097869025	1685 Oak St APT 201	 San Francisco	CA	94117	2 beds	2 baths	1,430 sqft	$1,249,965
+15074186	1776 Sacramento St APT 305	 San Francisco	CA	94109	2 beds	2 baths	1,091 sqft	$1,208,503
+80736607	317 Harriet St # 7	 San Francisco	CA	94103	1 bed	2 baths	1,067 sqft	$712,444
+15106175	1559 7th Ave	 San Francisco	CA	94122	3 beds	2 baths	1,625 sqft	$1,515,011
+2097876725	2937 Webster St	 San Francisco	CA	94123	3 beds	2 baths	1,338 sqft	$1,750,047
+64972583	355 1st St UNIT S204	 San Francisco	CA	94105	2 beds	2 baths	963 sqft	$1,158,564
+2099440337	400 Franconia St	 San Francisco	CA	94110	10 beds	11 baths	4,950 sqft	$3,473,811
+111710847	151 Ames St	 San Francisco	CA	94110	3 beds	3 baths	1,986 sqft	$1,974,753
+2097883315	621 Lincoln Way APT 4	 San Francisco	CA	94122	1 bed	1 bath	-- sqft	$873,132
+15071633	2517-2521 Van Ness Ave	 San Francisco	CA	94109	-- beds	-- baths	6,934 sqft	$6,248,924
+2108320096	192 Laidley St	 San Francisco	CA	94131	1 bed	1 bath	830 sqft	$1,137,903
+15095669	614 28th Ave	 San Francisco	CA	94121	3 beds	3.5 baths	2,786 sqft	$1,797,884
+80751244	1090 Chestnut St # 2	 San Francisco	CA	94109	4 beds	4 baths	3,260 sqft	$6,181,707
+2097911988	228 Filbert St	 San Francisco	CA	94133	3 beds	3 baths	1,525 sqft	$2,084,424
+2097945499	Residence D2 Plan	 Summit 800 San Francisco	CA	94132	3 beds	3.5 baths	2,020 sqft	$1,442,793
+15065717	25 Alta St	 San Francisco	CA	94133	Studio	-- baths	2,450 sqft	$2,663,227
+15187220	2061 Ocean Ave	 San Francisco	CA	94127	4 beds	1 bath	1,394 sqft	$1,382,269
+2114645944	2200 Beach St APT 103	 San Francisco	CA	94123	1 bed	1 bath	883 sqft	$1,016,146
+2099019990	198 Carl St	 San Francisco	CA	94117	Studio	-- baths	6,750 sqft	$3,443,663
+2097928873	1331 Grant Ave	 San Francisco	CA	94133	Studio	-- baths	6,120 sqft	$2,894,662
+15067669	11 Shepard Pl	 San Francisco	CA	94108	5 beds	3 baths	1,951 sqft	$2,054,277
+15105300	1415 23rd Ave	 San Francisco	CA	94122	3 beds	3 baths	1,555 sqft	$1,364,915
+2097927821	318 Spear St UNIT 7F	 San Francisco	CA	94105	3 beds	2 baths	1,661 sqft	$1,992,420
+15099743	843-845 30TH Ave	 San Francisco	CA	94121	2 beds	1 bath	2,280 sqft	$1,320,913
+15134721	121 Juanita Way	 San Francisco	CA	94127	3 beds	1 bath	1,416 sqft	$1,500,960
+63197369	765 Market St APT 34C	 San Francisco	CA	94103	1 bed	1.5 baths	947 sqft	$1,673,151
+15065330	166-170 Valparaiso St	 San Francisco	CA	94133	5 beds	3 baths	2,370 sqft	$1,889,872
+15066592	411 Vallejo St	 San Francisco	CA	94133	2 beds	3 baths	1,240 sqft	$2,123,812
+64969763	1578 Indiana St APT 4	 San Francisco	CA	94107	1 bed	2 baths	1,244 sqft	$869,958
+119684814	58 Wilmot St	 San Francisco	CA	94115	3 beds	4 baths	2,689 sqft	$3,862,451
+15147476	469 Clementina St APT 7	 San Francisco	CA	94103	1 bed	1 bath	582 sqft	$646,977
+64971331	333 Grant Ave APT 703	 San Francisco	CA	94108	1 bed	2 baths	834 sqft	$1,023,899
+15116085	2050 31st Ave	 San Francisco	CA	94116	3 beds	1 bath	1,300 sqft	$1,051,522
+15093766	547 27th Ave	 San Francisco	CA	94121	4 beds	3 baths	2,544 sqft	$1,692,139
+2097941627	2 Fallon Pl APT 53	 San Francisco	CA	94133	2 beds	2 baths	1,466 sqft	$1,893,719
+15122575	2478 23rd Ave	 San Francisco	CA	94116	3 beds	2 baths	2,100 sqft	$1,394,277
+15136304	1 Stanford Heights Ave	 San Francisco	CA	94127	3 beds	2 baths	1,203 sqft	$1,124,934
+15188709	25 Baywood Ct	 San Francisco	CA	94112	2 beds	1 bath	800 sqft	$685,106
+115828635	480 Mission Bay Blvd N UNIT 514	 San Francisco	CA	94158	2 beds	2 baths	1,383 sqft	$1,576,029
+15067438	1 Mccormick St	 San Francisco	CA	94109	1,805 sqft	Unavailable
+79842594	555 4th St UNIT 522	 San Francisco	CA	94107	2 beds	2 baths	1,183 sqft	$1,137,831
+15070865	2806 Van Ness Ave	 San Francisco	CA	94109	10 beds	6 baths	4,921 sqft	$4,892,321
+15144477	595-599 Noe St	 San Francisco	CA	94114	Studio	-- baths	3,777 sqft	$2,490,886
+15170217	349 Bacon St	 San Francisco	CA	94134	3 beds	1 bath	1,680 sqft	$1,315,871
+63179419	8100 Oceanview Ter APT 314	 San Francisco	CA	94132	2 beds	2 baths	1,019 sqft	$648,137
+2097949681	358 Lombard St	 San Francisco	CA	94133	3 beds	2 baths	1,924 sqft	$1,487,473
+15181858	3790 Cesar Chavez	 San Francisco	CA	94110	3 beds	3 baths	1,946 sqft	Unavailable
+80735907	2002 3rd St APT 203	 San Francisco	CA	94107	2 beds	3 baths	2,543 sqft	$1,766,547
+2097950676	1333 Jones St UNIT T321	 San Francisco	CA	94109	-- beds	1 bath	-- sqft	$781,381
+2097951141	819 Ellis St # 3RD	 San Francisco	CA	94109	-- beds	0.5 baths	28,800 sqft	$4,251,501
+15131928	21 Panorama Dr	 San Francisco	CA	94131	3 beds	1 bath	1,150 sqft	$1,184,561
+15158996	5512 3rd St	 San Francisco	CA	94124	Studio	-- baths	-- sqft	$981,893
+2097952476	3437-3441 Mission St	 San Francisco	CA	94110	8 beds	7 baths	4,130 sqft	$2,315,262
+119685295	859 Alabama St	 San Francisco	CA	94110	3 beds	4 baths	2,200 sqft	$2,632,084
+83154260	74 New Montgomery St UNIT 508	 San Francisco	CA	94105	2 beds	1 bath	952 sqft	$1,272,483
+15199728	60 Ora Way APT 203H	 San Francisco	CA	94131	Studio	1 bath	409 sqft	$131,445
+2097957961	28 Parker Ave APT 201	 San Francisco	CA	94118	2 beds	2 baths	-- sqft	Unavailable
+69819288	501 Beale St UNIT 10D	 San Francisco	CA	94105	2 beds	2 baths	1,259 sqft	$1,890,275
+15151600	880 Wisconsin St	 San Francisco	CA	94107	4 beds	3 baths	1,500 sqft	$1,523,307
+82785962	74 New Montgomery St UNIT 305	 San Francisco	CA	94105	1 bed	1 bath	792 sqft	$901,185
+114316171	301 Mission St APT 405	 San Francisco	CA	94105	2 beds	2 baths	1,731 sqft	$2,281,987
+15068328	1335 California St	 San Francisco	CA	94109	2 beds	1 bath	1,500 sqft	$1,392,986
+15160832	146 Brewster St	 San Francisco	CA	94110	3 beds	2 baths	1,430 sqft	$1,673,877
+64971471	135 12th Ave	 San Francisco	CA	94118	3 beds	2 baths	1,782 sqft	$1,684,971
+2097962619	420 Linden St	 San Francisco	CA	94102	Studio	-- baths	2,200 sqft	$1,316,381
+2097962620	422 Linden St	 San Francisco	CA	94102	1 bed	1 bath	2,200 sqft	$963,076
+2097962622	318 25th Ave	 San Francisco	CA	94121	Studio	-- baths	3,832 sqft	$1,984,720
+83152889	1160 Mission St UNIT 2202	 San Francisco	CA	94103	1 bed	1 bath	864 sqft	$916,813
+82785810	752 S Van Ness Ave	 San Francisco	CA	94110	3 beds	2 baths	1,735 sqft	$1,102,334
+15145237	3808 21st St	 San Francisco	CA	94114	3 beds	1 bath	1,784 sqft	$2,528,697
+15156705	1408 Rankin St	 San Francisco	CA	94124	3 beds	1 bath	995 sqft	$763,489
+15091833	31 Tacoma St	 San Francisco	CA	94118	Studio	-- baths	1,200 sqft	$1,107,333
+15081192	2786 Jackson St # A	 San Francisco	CA	94115	Studio	-- baths	472 sqft	$590,042
+2097966685	3062 22nd St	 San Francisco	CA	94110	Studio	-- baths	3,915 sqft	$2,391,745
+2097967564	12 Esquina Dr	 San Francisco	CA	94134	4 beds	2 baths	1,525 sqft	$818,927
+15099030	750 Funston Ave	 San Francisco	CA	94118	4 beds	3 baths	3,330 sqft	$2,870,904
+2097968226	1884 Bush St	 San Francisco	CA	94109	1 bed	1 bath	934 sqft	$969,459
+2134087564	60 Alpine Ter	 San Francisco	CA	94117	2 beds	2 baths	1,205 sqft	$1,898,431
+2097971236	174 Turk St	 San Francisco	CA	94102	Studio	-- baths	13,464 sqft	$3,753,769
+15070382	1500 Francisco St APT 11	 San Francisco	CA	94123	3 beds	2 baths	1,787 sqft	$1,910,020
+89240090	338 Spear St UNIT 22F	 San Francisco	CA	94105	2 beds	2 baths	1,318 sqft	$1,357,817
+2097974744	3032 Clement St # 202	 San Francisco	CA	94121	3 beds	2 baths	1,661 sqft	$1,472,284
+15160715	3401 Folsom St	 San Francisco	CA	94110	4 beds	4 baths	2,072 sqft	$1,745,896
+69819744	260 King St UNIT 553	 San Francisco	CA	94107	Studio	1 bath	556 sqft	$631,999
+15071573	2325-2327 Larkin St	 San Francisco	CA	94109	-- beds	-- baths	2,820 sqft	$2,692,493
+15130450	720 Castro St	 San Francisco	CA	94114	3 beds	2.5 baths	2,020 sqft	$2,663,501
+15068164	30 Miller Pl APT 11	 San Francisco	CA	94108	3 beds	2 baths	1,782 sqft	$2,038,697
+125308985	1515 15th St APT 503	 San Francisco	CA	94103	1 bed	1 bath	650 sqft	$851,273
+2099345105	3437 Mission St	 San Francisco	CA	94110	Studio	-- baths	-- sqft	$1,754,696
+2099430839	Residence A2 Plan	 Summit 800 San Francisco	CA	94132	3 beds	2.5 baths	1,824 sqft	$1,252,058
+2097986215	2325 Larkin St	 San Francisco	CA	94109	Studio	-- baths	2,820 sqft	$1,336,686
+15158481	135 Ledyard St	 San Francisco	CA	94124	4 beds	2 baths	1,625 sqft	$769,862
+69819230	69 Clementina St UNIT 403	 San Francisco	CA	94105	1 bed	1 bath	476 sqft	$655,874
+123952713	301 Mission St APT 34E	 San Francisco	CA	94105	2 beds	2 baths	1,714 sqft	$2,402,995
+2119198400	666 S Van Ness Ave	 San Francisco	CA	94110	Studio	-- baths	3,106 sqft	$2,178,248
+15156254	1683 Newcomb Ave	 San Francisco	CA	94124	2 beds	1 bath	1,090 sqft	$608,649
+15179455	275 Concord St	 San Francisco	CA	94112	4 beds	3 baths	2,400 sqft	$883,416
+15154182	1463 Thomas Ave	 San Francisco	CA	94124	6 beds	3 baths	995 sqft	$702,575
+15177816	125 Lapham Way	 San Francisco	CA	94112	2 beds	1 bath	1,055 sqft	$843,269
+79845037	1587 15th St APT 404	 San Francisco	CA	94103	2 beds	1 bath	919 sqft	$873,883
+15072786	1998 Broadway APT 1502	 San Francisco	CA	94109	1 bed	1 bath	700 sqft	$821,533
+63196473	1050 N Point St APT 508	 San Francisco	CA	94109	1 bed	1 bath	-- sqft	$1,255,429
+52273849	219 Brannan St UNIT 2H	 San Francisco	CA	94107	2 beds	2 baths	1,206 sqft	$1,565,207
+2098636731	Residence 3 Plan	 LUMINA San Francisco	CA	94105	2 beds	2 baths	1,366 sqft	$1,468,515
+2098008405	123 Corwin St # C	 San Francisco	CA	94114	3 beds	2 baths	1,609 sqft	$1,468,106
+15107139	1563 28th Ave	 San Francisco	CA	94122	4 beds	3 baths	2,920 sqft	$1,442,597
+2098010833	4660-62 18th St	 San Francisco	CA	94114	8 beds	8 baths	-- sqft	$1,854,276
+15078220	457 Fulton St	 San Francisco	CA	94102	2 beds	2 baths	1,506 sqft	$1,602,727
+2099430841	Residence F1 Plan	 Summit 800 San Francisco	CA	94132	3 beds	2.5 baths	2,249 sqft	$1,465,950
+82786533	325 Berry St APT 302	 San Francisco	CA	94158	2 beds	2 baths	1,589 sqft	$1,756,654
+15064594	1150 Lombard St APT 35	 San Francisco	CA	94109	3 beds	2.5 baths	1,854 sqft	$2,803,253
+2098024875	2017 Powell St	 San Francisco	CA	94133	Studio	-- baths	3,990 sqft	$2,764,652
+15155224	2144 Bay Shore Blvd	 San Francisco	CA	94134	2 beds	1 bath	800 sqft	$698,235
+2098636729	Residence 4 Plan	 LUMINA San Francisco	CA	94105	2 beds	2 baths	1,401 sqft	$1,433,163
+61325260	20 Arco Way	 San Francisco	CA	94112	3 beds	2.5 baths	1,762 sqft	$1,155,109
+2098035539	1688 Pine St # W407	 San Francisco	CA	94109	2 beds	2 baths	1,164 sqft	$1,491,860
+2098035538	1688 Pine St # W901	 San Francisco	CA	94109	2 beds	2 baths	955 sqft	$1,332,003
+15117826	2135 24th Ave	 San Francisco	CA	94116	3 beds	2 baths	1,162 sqft	$1,176,099
+111710873	16 Jessie St APT 304	 San Francisco	CA	94105	2 beds	2 baths	1,046 sqft	$1,436,335
+89237919	425 1st St UNIT 4504	 San Francisco	CA	94105	1 bed	1 bath	605 sqft	$914,066
+15135465	266 Juanita Way	 San Francisco	CA	94127	4 beds	3 baths	3,009 sqft	$2,463,139
+15066509	524-526 Vallejo St	 San Francisco	CA	94133	4 beds	6 baths	2,420 sqft	$2,625,014
+15131097	74 Farview Ct	 San Francisco	CA	94131	2 beds	1 bath	1,128 sqft	$1,097,131
+15131661	616-618 Diamond St	 San Francisco	CA	94114	2 beds	1 bath	2,764 sqft	$2,184,063
+15067429	3 Mccormick St	 San Francisco	CA	94109	2 beds	2 baths	1,496 sqft	$1,973,008
+2098183168	E1105 Plan	 Rockwell San Francisco	CA	94109	1 bed	1 bath	690 sqft	$950,398
+15081441	3249 Jackson St	 San Francisco	CA	94118	6 beds	5 baths	5,627 sqft	$8,984,866
+15147436	1 Rausch St APT A	 San Francisco	CA	94103	1 bed	2 baths	1,044 sqft	$1,010,606
+15144457	562 Sanchez St	 San Francisco	CA	94114	3 beds	4 baths	4,000 sqft	$3,912,371
+119685501	5800 3rd St UNIT 1211	 San Francisco	CA	94124	1 bed	1 bath	817 sqft	$632,672
+15151972	1221 San Bruno Ave	 San Francisco	CA	94110	2 beds	1 bath	1,005 sqft	$958,931
+2098085721	3039-41 California St	 San Francisco	CA	94115	Studio	-- baths	3,852 sqft	$1,826,990
+2104833493	425 1st St	 San Francisco	CA	94105	1 bed	2 baths	819 sqft	$1,524,974
+2098087502	534 25th Ave	 San Francisco	CA	94121	Studio	-- baths	5,091 sqft	$2,563,566
+2098089874	2693 22nd St	 San Francisco	CA	94110	Studio	-- baths	4,050 sqft	$3,978,131
+2098093137	2697 22nd St # 1	 San Francisco	CA	94110	3 beds	2 baths	1,295 sqft	$1,387,937
+2098096943	2695 22nd St # 1	 San Francisco	CA	94110	3 beds	2 baths	1,399 sqft	$1,409,559
+15107183	1539 29th Ave	 San Francisco	CA	94122	5 beds	5 baths	2,875 sqft	$1,402,003
+80741786	385 10th St APT 7	 San Francisco	CA	94103	1 bed	1 bath	602 sqft	$658,628
+82785897	1160 Mission St UNIT 1206	 San Francisco	CA	94103	2 beds	2 baths	1,146 sqft	$1,312,925
+64972752	355 1st St PH 2703	 San Francisco	CA	94105	2 beds	2 baths	1,480 sqft	$2,001,305
+15151914	1183-1185 Hampshire St	 San Francisco	CA	94110	5 beds	4 baths	2,180 sqft	$1,383,640
+15199505	18 Jade Pl	 San Francisco	CA	94131	5 beds	5 baths	3,550 sqft	$3,006,218
+111710950	301 Mission St APT 19A	 San Francisco	CA	94105	2 beds	2 baths	1,469 sqft	$1,788,495
+15066065	1925 Leavenworth St APT 4	 San Francisco	CA	94133	1 bed	1 bath	534 sqft	$643,076
+80744446	701 Minna St APT 17	 San Francisco	CA	94103	2 beds	3 baths	1,778 sqft	$1,310,833
+71713737	50 Lansing St UNIT 604	 San Francisco	CA	94105	2 beds	2 baths	1,066 sqft	$1,205,342
+2098108886	83 Panorama Dr	 San Francisco	CA	94131	3 beds	5 baths	3,208 sqft	$1,934,492
+111930151	301 Mission St APT 6A	 San Francisco	CA	94105	2 beds	2 baths	1,479 sqft	$1,799,830
+15064106	220 Lombard St APT 823	 San Francisco	CA	94111	3 beds	2 baths	1,817 sqft	$1,986,303
+15144415	120 Hartford St	 San Francisco	CA	94114	4 beds	3 baths	2,447 sqft	$2,674,097
+2106821447	1725 Kearny St APT 1	 San Francisco	CA	94133	3 beds	4 baths	2,450 sqft	$3,519,390
+2098118196	1979 Ofarrell St APT B	 San Francisco	CA	94115	2 beds	1 bath	875 sqft	$737,167
+111922444	301 Mission St APT 6D	 San Francisco	CA	94105	1 bed	1 bath	789 sqft	$1,046,945
+80746401	370 De Haro St # TB5	 San Francisco	CA	94103	1 bed	2 baths	1,180 sqft	$1,113,570
+89239041	300 Berry St UNIT 201	 San Francisco	CA	94158	2 beds	1 bath	917 sqft	$1,116,128
+59700600	1800 Bryant St STE 106	 San Francisco	CA	94110	1 bed	2 baths	778 sqft	$860,095
+2135966161	56 Sanchez St APT 3	 San Francisco	CA	94114	1 bed	1 bath	-- sqft	$649,364
+15093792	558 27th Ave	 San Francisco	CA	94121	2 beds	1 bath	1,160 sqft	$1,057,696
+15077373	1979B Ofarrell St # 10	 San Francisco	CA	94115	2 beds	1 bath	875 sqft	$753,386
+2106364114	2136 Broderick St	 San Francisco	CA	94115	Studio	-- baths	6,585 sqft	$7,438,234
+53153375	767 Corbett Ave APT 1	 San Francisco	CA	94131	2 beds	3 baths	1,207 sqft	$1,306,778
+15124164	2542 42nd Ave	 San Francisco	CA	94116	2 beds	1 bath	1,000 sqft	$942,598
+15193183	371 Victoria St	 San Francisco	CA	94132	2 beds	1 bath	1,050 sqft	$783,681
+15105275	1466 25th Ave	 San Francisco	CA	94122	3 beds	3 baths	1,920 sqft	$1,324,512
+2098129870	98 Broderick St # 98	 San Francisco	CA	94117	1 bed	1 bath	800 sqft	$876,216
+2098130464	2808 Folsom St	 San Francisco	CA	94110	Studio	-- baths	5,040 sqft	$3,335,785
+2098131113	991 Haight St	 San Francisco	CA	94117	3 beds	3 baths	1,600 sqft	$1,449,676
+83153434	55 Page St APT 513	 San Francisco	CA	94102	2 beds	2 baths	1,037 sqft	$1,313,667
+15198472	139 S Lake Merced Hls APT 1D	 San Francisco	CA	94132	2 beds	2 baths	1,384 sqft	$759,453
+2098135782	198 Coleman St	 San Francisco	CA	94124	3 beds	2.5 baths	1,285 sqft	$1,290,799
+2102398145	4479 Mission St	 San Francisco	CA	94112	Studio	-- baths	-- sqft	$937,057
+15069446	631 Ofarrell St APT 610	 San Francisco	CA	94109	-- beds	1 bath	520 sqft	$478,427
+15172243	878 Goettingen St	 San Francisco	CA	94134	2 beds	1 bath	1,025 sqft	$732,479
+2129682652	170 Pacific Ave APT 21	 San Francisco	CA	94111	3 beds	3 baths	1,993 sqft	$2,391,704
+89237483	733 Front St UNIT 508	 San Francisco	CA	94111	2 beds	2 baths	1,459 sqft	$1,203,000
+2098153663	3201 Mission St	 San Francisco	CA	94110	Studio	-- baths	10,494 sqft	$3,749,262
+2098158072	989 Haight St	 San Francisco	CA	94117	3 beds	3 baths	1,750 sqft	$1,382,281
+2121227871	80 Retiro Way APT 3	 San Francisco	CA	94123	1 bed	1 bath	800 sqft	$949,417
+2098159834	3953 24th St # C2	 San Francisco	CA	94114	-- beds	-- baths	490 sqft	$450,014
+2098159833	3953 24th St # C1	 San Francisco	CA	94114	-- beds	-- baths	1,306 sqft	$754,385
+15078080	1390 Mcallister St	 San Francisco	CA	94115	3 beds	2 baths	1,711 sqft	$1,772,143
+2098169578	4662 18th St	 San Francisco	CA	94114	4 beds	3.5 baths	2,403 sqft	$3,016,521
+15129997	498 Corbett Ave	 San Francisco	CA	94114	4 beds	3.5 baths	2,850 sqft	$2,501,065
+2103068387	1541 Filbert St APT 3	 San Francisco	CA	94123	3 beds	2 baths	1,350 sqft	$1,652,934
+2098171100	195 Brewster St	 San Francisco	CA	94110	3 beds	3 baths	-- sqft	$2,649,455
+2098177141	2620 Sutter St # 1/2	 San Francisco	CA	94115	2 beds	2 baths	-- sqft	$1,591,862
+2098177212	2844 2850 Cabrillo St	 San Francisco	CA	94121	-- beds	-- baths	3,375 sqft	$2,484,538
