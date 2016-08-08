@@ -32,12 +32,25 @@ def scrape_property(zpid, city, outfile):
     features.append(state_zip[0])
     features.append(state_zip[1])
 
-    for span in header_div.findAll('span', class_="addr_bbs"):
-        feature = span.text
-        features.append(feature)
+    info = header_div.findAll('span', class_="addr_bbs")
+    if len(info) == 3:
+        numBed = info[0].text.split(' ')[0]
+        numBath = info[1].text.split(' ')[0]
+        size = info[2].text.split(' ')[0].replace(',', '')
+    else:
+        numBed = '0'
+        numBath = '0'
+        size = '0'
+    features.append(numBed)
+    features.append(numBath)
+    features.append(size)
 
-    zest_div = soup.find("div", class_="zest-value")
-    features.append(zest_div.text)
+    zest = soup.find("div", class_="zest-value").text
+    if zest == 'Unavailable':
+        zest = zest
+    else:
+        zest = zest[1:].replace(',', '')
+    features.append(zest)
 
     outfile.write("\t".join(features)  + '\n')
 
@@ -48,7 +61,7 @@ def readZillowPropertyIds(fname):
     return zpids
 
 if __name__ == '__main__':
-    city = "san-francisco-ca"
+    city = "redwood-city-ca"
     zpids = readZillowPropertyIds('../data/zpid/{}.txt'.format(city))
     filename = "../data/propertyInfo/{}.csv".format(city)
     outfile = open(filename, "a")
