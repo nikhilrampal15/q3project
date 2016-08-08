@@ -1,3 +1,16 @@
+
+.idea/compiler.xml
+.idea/copyright/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+APIFetch/getPropertyInfo-compiled.js
+APIFetch/getPropertyInfo-compiled.js.map
+APIFetch/models/house-compiled.js
+APIFetch/models/house-compiled.js.map
+node_modules/
+q3project.iml
 .git/
 unused/
 env/
