@@ -13,13 +13,11 @@ def initialize_centroid(data, k):
     return list(centroids)
 
 def assign_cluster(centroids, data):
-    print data
+    data = data[0:3]
     for item in data:
         min_distance = float('inf')
-        item = item[1:].replace(',', '')
         print "item = {}".format(item)
         for idx, centroid in enumerate(centroids):
-            centroid = centroid[1:].replace(',', '')
             print "idx = {}, centroid = {}".format(idx, centroid)
             distance = pow((int(centroid) - int(item)), 2)
             if distance < min_distance:
@@ -39,10 +37,9 @@ if __name__ == '__main__':
     header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate']
     house = pd.read_csv(filename, sep='\t', names=header)
     house = house.replace('Unavailable', np.NaN)
-    print house
-    
-    zestimate = house['zestimate']
-    # print zestimate
+    house_no_missing = house.dropna()
+    print house_no_missing.head(3)
+    zestimate = house_no_missing['zestimate']
 
     k = 3
     centroids = initialize_centroid(zestimate, k)
