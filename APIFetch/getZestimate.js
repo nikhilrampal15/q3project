@@ -19,7 +19,7 @@ let xmlParseZestimate = require('./helpers/xmlParseZestimate');
 
  @ result: ${city}_zestimate.csv file in data/houseInfo directory
 *****************************************************************/
-let city = 'san-francisco-ca';
+let city = 'palo-alto-ca';
 let zpidFile = `../data/zpid/${city}.txt`
 let zpids = readZillowPropertyIds(zpidFile)
 callGetZestimateAPI(zpids);

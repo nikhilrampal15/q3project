@@ -19,10 +19,10 @@ let xmlParsePropertyInfo = require('./helpers/xmlParsePropertyInfo');
 
  @ result: ${city}_propertyinfo.csv file in data/houseInfo directory
 *****************************************************************/
-let city = 'san-francisco-ca';
+let city = 'palo-alto-ca';
 let zpidFile = `../data/zpid/${city}.txt`
 let zpids = readZillowPropertyIds(zpidFile)
-zpids = zpids.slice(0, 2)
+// zpids = zpids.slice(0, 2)
 callGetUpdatedPropertyDetailsAPI(zpids);
 
 let dir = `../data/propertyInfo/${city}`;
@@ -42,7 +42,7 @@ function callGetUpdatedPropertyDetailsAPI(zpid) {
     let zillowApiCalls = []
     for(let i = 0; i < zpids.length - 1; i++) {
         let zpid = zpids[i];
-        let url = `http://www.zillow.com/webservice/GetUpdatedPropertyDetails.htm?zws-id=${process.env.ZWSID_2}&zpid=${zpid}`;
+        let url = `http://www.zillow.com/webservice/GetUpdatedPropertyDetails.htm?zws-id=${process.env.ZWSID}&zpid=${zpid}`;
 
         zillowApiCalls.push(promisifyRequest(url));
     }

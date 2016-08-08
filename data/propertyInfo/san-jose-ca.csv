@@ -1,0 +1,505 @@
+ZPID,Street, City, State_Zipcode, Bedroom, Bathroom, Sqft, Zestimate
+2099842205,Rows Plan 4 Plan, Onyx San Jose, CA 95133 ,3 beds,2 baths,1,476 sqft,$732,225
+19565008,2278 Zoria Cir, San Jose, CA 95131 ,4 beds,2 baths,1,393 sqft,$778,418
+2097580440,142 George St, San Jose, CA 95110 ,2 beds,1 bath,1,418 sqft,Unavailable
+19568000,843 Jackson St, San Jose, CA 95112 ,2 beds,1 bath,1,044 sqft,$669,787
+19565194,1487 Doxey Ct, San Jose, CA 95131 ,3 beds,2 baths,1,530 sqft,$774,691
+19818785,72 Cherry Ridge Ln, San Jose, CA 95136 ,2 beds,2 baths,986 sqft,$512,220
+19660259,18451 Baylor Ave, Saratoga, CA 95070 ,3 beds,2 baths,1,352 sqft,$1,480,307
+19817798,65 Park Belmont Pl, San Jose, CA 95136 ,4 beds,2 baths,2,146 sqft,$829,001
+19738955,2938 Trinity River Ct, San Jose, CA 95111 ,6 beds,4 baths,3,424 sqft,$969,040
+2097582102,1487 Doxey Ct, San Jose, CA 95131 ,3 beds,2 baths,1,530 sqft,Unavailable
+82950355,38 N Almaden Blvd UNIT 720, San Jose, CA 95110 ,2 beds,2 baths,1,296 sqft,$979,204
+19570208,410 N 1st St UNIT 328, San Jose, CA 95112 ,2 beds,2 baths,1,050 sqft,$577,527
+19686492,1952 Jonathan Ave, San Jose, CA 95125 ,3 beds,2 baths,1,873 sqft,$1,092,966
+19567119,718 N 12th St, San Jose, CA 95112 ,3 beds,2 baths,1,092 sqft,$658,555
+19817015,5206 Tomahawk Dr, San Jose, CA 95136 ,4 beds,2 baths,1,525 sqft,$764,969
+121042612,5526 Carew Way, San Jose, CA 95123 ,3 beds,3 baths,1,682 sqft,Unavailable
+19591427,1474 Stokes St, San Jose, CA 95126 ,3 beds,2 baths,1,344 sqft,$740,342
+19680562,1325 Glen Dell Dr, San Jose, CA 95125 ,3 beds,2 baths,1,712 sqft,$1,323,236
+19815100,64 Azucar Ave, San Jose, CA 95111 ,4 beds,3 baths,1,572 sqft,$646,759
+19772235,2967 Valhalla Dr, San Jose, CA 95132 ,4 beds,2 baths,1,657 sqft,$833,938
+82951197,809 Auzerais Ave UNIT 227, San Jose, CA 95126 ,1 bed,2 baths,824 sqft,$469,368
+19566864,819 N 5th St, San Jose, CA 95112 ,2 beds,1 bath,792 sqft,$663,953
+124744078,1230 Michigan Ave, Alviso, CA 95002 ,4 beds,2 baths,2,071 sqft,$909,825
+19825215,5384 Poppy Blossom Ct, San Jose, CA 95123 ,3 beds,2 baths,1,536 sqft,$762,437
+2097585281,534 Water Witch Way, San Jose, CA 95117 ,2 beds,2 baths,1,465 sqft,Unavailable
+19584549,2334 Boxwood Dr, San Jose, CA 95128 ,3 beds,2 baths,1,504 sqft,$986,552
+19716640,2209 Warfield Way UNIT C, San Jose, CA 95122 ,3 beds,2 baths,1,165 sqft,$453,631
+2097585712,5680 Santa Teresa Blvd # 836, San Jose, CA 95123 ,2 beds,2 baths,1,840 sqft,Unavailable
+19687726,1458 Husted Ave, San Jose, CA 95125 ,3 beds,2 baths,1,813 sqft,$1,282,405
+19775151,2786 Valley Heights Dr, San Jose, CA 95133 ,4 beds,3 baths,1,787 sqft,$804,265
+19709492,415 Colony Knoll Dr, San Jose, CA 95123 ,2 beds,1 bath,942 sqft,$453,303
+19804476,3245 Pine Spring Ct, San Jose, CA 95121 ,4 beds,3 baths,1,904 sqft,$890,062
+69300691,1060 S 3rd St APT 102, San Jose, CA 95112 ,1 bed,1 bath,667 sqft,$371,633
+19734380,3333 Chancellor Way, San Jose, CA 95111 ,3 beds,2 baths,1,197 sqft,$422,301
+19811439,6930 Gregorich Dr UNIT D, San Jose, CA 95138 ,2 beds,3 baths,1,093 sqft,$542,949
+19804486,3205 Maple Leaf Ct, San Jose, CA 95121 ,3 beds,2 baths,1,323 sqft,$738,680
+19677359,15290 Winton Way, San Jose, CA 95124 ,3 beds,2 baths,1,434 sqft,$1,135,425
+19787508,3187 Flinthaven Dr, San Jose, CA 95148 ,4 beds,3 baths,1,774 sqft,$745,451
+63065308,897 Georgetown Pl, San Jose, CA 95126 ,3 beds,3 baths,1,463 sqft,$853,424
+19778115,3157 Percivale Dr, San Jose, CA 95127 ,4 beds,2 baths,1,462 sqft,$731,791
+19484589,2060 Sierra Wood Dr, San Jose, CA 95132 ,3 beds,2 baths,1,165 sqft,$759,132
+19780401,3165 Salem Dr, San Jose, CA 95127 ,4 beds,3 baths,2,247 sqft,$1,000,560
+19799469,7053 Via Belmonte, San Jose, CA 95135 ,2 beds,2 baths,1,386 sqft,$631,065
+19587285,1213 Greenbriar Ave, San Jose, CA 95128 ,3 beds,2 baths,1,436 sqft,Unavailable
+2097590731,956-958 Goodwin Ave, San Jose, CA 95128 ,Studio,-- baths,2,235 sqft,Unavailable
+19781882,243 Clareview Ct, San Jose, CA 95127 ,3 beds,2 baths,1,723 sqft,$683,111
+19725918,1709 Orlando Dr, San Jose, CA 95122 ,3 beds,1 bath,960 sqft,$531,278
+19575545,1330 Hester Ave, San Jose, CA 95126 ,2 beds,2 baths,1,635 sqft,$961,974
+2097593589,5962 Reddick Ln BLDG 27, San Jose, CA 95123 ,4 beds,4 baths,2,258 sqft,Unavailable
+2097593588,5968 Reddick Ln BLDG 27, San Jose, CA 95123 ,3 beds,4 baths,1,793 sqft,Unavailable
+19586758,925 S Daniel Way, San Jose, CA 95128 ,4 beds,3 baths,2,387 sqft,$1,012,627
+19753440,5112 Rafton Dr, San Jose, CA 95124 ,4 beds,2 baths,1,396 sqft,$1,069,717
+19775053,2766 Glen Firth Dr, San Jose, CA 95133 ,4 beds,2 baths,2,084 sqft,$992,318
+19586760,949 S Daniel Way, San Jose, CA 95128 ,7,881 sqft,Unavailable
+2099071466,Plan 1 Plan, Promenade at Communications Hill San Jose, CA 95136 ,4 beds,3.5 baths,2,148 sqft,$850,580
+19573582,1744 Creekstone Cir, San Jose, CA 95133 ,2 beds,3 baths,1,367 sqft,$694,659
+79847327,629 S 22nd St, San Jose, CA 95116 ,4 beds,3 baths,1,816 sqft,$816,731
+19794423,3069 Pavan Dr, San Jose, CA 95148 ,3 beds,3 baths,1,303 sqft,$838,633
+19706437,130 Baroni Ave APT 18, San Jose, CA 95136 ,2 beds,2.5 baths,1,360 sqft,$572,587
+19764469,1494 Bullion Pl, San Jose, CA 95120 ,4 beds,4 baths,2,700 sqft,$1,302,429
+19675479,5136 Emiline Dr, San Jose, CA 95124 ,3 beds,2 baths,1,233 sqft,$1,095,711
+19719189,1795 Margaret St, San Jose, CA 95116 ,3 beds,2 baths,1,200 sqft,$547,414
+19590413,1929 Dandini Cir, San Jose, CA 95128 ,3 beds,2 baths,1,330 sqft,$879,330
+19693155,2545 Plummer Ave, San Jose, CA 95125 ,2 beds,2 baths,1,342 sqft,$1,016,220
+19586529,2944 Moorpark Ave, San Jose, CA 95128 ,2 beds,3 baths,1,259 sqft,$717,207
+19762157,1585 Via Campo Verde, San Jose, CA 95120 ,5 beds,3 baths,2,525 sqft,$1,551,356
+19702127,4738 Durango River Ct, San Jose, CA 95136 ,3 beds,3 baths,1,441 sqft,$644,881
+2097598913,746 Mill Stream Dr, San Jose, CA 95125 ,2 beds,2 baths,1,300 sqft,$343,577
+82961616,38 N Almaden Blvd UNIT 2208, San Jose, CA 95110 ,3 beds,2 baths,1,836 sqft,$1,960,177
+19486394,2151 Piedmont Rd, San Jose, CA 95132 ,4 beds,2 baths,1,806 sqft,$962,924
+19717247,1096 Indian Summer Ct, San Jose, CA 95122 ,2 beds,3 baths,1,052 sqft,$458,462
+19728430,1344 Sandalwood Ct, San Jose, CA 95127 ,3 beds,2 baths,1,145 sqft,$588,256
+19825306,5307 Mango Blossom Ct, San Jose, CA 95123 ,4 beds,2 baths,1,804 sqft,$781,290
+19706174,4509 Thistle Dr, San Jose, CA 95136 ,4 beds,3 baths,1,954 sqft,$912,611
+19831630,5943 Hillrose Dr, San Jose, CA 95123 ,4 beds,3 baths,2,482 sqft,$1,255,215
+82948899,974 Pavilion Loop, San Jose, CA 95112 ,2 beds,2 baths,1,024 sqft,$645,994
+19695208,1614 Willowdale Dr, San Jose, CA 95118 ,4 beds,2 baths,1,415 sqft,$868,793
+19760357,4867 Pine Forest Pl, San Jose, CA 95118 ,2 beds,2 baths,1,026 sqft,$590,219
+19760357,4867 Pine Forest Pl, San Jose, CA 95118 ,2 beds,2 baths,1,026 sqft,$590,219
+121043237,2015 Pepper Way, San Jose, CA 95133 ,3 beds,3 baths,1,579 sqft,$853,768
+19735475,654 Singleton Rd, San Jose, CA 95111 ,6 beds,3 baths,1,672 sqft,$671,295
+2099842213,Rows Plan 2 Plan, Onyx San Jose, CA 95133 ,3 beds,2 baths,1,376 sqft,$714,537
+19841153,7029 Via Serena, San Jose, CA 95139 ,4 beds,3 baths,2,090 sqft,$847,784
+19768663,1871 Messina Dr, San Jose, CA 95132 ,2 beds,1 bath,888 sqft,$504,120
+69303156,2109 Sunstruck Ct, San Jose, CA 95125 ,2 beds,2 baths,1,144 sqft,$669,596
+2097606355,836 Villa Teresa Way # 836, San Jose, CA 95123 ,2 beds,2 baths,1,840 sqft,$1,074,750
+19758392,1448 Branham Ln, San Jose, CA 95118 ,3 beds,2 baths,1,232 sqft,$902,261
+2097608111,635 Avenue One BLDG 28, San Jose, CA 95123 ,3 beds,4 baths,2,093 sqft,$816,638
+2097608116,643 Avenue One BLDG 28, San Jose, CA 95123 ,3 beds,4 baths,1,712 sqft,$801,107
+2097608112,639 Avenue One BLDG 28, San Jose, CA 95123 ,3 beds,4 baths,1,712 sqft,$801,107
+2097608113,5955 Golden Vista Dr BLDG 21, San Jose, CA 95123 ,4 beds,4 baths,2,205 sqft,$824,139
+2097608115,5949 Golden Vista Dr BLDG 21, San Jose, CA 95123 ,4 beds,4 baths,2,423 sqft,$905,337
+19833295,6189 Blossom Ave, San Jose, CA 95123 ,3 beds,2 baths,1,232 sqft,$823,053
+2099842212,Towns Plan 2 Plan, Onyx San Jose, CA 95133 ,2 beds,2 baths,1,391 sqft,$709,132
+19563475,1878 Tradan Dr, San Jose, CA 95132 ,2 beds,2 baths,988 sqft,$553,169
+19564527,1337 Mich Bluff Dr, San Jose, CA 95131 ,4 beds,2 baths,1,380 sqft,$784,750
+19707683,5481 Don Pizarro Ct, San Jose, CA 95123 ,2 beds,1 bath,884 sqft,$426,249
+19694505,3359 Kirk Rd, San Jose, CA 95124 ,3 beds,2 baths,1,170 sqft,$901,718
+19582098,1455 Martin Ave, San Jose, CA 95126 ,3 beds,2 baths,1,428 sqft,$1,041,897
+19590823,1807 Blackford Ln, San Jose, CA 95125 ,2 beds,2 baths,1,581 sqft,$1,060,174
+19710365,148 N 10th St, San Jose, CA 95112 ,2 beds,2 baths,1,364 sqft,$694,124
+19704943,4684 Mia Cir, San Jose, CA 95136 ,3 beds,2 baths,1,492 sqft,$767,960
+19641172,6806 Windsor Way, San Jose, CA 95129 ,5 beds,3 baths,1,704 sqft,$1,808,737
+19607534,778 Crestview Dr, San Jose, CA 95117 ,3 beds,2 baths,1,164 sqft,$994,895
+19612406,3615 Compton Ln, San Jose, CA 95130 ,4 beds,3 baths,1,971 sqft,$1,284,086
+19694222,3698 Ross Ave, San Jose, CA 95124 ,3 beds,2 baths,1,315 sqft,$846,545
+19590418,1949 Dandini Cir, San Jose, CA 95128 ,4 beds,3 baths,1,636 sqft,$942,497
+69302484,801 S Winchester Blvd APT 1200, San Jose, CA 95128 ,1 bed,1 bath,692 sqft,$505,783
+19694774,3335 Cardin Ave, San Jose, CA 95118 ,3 beds,3 baths,1,718 sqft,$910,538
+2097614104,5770 Winfield Blvd SPC 105, San Jose, CA 95123 ,3 beds,2 baths,1,560 sqft,$629,811
+19696597,1221 Hillsdale Ave, San Jose, CA 95118 ,3 beds,2 baths,1,176 sqft,$842,757
+19697007,1373 Lindsay Way, San Jose, CA 95118 ,3 beds,2 baths,1,460 sqft,$907,832
+82947597,38 N Almaden Blvd UNIT 803, San Jose, CA 95110 ,1 bed,1 bath,868 sqft,$659,497
+19695036,1529 Willowgate Dr, San Jose, CA 95118 ,3 beds,2 baths,1,137 sqft,$879,546
+2104317419,200 Ford Rd SPC 96, San Jose, CA 95138 ,3 beds,2 baths,1,464 sqft,$462,305
+2098106063,Residence 3 - Plan 2258 Plan, Avenue One : Ellington at Avenue One San Jose, CA 95123 ,4 beds,3.5 baths,2,258 sqft,$838,448
+2099842208,Towns Plan 3 Plan, Onyx San Jose, CA 95133 ,3 beds,2.5 baths,1,714 sqft,$884,856
+19759112,1461 Luning Dr, San Jose, CA 95118 ,4 beds,2 baths,1,937 sqft,$1,248,337
+2146812506,1151 Ringwood Ct STE 100, San Jose, CA 95131 ,Studio,2 baths,3,503 sqft,$1,441,817
+19768992,2023 Portsmouth Ct, San Jose, CA 95132 ,3 beds,2 baths,1,412 sqft,$779,193
+19570408,1729 Marigold Ct, San Jose, CA 95133 ,3 beds,1 bath,900 sqft,$550,215
+19604303,4156 Will Rogers Dr, San Jose, CA 95117 ,5 beds,3 baths,4,460 sqft,$2,082,979
+19734736,1142 Oakview Rd, San Jose, CA 95121 ,2 beds,2 baths,1,196 sqft,$603,060
+82949829,1375 Lick Ave APT 721, San Jose, CA 95110 ,2 beds,2 baths,1,148 sqft,$656,724
+19565951,1330 Dryden Dr, San Jose, CA 95131 ,4 beds,2 baths,2,076 sqft,$957,237
+19591723,1522 De Rose Way, San Jose, CA 95126 ,3 beds,3 baths,1,470 sqft,$752,616
+19819289,6076 Randall Ct, San Jose, CA 95123 ,4 beds,3 baths,1,694 sqft,$861,517
+19688320,1340 Winona Dr, San Jose, CA 95125 ,3 beds,3 baths,2,230 sqft,$1,419,685
+19650147,1546 Cameo Dr, San Jose, CA 95129 ,3 beds,2 baths,1,234 sqft,$1,392,609
+19766422,6501 Crenshaw Ct, San Jose, CA 95120 ,2 beds,3 baths,1,628 sqft,$819,926
+19694146,1805 Karen Ct, San Jose, CA 95124 ,3 beds,2 baths,1,480 sqft,$1,111,028
+19578424,853 Riverside Dr, San Jose, CA 95125 ,3 beds,3 baths,2,937 sqft,$1,753,939
+19823683,6394 Felder Dr, San Jose, CA 95123 ,3 beds,2 baths,1,120 sqft,$756,582
+19671331,2198 Casa Mia Dr, San Jose, CA 95124 ,3 beds,2 baths,1,544 sqft,$1,058,475
+19834906,1037 Fleetwood Dr, San Jose, CA 95120 ,5 beds,4 baths,2,550 sqft,$1,553,877
+54771068,947 Desmet Way, San Jose, CA 95125 ,3 beds,3 baths,2,069 sqft,$990,675
+51074396,470 White Chapel Ave, San Jose, CA 95136 ,3 beds,4 baths,1,690 sqft,$745,604
+2099071461,Plan 2 Plan, Promenade at Communications Hill San Jose, CA 95136 ,4 beds,3.5 baths,2,153 sqft,$850,770
+2097626221,601 Hermitage St # 601, San Jose, CA 95134 ,3 beds,2 baths,1,040 sqft,$489,154
+69303055,372 Casselino Dr, San Jose, CA 95136 ,5 beds,3 baths,3,221 sqft,$1,236,883
+19578064,946 Delmas Ave, San Jose, CA 95125 ,2 beds,2 baths,1,148 sqft,$827,268
+19812317,5419 Silver Vista Way, San Jose, CA 95138 ,2 beds,2 baths,1,590 sqft,$903,431
+19642365,1600 Danromas Way, San Jose, CA 95129 ,4 beds,2 baths,1,484 sqft,$1,713,438
+82957793,88 N Jackson Ave UNIT 122, San Jose, CA 95116 ,1 bed,1 bath,1,069 sqft,$447,138
+19712149,144 S 3rd St UNIT 130, San Jose, CA 95112 ,2 beds,3 baths,1,734 sqft,$742,671
+2097628956,3 Esfahan Dr # 4, San Jose, CA 95111 ,3 beds,4 baths,1,848 sqft,$760,495
+19837680,1084 Almaden Village Ln, San Jose, CA 95120 ,3 beds,3 baths,1,673 sqft,$759,567
+19819475,6053 Salida Del Sol, San Jose, CA 95123 ,7 beds,5 baths,3,141 sqft,$1,177,745
+2097629863,3 Esfahan Dr # 2, San Jose, CA 95111 ,3 beds,4 baths,1,303 sqft,$671,597
+19573012,2195 Rockrose Ct, San Jose, CA 95133 ,5 beds,3 baths,2,329 sqft,$1,085,424
+89472853,2833 Lavender Ter, San Jose, CA 95111 ,2 beds,3 baths,1,405 sqft,$643,206
+19727685,2568 Dumont Ct, San Jose, CA 95122 ,3 beds,2 baths,1,176 sqft,$620,833
+2097631703,473 Summerland Dr, San Jose, CA 95134 ,3 beds,2 baths,1,440 sqft,$740,725
+19575445,1211 Magnolia Ave, San Jose, CA 95126 ,2 beds,2 baths,1,328 sqft,$894,357
+2098106055,Residence 3 - Plan 2423 Plan, Avenue One : Grand at Avenue One San Jose, CA 95123 ,4 beds,3.5 baths,2,423 sqft,$897,605
+19753282,4942 Alan Ave, San Jose, CA 95124 ,4 beds,2 baths,1,374 sqft,$1,133,854
+19740498,2487 Zachary Way, San Jose, CA 95121 ,4 beds,4 baths,1,579 sqft,$743,285
+19707269,416 Avenida Arboles, San Jose, CA 95123 ,4 beds,3 baths,2,400 sqft,$851,176
+19676101,3198 Kimber Ct APT 96, San Jose, CA 95124 ,2 beds,1 bath,886 sqft,$469,434
+19754432,1628 Canna Ln, San Jose, CA 95124 ,3 beds,2 baths,1,569 sqft,$1,170,996
+124742768,1808 Lavender Crk, San Jose, CA 95120 ,5 beds,4 baths,2,484 sqft,$1,574,584
+82962007,334 Santana Row APT 239, San Jose, CA 95128 ,1 bed,1 bath,736 sqft,$635,755
+82787664,662 Helweh Ct, San Jose, CA 95126 ,4 beds,3 baths,2,376 sqft,$1,199,707
+19756860,5768 Chambertin Dr, San Jose, CA 95118 ,3 beds,3 baths,1,756 sqft,$1,219,472
+19708895,4808 Wellington Park Dr, San Jose, CA 95136 ,3 beds,2 baths,1,698 sqft,$874,169
+19814440,834 Coyote Rd, San Jose, CA 95111 ,2 beds,2 baths,992 sqft,$519,261
+19754247,1713 Canna Ln, San Jose, CA 95124 ,3 beds,2 baths,1,210 sqft,$1,089,726
+2097639050,540 Bonita Ave SPC 203, San Jose, CA 95116 ,1 bed,1 bath,399 sqft,$481,761
+19717013,1419 Mcquesten Dr APT A, San Jose, CA 95122 ,2 beds,1 bath,888 sqft,$406,889
+19826946,275 Tradewinds Dr APT 11, San Jose, CA 95123 ,1 bed,1 bath,722 sqft,$347,269
+19841525,7421 Tulare Hill Dr, San Jose, CA 95139 ,3 beds,3 baths,1,655 sqft,$641,347
+19565043,1560 Timber Creek Dr, San Jose, CA 95131 ,3 beds,3 baths,1,631 sqft,$882,057
+2098359602,B1 Plan, The Globe San Jose, CA 95113 ,1 bed,1 bath,676 sqft,$476,405
+2099136516,Towns / Plan 3B Plan, Orchard Park San Jose, CA 95131 ,4 beds,3.5 baths,1,872 sqft,$1,064,291
+19780226,659 Youngs Ct, San Jose, CA 95127 ,4 beds,2 baths,1,554 sqft,$713,098
+19560465,1533 Goody Ln, San Jose, CA 95131 ,3 beds,3 baths,1,493 sqft,$938,097
+19766115,6669 Copperwood Cir, San Jose, CA 95120 ,2 beds,2 baths,1,124 sqft,$775,744
+19609062,1360 Charmwood Sq, San Jose, CA 95117 ,2 beds,3 baths,1,152 sqft,$797,779
+19741060,953 Cheswick Dr, San Jose, CA 95121 ,4 beds,3 baths,2,000 sqft,$840,345
+59683822,3057 Oliver Dr, San Jose, CA 95135 ,6 beds,5 baths,3,705 sqft,$1,678,604
+19558642,1528 Santa Paula Ave, San Jose, CA 95110 ,4 beds,2 baths,1,220 sqft,$642,072
+19786625,1587 Mount Pleasant Dr, San Jose, CA 95127 ,Studio,-- baths,1,722 sqft,$798,673
+19738809,2785 Lone Bluff Way, San Jose, CA 95111 ,2 beds,2 baths,867 sqft,$393,139
+2132691281,200 Ford Rd SPC 209, San Jose, CA 95138 ,2 beds,2 baths,1,344 sqft,$458,236
+19727684,2564 Dumont Ct, San Jose, CA 95122 ,4 beds,2 baths,1,220 sqft,$636,052
+89467585,1 E Julian St UNIT 217, San Jose, CA 95112 ,1 bed,1 bath,742 sqft,$475,077
+19569563,469 N 18th St, San Jose, CA 95112 ,3 beds,1 bath,1,168 sqft,$628,692
+19729288,2850 Singing Rain Pl, San Jose, CA 95127 ,2 beds,1 bath,881 sqft,$413,787
+19690498,1872 Pandora Dr, San Jose, CA 95124 ,3 beds,1 bath,930 sqft,$842,776
+122230248,2611 Celadon Cir UNIT 4, San Jose, CA 95133 ,3 beds,4 baths,1,809 sqft,$831,721
+2097645306,505 Eucalyptus Dr # 505, San Jose, CA 95134 ,3 beds,2 baths,1,440 sqft,$704,569
+19735895,3771 Honolulu Dr, San Jose, CA 95111 ,3 beds,2 baths,1,457 sqft,$640,099
+19716443,1165 Camano Ct, San Jose, CA 95122 ,4 beds,2 baths,1,350 sqft,$604,144
+19714177,1187 S 6th St, San Jose, CA 95112 ,3 beds,1 bath,1,550 sqft,$606,833
+19564239,1215 Old Forge Ln, San Jose, CA 95132 ,3 beds,2 baths,1,041 sqft,$816,667
+69302616,434 Cypress Ave, San Jose, CA 95117 ,Studio,-- baths,3,390 sqft,$1,838,280
+19715081,1891 Kinross Way, San Jose, CA 95122 ,3 beds,1 bath,1,026 sqft,$590,598
+19831189,5889 Cadiz Dr, San Jose, CA 95123 ,3 beds,2 baths,1,380 sqft,$806,992
+94695856,177 Esfahan Dr, San Jose, CA 95111 ,3 beds,3 baths,1,794 sqft,$707,801
+51075585,5198 Saint Annes Ct, San Jose, CA 95138 ,3 beds,3 baths,2,827 sqft,$1,575,322
+19694950,3715 Jarvis Ave, San Jose, CA 95118 ,4 beds,2 baths,1,233 sqft,$895,316
+19840897,7135 Via Lomas, San Jose, CA 95139 ,4 beds,2 baths,2,431 sqft,$933,459
+19684549,1449 Alma Loop, San Jose, CA 95125 ,2 beds,2 baths,1,054 sqft,$563,902
+2098359601,G2 Floor Plan - Loft #112 Plan, The Globe San Jose, CA 95113 ,1 bed,1 bath,801 sqft,$499,217
+19691589,2260 Meridian Ave, San Jose, CA 95124 ,Studio,-- baths,2,304 sqft,$1,343,916
+19764942,1246 Silverado Dr, San Jose, CA 95120 ,4 beds,2 baths,1,795 sqft,$1,198,340
+19696948,3180 Cherry Ave, San Jose, CA 95118 ,4 beds,3 baths,1,767 sqft,$992,695
+19586439,414 S Buena Vista Ave, San Jose, CA 95126 ,2 beds,3 baths,1,055 sqft,$567,370
+19765485,6805 Castlerock Dr, San Jose, CA 95120 ,5 beds,3 baths,2,716 sqft,$1,616,930
+19821717,455 Roading Dr, San Jose, CA 95123 ,3 beds,2 baths,1,223 sqft,$768,017
+19800405,8789 Grape Wagon Cir, San Jose, CA 95135 ,2 beds,2 baths,1,415 sqft,$688,197
+19740409,1394 Mocho Ct, San Jose, CA 95121 ,3 beds,2 baths,1,321 sqft,$689,147
+19572112,1737 Cape Aston Ct, San Jose, CA 95133 ,4 beds,3 baths,2,247 sqft,$1,018,471
+19691109,2834 La Rhee Dr, San Jose, CA 95124 ,3 beds,3 baths,2,044 sqft,$1,346,568
+19709529,410 Colony Crest Dr, San Jose, CA 95123 ,2 beds,1 bath,919 sqft,$447,874
+19699197,4411 Calle De Farrar, San Jose, CA 95118 ,4 beds,2 baths,1,956 sqft,$1,088,353
+19799565,7230 Via Sendero, San Jose, CA 95135 ,2 beds,2 baths,1,588 sqft,$690,688
+19842527,7182 Chantilley Ct, San Jose, CA 95139 ,3 beds,2 baths,1,479 sqft,$796,317
+19799179,8487 Grenache Ct, San Jose, CA 95135 ,2 beds,2 baths,1,497 sqft,$624,218
+2099136515,Towns / Plan 2B Plan, Orchard Park San Jose, CA 95131 ,3 beds,3.5 baths,1,718 sqft,$989,971
+2098106056,Residence 1 - Plan 1712 Plan, Avenue One : Grand at Avenue One San Jose, CA 95123 ,3 beds,3.5 baths,1,712 sqft,$787,483
+2099136513,Flats / Plan 1 Plan, Orchard Park San Jose, CA 95131 ,2 beds,2.5 baths,1,661 sqft,$966,681
+19758943,1367 Scossa Ave, San Jose, CA 95118 ,4 beds,2 baths,1,554 sqft,$971,981
+82958767,20 S 2nd St UNIT 227, San Jose, CA 95113 ,1 bed,1 bath,678 sqft,$454,422
+82951796,20 S 2nd St UNIT 225, San Jose, CA 95113 ,1 bed,1 bath,678 sqft,$454,422
+82960209,20 S 2nd St UNIT 229, San Jose, CA 95113 ,2 beds,2 baths,1,170 sqft,$623,207
+19695020,1536 Willowdale Dr, San Jose, CA 95118 ,4 beds,2 baths,1,233 sqft,$836,495
+19833818,6222 Shadelands Dr, San Jose, CA 95123 ,3 beds,2 baths,1,232 sqft,$823,968
+19777669,3527 Ivalynn Cir, San Jose, CA 95132 ,2 beds,2 baths,934 sqft,$566,205
+2099136518,Towns / Plan 1B Plan, Orchard Park San Jose, CA 95131 ,2 beds,3 baths,1,622 sqft,$955,539
+19759557,1348 Shawn Dr APT 1, San Jose, CA 95118 ,2 beds,1 bath,810 sqft,$413,775
+19839673,6769 Moselle Dr, San Jose, CA 95119 ,3 beds,1 bath,1,014 sqft,$741,577
+19641709,6917 Chantel Ct, San Jose, CA 95129 ,2 beds,3 baths,1,051 sqft,$790,091
+2099112200,Plan D2 Plan, The Globe San Jose, CA 95113 ,2 beds,2 baths,1,194 sqft,$693,777
+89473017,77 Muller Pl, San Jose, CA 95126 ,3 beds,3 baths,1,482 sqft,$844,949
+19726068,1779 Ocala Ave, San Jose, CA 95122 ,5 beds,3 baths,1,580 sqft,$635,321
+2097665946,3977 Whinney Place Way, San Jose, CA 95121 ,4 beds,2 baths,1,478 sqft,$854,970
+2098168039,35 Clayton Ave, San Jose, CA 95110 ,5 beds,3 baths,2,749 sqft,$1,132,427
+19701989,4714 Holston River Ct, San Jose, CA 95136 ,4 beds,3 baths,1,760 sqft,$684,151
+2097666423,37 S 8th St APT 4, San Jose, CA 95112 ,4 beds,4 baths,2,174 sqft,$1,656,990
+19574593,411 Park Ave UNIT 235, San Jose, CA 95110 ,2 beds,2 baths,1,048 sqft,$536,302
+59682269,4561 Middle Park Dr, San Jose, CA 95135 ,5 beds,4 baths,3,815 sqft,$1,637,204
+19611568,1428 Lamore Dr, San Jose, CA 95130 ,3 beds,2 baths,1,219 sqft,$1,130,139
+2099071465,Plan 3 Plan, Metro at Communications Hill San Jose, CA 95136 ,4 beds,3.5 baths,2,002 sqft,$815,475
+19747781,5450 Copeland Ln, San Jose, CA 95124 ,4 beds,2 baths,1,852 sqft,$1,285,483
+19695912,4161 Rondeau Dr, San Jose, CA 95124 ,3 beds,2 baths,-- sqft,$1,210,349
+19686806,2251 Lansford Ave, San Jose, CA 95125 ,3 beds,2 baths,1,294 sqft,$1,085,560
+19568661,428 N 2nd St, San Jose, CA 95112 ,6 beds,5 baths,1,815 sqft,$1,235,552
+19684656,1434 Alma Loop, San Jose, CA 95125 ,2 beds,2 baths,1,071 sqft,$559,179
+19558345,1063 Chapman St, San Jose, CA 95126 ,3 beds,1 bath,1,304 sqft,$814,341
+19574482,95 Hobson St APT 10A, San Jose, CA 95110 ,2 beds,1 bath,907 sqft,$478,352
+19583651,2069 University Ave, San Jose, CA 95128 ,5 beds,4 baths,3,526 sqft,$1,856,183
+19831282,5911 Cahalan Ave, San Jose, CA 95123 ,5 beds,3 baths,1,495 sqft,$804,238
+19776355,345 Pasquale Ct, San Jose, CA 95133 ,2 beds,2.5 baths,1,465 sqft,$485,297
+19683915,1543 Carmel Dr, San Jose, CA 95125 ,4 beds,3 baths,2,111 sqft,$1,356,100
+19696253,1453 Blackstone Ave, San Jose, CA 95118 ,4 beds,2 baths,1,363 sqft,$886,854
+19683935,1528 Padres Dr, San Jose, CA 95125 ,5 beds,3 baths,4,459 sqft,$2,715,127
+19673500,3199 Leigh Ave, San Jose, CA 95124 ,3 beds,2 baths,1,260 sqft,$821,682
+2099112199,C1 Plan, The Globe San Jose, CA 95113 ,1 bed,1 bath,873 sqft,$524,834
+2098106057,Residence 3 - Plan 2205 Plan, Avenue One : Grand at Avenue One San Jose, CA 95123 ,4 beds,3.5 baths,2,205 sqft,$830,176
+19724417,2560 Sierra Monte Way, San Jose, CA 95116 ,4 beds,3 baths,1,531 sqft,$637,477
+61323569,1626 Hill Top View Ct, San Jose, CA 95138 ,5 beds,5 baths,4,488 sqft,$2,191,047
+19763000,6412 Camden Ave, San Jose, CA 95120 ,4 beds,2 baths,1,850 sqft,$1,195,351
+19825380,196 Tulip Blossom Ct, San Jose, CA 95123 ,3 beds,2 baths,1,662 sqft,$758,329
+19570095,415 Coyote Creek Cir, San Jose, CA 95116 ,2 beds,2 baths,849 sqft,$392,019
+19489111,435 Camille Cir UNIT 11, San Jose, CA 95134 ,3 beds,3 baths,2,261 sqft,$1,015,875
+2097680315,661 Bonita Ave SPC 64, San Jose, CA 95116 ,3 beds,3 baths,1,100 sqft,$318,176
+69303655,27 Monte Verano Ct, San Jose, CA 95116 ,1 bed,1 bath,597 sqft,$303,145
+19810568,35 S Terrace Ct, San Jose, CA 95138 ,3 beds,2 baths,1,187 sqft,$732,288
+19686121,2103 Coastland Ave, San Jose, CA 95125 ,5 beds,5 baths,3,100 sqft,$1,399,223
+19675837,5170 Cordoy Ln, San Jose, CA 95124 ,3 beds,2 baths,1,844 sqft,$1,057,314
+19728622,1449 S White Rd, San Jose, CA 95127 ,3 beds,2 baths,1,434 sqft,$751,583
+19570755,876 Gilchrist Dr APT 3, San Jose, CA 95133 ,2 beds,1 bath,903 sqft,$401,974
+19701659,4604 Hampton Falls Pl, San Jose, CA 95136 ,3 beds,3 baths,1,745 sqft,$703,745
+2099071462,Plan 2 Plan, Metro at Communications Hill San Jose, CA 95136 ,3 beds,3 baths,1,813 sqft,$804,429
+2099842203,Towns Plan 4 Plan, Onyx San Jose, CA 95133 ,4 beds,4 baths,1,970 sqft,Unavailable
+19573679,358 Caribe Way, San Jose, CA 95133 ,2 beds,3 baths,1,067 sqft,$529,860
+19564296,1241 Tofts Dr, San Jose, CA 95131 ,4 beds,2 baths,1,280 sqft,$803,914
+19828973,336 Mustang St, San Jose, CA 95123 ,4 beds,3 baths,2,312 sqft,$900,512
+19706871,503 Hyde Park Dr, San Jose, CA 95136 ,3 beds,2 baths,1,698 sqft,$897,714
+19800585,9057 Village View Loop, San Jose, CA 95135 ,2 beds,3 baths,2,224 sqft,$1,423,599
+19486013,2010 Lockwood Dr, San Jose, CA 95132 ,3 beds,3 baths,1,629 sqft,$938,598
+19842617,7445 Phinney Way, San Jose, CA 95139 ,4 beds,3 baths,2,137 sqft,$870,670
+19837913,6354 Nepo Dr, San Jose, CA 95119 ,3 beds,2 baths,1,508 sqft,$806,562
+2129309169,2177 Alum Rock Ave, San Jose, CA 95116 ,2 beds,2 baths,996 sqft,$482,511
+19731543,2507 Britt Way, San Jose, CA 95148 ,3 beds,3 baths,1,429 sqft,$812,011
+19693058,1576 Trona Way, San Jose, CA 95125 ,4 beds,2 baths,2,267 sqft,$1,453,151
+2141895607,510 Saddle Brook Dr SPC 149, San Jose, CA 95136 ,3 beds,2 baths,1,080 sqft,$447,432
+79843078,1833 Camino Leonor, San Jose, CA 95131 ,1 bed,2 baths,1,415 sqft,$539,829
+19685472,1164 Roycott Way, San Jose, CA 95125 ,3 beds,2 baths,1,560 sqft,$1,136,965
+19731129,1812 Home Gate Dr, San Jose, CA 95148 ,3 beds,2.5 baths,1,376 sqft,$625,863
+64704657,2378 Azevedo Pkwy, San Jose, CA 95125 ,3 beds,3 baths,1,776 sqft,$803,129
+2098106060,Residence 3 - Plan 2332 Plan, Avenue One : Ellington at Avenue One San Jose, CA 95123 ,4 beds,3.5 baths,2,332 sqft,$854,938
+19769463,3241 Falmouth St, San Jose, CA 95132 ,4 beds,2 baths,1,234 sqft,$941,210
+19682737,1636 Marconi Way, San Jose, CA 95125 ,3 beds,2.5 baths,1,954 sqft,$980,714
+19561025,1711 Holin St, San Jose, CA 95131 ,3 beds,3 baths,1,719 sqft,$884,025
+19733873,3621 Yew Tree Ct, San Jose, CA 95111 ,3 beds,2 baths,1,157 sqft,$435,236
+19695360,1645 Glenroy Dr, San Jose, CA 95124 ,3 beds,2 baths,1,315 sqft,$926,365
+19698054,4004 Meridian Ave, San Jose, CA 95124 ,4 beds,2 baths,1,359 sqft,$899,530
+19692781,2200 Cheryl Way, San Jose, CA 95125 ,3 beds,2 baths,1,151 sqft,Unavailable
+19582656,1910 Topeka Ave, San Jose, CA 95126 ,3 beds,2 baths,1,663 sqft,$959,092
+19804316,3270 Rocky Water Ln, San Jose, CA 95148 ,2 beds,1 bath,1,200 sqft,$518,723
+19592079,1666 Braddock Ct, San Jose, CA 95125 ,2 beds,2 baths,1,044 sqft,$750,093
+19732740,418 El Cajon Dr, San Jose, CA 95111 ,3 beds,1 bath,900 sqft,$538,537
+19831757,1002 La Terrace Cir, San Jose, CA 95123 ,2 beds,1 bath,904 sqft,$525,857
+19566331,1862 Ribisi Way, San Jose, CA 95131 ,4 beds,2 baths,1,843 sqft,$941,019
+19805858,2703 Peartree Ln, San Jose, CA 95121 ,4 beds,2 baths,1,633 sqft,$870,845
+69299750,2616 Villa Cortona Way, San Jose, CA 95125 ,3 beds,3 baths,1,592 sqft,$733,620
+19660491,4880 Grimsby Dr, San Jose, CA 95130 ,4 beds,2 baths,1,354 sqft,$1,271,448
+51075038,4219 Siena Ct, San Jose, CA 95135 ,2 beds,3 baths,1,365 sqft,$894,359
+2099842209,Rows Plan 1 Plan, Onyx San Jose, CA 95133 ,2 beds,2 baths,1,261 sqft,$689,551
+124745440,1060 Sierra Rd, San Jose, CA 95131 ,4 beds,4 baths,1,851 sqft,$1,006,932
+19560170,1680 Sierra Rd, San Jose, CA 95131 ,4 beds,3 baths,1,599 sqft,$912,116
+51074985,3407 Wasson Ct, San Jose, CA 95148 ,3 beds,3 baths,1,864 sqft,$1,112,023
+69301829,1550 Technology Dr UNIT 3092, San Jose, CA 95110 ,1 bed,1 bath,665 sqft,$432,905
+19675030,1910 Adelaide Way, San Jose, CA 95124 ,3 beds,2 baths,1,012 sqft,$1,091,413
+64509805,195 Cahill Park Dr, San Jose, CA 95126 ,4 beds,3 baths,1,650 sqft,$770,872
+89472923,746 Cedarville Ln, San Jose, CA 95133 ,4 beds,4 baths,1,774 sqft,$812,141
+2097702804,218 Rosarno Ct, San Jose, CA 95111 ,2 beds,3 baths,1,443 sqft,$686,749
+19688111,1128 Koch Ln, San Jose, CA 95125 ,3 beds,3 baths,2,900 sqft,$1,575,197
+19570795,877 Gilchrist Walkway APT 3, San Jose, CA 95133 ,2 beds,1 bath,903 sqft,$405,206
+19802756,3059 Shadow Springs Pl, San Jose, CA 95121 ,2 beds,1 bath,1,010 sqft,$459,404
+19689500,1835 Schooldale Dr, San Jose, CA 95124 ,5 beds,3 baths,2,389 sqft,$1,462,353
+19715812,2002 Bikini Ave, San Jose, CA 95122 ,3 beds,1 bath,1,061 sqft,$547,646
+19826481,272 Tradewinds Ct APT 3, San Jose, CA 95123 ,2 beds,1 bath,903 sqft,$403,120
+19578124,334 Fuller Ave, San Jose, CA 95125 ,2 beds,1 bath,949 sqft,$689,949
+19824211,6157 Cottle Rd, San Jose, CA 95123 ,3 beds,2 baths,1,536 sqft,$807,422
+82958798,88 Bush St UNIT 4161, San Jose, CA 95126 ,2 beds,2 baths,1,224 sqft,$848,880
+19568697,429 N 5th St, San Jose, CA 95112 ,2 beds,2 baths,950 sqft,$801,217
+19691910,2627 La Mirada Dr, San Jose, CA 95125 ,3 beds,3 baths,1,584 sqft,$1,122,403
+19685601,1188 Fairview Ave, San Jose, CA 95125 ,2 beds,1 bath,1,324 sqft,$1,507,936
+19832232,5877 Lake Almanor Dr, San Jose, CA 95123 ,2 beds,1 bath,852 sqft,$533,950
+19560514,1314 Vanna Ct, San Jose, CA 95131 ,3 beds,3 baths,1,514 sqft,$913,908
+19740627,1052 Woodminster Dr, San Jose, CA 95121 ,3 beds,2 baths,1,178 sqft,$623,644
+19700815,3177 Heather Ridge Dr, San Jose, CA 95136 ,2 beds,2 baths,1,173 sqft,$553,094
+19818555,4950 Red Creek Dr, San Jose, CA 95136 ,2 beds,3 baths,1,196 sqft,$546,223
+19581708,1553 Mckendrie St, San Jose, CA 95126 ,2 beds,1 bath,1,110 sqft,$835,586
+2098106062,Residence 2 - Plan 2028 Plan, Avenue One : Ellington at Avenue One San Jose, CA 95123 ,3 beds,3.5 baths,2,028 sqft,$805,469
+19824031,6368 Mayo Dr, San Jose, CA 95123 ,4 beds,2 baths,1,562 sqft,$819,777
+19694260,3631 Kersten Dr, San Jose, CA 95124 ,3 beds,2 baths,1,215 sqft,$891,721
+19694745,1552 Hillsdale Ave, San Jose, CA 95118 ,4 beds,2 baths,1,546 sqft,$899,771
+19558155,1092 Obrien Ct, San Jose, CA 95126 ,4 beds,2 baths,1,532 sqft,$1,055,788
+19681189,872 Willow Glen Way, San Jose, CA 95125 ,4 beds,5 baths,3,700 sqft,$2,491,201
+19687274,2296 Markham Ave, San Jose, CA 95125 ,4 beds,2 baths,2,094 sqft,$1,391,732
+82954271,88 N Jackson Ave UNIT 318, San Jose, CA 95116 ,3 beds,2 baths,1,200 sqft,$479,934
+19563992,2693 Orangestone Way, San Jose, CA 95132 ,4 beds,2 baths,1,480 sqft,$843,536
+19766672,1173 Nikulina Ct, San Jose, CA 95120 ,5 beds,6 baths,5,448 sqft,$2,632,925
+19836649,6858 Shearwater Dr, San Jose, CA 95120 ,4 beds,3 baths,2,240 sqft,$1,586,282
+89473193,1252 De Altura Cmns, San Jose, CA 95126 ,2 beds,3 baths,1,667 sqft,$801,567
+19839718,203 Arbor Valley Ct, San Jose, CA 95119 ,3 beds,2 baths,1,392 sqft,$803,661
+19766399,1135 Trevino Ter, San Jose, CA 95120 ,3 beds,3 baths,2,046 sqft,$845,347
+69303306,824 Altino Blvd, San Jose, CA 95136 ,3 beds,3 baths,2,262 sqft,$886,961
+2104533761,5450 Monterey Hwy SPC 167A, San Jose, CA 95111 ,4 beds,2 baths,1,596 sqft,$453,880
+19824433,6405 Pelham Ct, San Jose, CA 95123 ,4 beds,2.5 baths,2,256 sqft,$1,039,406
+19753945,1642 Orchard View Dr, San Jose, CA 95124 ,3 beds,2 baths,1,243 sqft,$924,087
+19717228,2394 Balme Dr # 108, San Jose, CA 95122 ,1 bed,1 bath,648 sqft,$332,532
+19695780,1658 Milroy Pl, San Jose, CA 95124 ,3 beds,2 baths,1,583 sqft,$1,190,508
+19687419,1109 Manor Dr, San Jose, CA 95125 ,4 beds,4 baths,2,543 sqft,$1,343,879
+19659137,4586 Alex Dr, San Jose, CA 95130 ,4 beds,2 baths,1,302 sqft,$1,232,918
+19640634,6898 Bollinger Rd, San Jose, CA 95129 ,3 beds,2 baths,2,360 sqft,$1,771,420
+19735712,1316 Lightland Rd, San Jose, CA 95121 ,4 beds,2 baths,1,698 sqft,$763,309
+19612495,609 Lisa Way, Campbell, CA 95008 ,4 beds,3 baths,2,118 sqft,$1,261,092
+63065776,1286 Previtera Ct, San Jose, CA 95110 ,2 beds,2 baths,1,462 sqft,$678,691
+2097731163,2855 Senter Rd SPC 28, San Jose, CA 95111 ,2 beds,1 bath,470 sqft,$196,046
+2097731666,510 Saddle Brook Dr SPC 151, San Jose, CA 95136 ,2 beds,2 baths,1,040 sqft,$414,796
+69303428,1060 S 3rd St APT 133, San Jose, CA 95112 ,1 bed,1 bath,667 sqft,$374,786
+19704517,384 Castlemaine Ct, San Jose, CA 95136 ,3 beds,3 baths,1,376 sqft,$718,592
+120554327,1101 Carla Dr, San Jose, CA 95120 ,5 beds,5 baths,3,476 sqft,$1,607,542
+81856975,15231 Cooper Ave, San Jose, CA 95124 ,3 beds,1 bath,1,053 sqft,$1,036,552
+19812882,5779 Capilano Dr, San Jose, CA 95138 ,6 beds,5 baths,3,293 sqft,$1,420,304
+19772828,1373 Morrill Ave, San Jose, CA 95132 ,3 beds,1 bath,1,272 sqft,$829,015
+19569839,444 Terrace Dr, San Jose, CA 95112 ,3 beds,1 bath,1,326 sqft,$723,035
+2097735805,1520 E Capitol Expy SPC 155, San Jose, CA 95121 ,3 beds,2 baths,1,482 sqft,$459,183
+19740735,2515 Sherlock Dr, San Jose, CA 95121 ,4 beds,3 baths,1,657 sqft,$731,198
+19757854,5262 Camden Ave, San Jose, CA 95124 ,4 beds,2 baths,1,372 sqft,$995,680
+19696608,1215 Redcliff Dr, San Jose, CA 95118 ,3 beds,2 baths,1,176 sqft,$891,353
+19645477,1090 Hyde Ave, San Jose, CA 95129 ,4 beds,2 baths,1,693 sqft,$1,505,942
+82958269,1421 N 1st St UNIT 153, San Jose, CA 95112 ,1 bed,1 bath,674 sqft,$406,802
+2099071463,Plan 3 Plan, Promenade at Communications Hill San Jose, CA 95136 ,4 beds,4 baths,2,178 sqft,$836,921
+82961956,20 S 2nd St UNIT 329, San Jose, CA 95113 ,2 beds,2 baths,1,170 sqft,$626,999
+19576796,687 Minor Ave, San Jose, CA 95125 ,3 beds,2 baths,1,328 sqft,$738,177
+19812437,5267 Apennines Cir, San Jose, CA 95138 ,4 beds,3 baths,2,682 sqft,$1,553,053
+19811346,523 Hewes Ct, San Jose, CA 95138 ,4 beds,3 baths,2,060 sqft,$974,214
+19758158,1592 Sabina Way, San Jose, CA 95118 ,3 beds,2 baths,1,100 sqft,$906,481
+2099071464,Plan 1 Plan, Metro at Communications Hill San Jose, CA 95136 ,2 beds,2 baths,1,668 sqft,$776,739
+19647814,5766 W Walbrook Dr, San Jose, CA 95129 ,4 beds,2.5 baths,2,428 sqft,$1,704,869
+2097745803,512 Hermitage Pl, San Jose, CA 95134 ,2 beds,2 baths,1,440 sqft,$515,589
+79485241,7078 Goldenspur Loop, San Jose, CA 95138 ,5 beds,4 baths,2,465 sqft,$1,030,675
+19806291,1953 Postgate Ct, San Jose, CA 95121 ,3 beds,3 baths,1,131 sqft,$545,838
+19697263,3570 Jarvis Ave, San Jose, CA 95118 ,2 beds,1 bath,797 sqft,Unavailable
+19841066,104 Bernal Rd, San Jose, CA 95119 ,2 beds,2 baths,960 sqft,$669,894
+2099136495,Flats / Plan 4 Plan, Orchard Park San Jose, CA 95131 ,4 beds,2.5 baths,2,147 sqft,$1,092,693
+82959242,437 N 10th St, San Jose, CA 95112 ,3 beds,2 baths,880 sqft,$641,203
+19589833,909 College Dr, San Jose, CA 95128 ,7 beds,2 baths,1,650 sqft,$972,332
+2097749582,218 Rosarno Ct BLDG 19, San Jose, CA 95111 ,2 beds,3 baths,1,443 sqft,$684,294
+2097749575,Residence 1-Pln 1A,1X,1Y,1Z Plan, Astoria San Jose, CA 95111 ,2 beds,3 baths,1,443 sqft,$684,294
+2097749576,Residence 3-Pln 3E, 3ES Plan, Astoria San Jose, CA 95111 ,4 beds,4 baths,2,042 sqft,$742,785
+2097749581,Residence 4-Pln 4E,4EB,4EX/EXB Plan, Astoria San Jose, CA 95111 ,4 beds,4 baths,2,105 sqft,$891,654
+2098106058,Residence 2 - Plan 1901 Plan, Avenue One : Ellington at Avenue One San Jose, CA 95123 ,3 beds,3.5 baths,1,901 sqft,$796,099
+19806295,3341 Innerwick Ln, San Jose, CA 95121 ,2 beds,2 baths,998 sqft,$515,891
+19707746,5530 Don Octavio Ct, San Jose, CA 95123 ,3 beds,2 baths,1,156 sqft,$516,872
+19814900,418 Branham Ln E, San Jose, CA 95111 ,3 beds,3 baths,1,688 sqft,$615,767
+19706409,4475 Park Sommers Way, San Jose, CA 95136 ,4 beds,3 baths,2,352 sqft,$861,484
+19836405,6665 Mount Pakron Dr, San Jose, CA 95120 ,5 beds,3 baths,2,450 sqft,$1,527,891
+2097751975,Address Not Disclosed, San Jose, CA 95117 ,4 beds,3 baths,1,688 sqft,$999,360
+63065336,1310 Saddle Rack St APT 300, San Jose, CA 95126 ,2 beds,2 baths,1,108 sqft,$640,849
+19606190,1082 Polk Ln, San Jose, CA 95117 ,4 beds,3 baths,1,688 sqft,$1,046,241
+19761286,6240 Via De Adrianna, San Jose, CA 95120 ,5 beds,3 baths,2,546 sqft,$1,409,847
+2099842210,Rows Plan 6 Plan, Onyx San Jose, CA 95133 ,3 beds,3 baths,1,733 sqft,$824,505
+19579022,1071 Glen Brook Ave, San Jose, CA 95125 ,3 beds,2 baths,1,744 sqft,$1,247,323
+19709297,435 Colony Crest Dr, San Jose, CA 95123 ,3 beds,3 baths,1,294 sqft,$552,004
+19648373,5021 Lassen Ave, San Jose, CA 95129 ,3 beds,2 baths,1,570 sqft,$1,530,517
+82963478,330 Lochridge Dr, San Jose, CA 95133 ,-- beds,-- baths,4,856 sqft,$2,241,540
+69303706,88 N Jackson Ave UNIT 201, San Jose, CA 95116 ,2 beds,2 baths,1,056 sqft,$452,430
+19819411,6088 Salida Del Sol, San Jose, CA 95123 ,3 beds,2 baths,1,270 sqft,$807,199
+19719965,914 Mccreery Ave, San Jose, CA 95116 ,4 beds,3 baths,1,860 sqft,$694,249
+79841792,1203 Yarwood Ct, San Jose, CA 95128 ,2 beds,2 baths,922 sqft,$565,506
+19705385,321 Lassenpark Cir, San Jose, CA 95136 ,5 beds,3 baths,2,231 sqft,$913,626
+2097758731,540 Bonita Ave SPC 203, San Jose, CA 95116 ,1 bed,1 bath,399 sqft,$481,761
+19769928,1691 Queens Crossing Dr, San Jose, CA 95132 ,3 beds,2 baths,1,577 sqft,$976,673
+19810462,63 Southgate Ct, San Jose, CA 95138 ,4 beds,3 baths,2,455 sqft,$936,160
+19799202,8510 Fume Blanc Ct, San Jose, CA 95135 ,2 beds,2 baths,1,646 sqft,$632,537
+19716992,1371 Mcquesten Dr APT D, San Jose, CA 95122 ,2 beds,1 bath,876 sqft,$406,091
+2097759842,5450 Monterey Hwy SPC 117, San Jose, CA 95111 ,3 beds,2 baths,1,440 sqft,$459,198
+2097760846,2150 Almaden Rd SPC 25, San Jose, CA 95125 ,2 beds,2 baths,1,040 sqft,$293,850
+89558897,1935 Foxworthy Ave, San Jose, CA 95124 ,3 beds,2 baths,1,655 sqft,$1,100,501
+19768103,1242 Charise Ct, San Jose, CA 95120 ,2 beds,3 baths,1,298 sqft,$895,453
+2097760966,896 S Almaden Ave, San Jose, CA 95110 ,Studio,-- baths,2,197 sqft,$865,928
+19685381,2170 Newport Ave, San Jose, CA 95125 ,5 beds,4 baths,2,887 sqft,$1,897,472
+19803562,2818 Westbranch Dr, San Jose, CA 95148 ,4 beds,3 baths,1,670 sqft,$773,525
+19707831,5459 Don Mateo Ct, San Jose, CA 95123 ,3 beds,2 baths,1,220 sqft,$520,900
+2098900062,Plan 2 Plan, The Glen San Jose, CA 95125 ,3 beds,3 baths,1,484 sqft,$965,769
+2145257300,243 Chateau La Salle Dr, San Jose, CA 95111 ,2 beds,2 baths,1,713 sqft,$479,250
+19734989,1256 Stayner Rd, San Jose, CA 95121 ,3 beds,2 baths,1,239 sqft,$656,298
+19773147,1331 Bonnet Ct, San Jose, CA 95132 ,4 beds,4 baths,2,237 sqft,$1,259,590
+19484950,2831 Via Encinitas, San Jose, CA 95132 ,4 beds,2 baths,1,598 sqft,$842,548
+112098806,1216 Royal Crest Dr, San Jose, CA 95131 ,4 beds,2.5 baths,1,599 sqft,$811,051
+19728426,1301 Sandalwood Ct, San Jose, CA 95127 ,3 beds,2 baths,1,241 sqft,$595,145
+94697643,5411 Country Club Pkwy, San Jose, CA 95138 ,4 beds,4 baths,5,205 sqft,$3,160,432
+19797940,3350 Falls Creek Dr, San Jose, CA 95135 ,4 beds,3 baths,2,905 sqft,$1,564,379
+19608054,3524 Olsen Dr, San Jose, CA 95117 ,4 beds,2 baths,1,380 sqft,$974,881
+19577506,833 Willis Ave, San Jose, CA 95125 ,2 beds,1 bath,720 sqft,$536,977
+19817729,4683 Park Concord Pl, San Jose, CA 95136 ,4 beds,3 baths,2,922 sqft,$1,105,241
+19838815,6147 Encinal Dr, San Jose, CA 95119 ,4 beds,2 baths,1,939 sqft,$925,302
+2097769607,1478 Amesbury Way, San Jose, CA 95127 ,3 beds,2 baths,1,188 sqft,$590,475
+19572878,303 Hans Way, San Jose, CA 95133 ,3 beds,3 baths,1,431 sqft,$544,555
+19816543,109 Springhaven Ct, San Jose, CA 95111 ,3 beds,2 baths,1,372 sqft,$722,710
+19690455,2933 Varden Ave, San Jose, CA 95124 ,4 beds,4 baths,2,206 sqft,$1,221,751
+89475999,630 Almaden Walk Loop, San Jose, CA 95125 ,2 beds,3 baths,1,282 sqft,$689,031
+19748545,5363 Rucker Dr, San Jose, CA 95124 ,4 beds,3 baths,2,004 sqft,$1,462,909
+19777518,3305 Noble Ave, San Jose, CA 95132 ,4 beds,3 baths,1,962 sqft,$1,028,337
+19753743,5503 Muir Dr, San Jose, CA 95124 ,4 beds,2 baths,1,598 sqft,$1,206,282
+69301815,1550 Technology Dr UNIT 3069, San Jose, CA 95110 ,1 bed,1 bath,831 sqft,$467,642
+2097773766,919 Calle De Verde # BRANHAM/EA, San Jose, CA 95136 ,3 beds,2 baths,1,507 sqft,$789,536
+2097773765,510 Saddle Brook Dr SPC 92, San Jose, CA 95136 ,2 beds,2 baths,985 sqft,$407,038
+19575321,664 Morse St, San Jose, CA 95126 ,4 beds,3 baths,2,698 sqft,$1,780,963
+19835704,6611 Bubblingwell Pl, San Jose, CA 95120 ,4 beds,3 baths,2,304 sqft,$1,351,295
+112098050,1487 Freni Ct, San Jose, CA 95121 ,3 beds,2 baths,1,176 sqft,$465,075
+19593701,1761 Meridian Ave, San Jose, CA 95125 ,3 beds,2 baths,1,486 sqft,$1,110,512
+19721528,2027 E San Antonio St, San Jose, CA 95116 ,4 beds,3 baths,1,344 sqft,$590,471
+69303328,2059 Mary Helen Ln, San Jose, CA 95136 ,3 beds,4 baths,1,757 sqft,$815,857
+19702100,4646 Pinto River Ct, San Jose, CA 95136 ,3 beds,3 baths,1,496 sqft,$641,940
+19698116,1638 Jacob Ave, San Jose, CA 95124 ,3 beds,2 baths,1,405 sqft,$917,875
+19582123,1534 Martin Ave, San Jose, CA 95126 ,4 beds,2 baths,1,526 sqft,$881,696
+19824683,5943 Wildflower Dr, San Jose, CA 95123 ,5 beds,4 baths,2,952 sqft,$1,243,807
+19585820,507 Menker Ave, San Jose, CA 95128 ,3 beds,1 bath,1,388 sqft,$852,031
+2097784602,5972 Reddick Ln BLDG 27, San Jose, CA 95123 ,3 beds,4 baths,1,901 sqft,$798,461
+2097784600,5978 Reddick Ln BLDG 27, San Jose, CA 95123 ,3 beds,4 baths,1,793 sqft,$795,422
+19779361,951 Rock Canyon Cir, San Jose, CA 95127 ,4 beds,3 baths,2,478 sqft,$1,145,469
+19677295,5096 Adair Way, San Jose, CA 95124 ,3 beds,2 baths,1,200 sqft,$979,305
+19846870,1022 Kiser Dr, San Jose, CA 95120 ,3 beds,3 baths,1,470 sqft,$899,535
+19704930,4626 Holycon Cir, San Jose, CA 95136 ,3 beds,2 baths,2,236 sqft,$922,009
+19806227,3331 Innerwick Ln, San Jose, CA 95121 ,2 beds,2 baths,988 sqft,$453,216
+19677991,2317 Saidel Dr APT 3, San Jose, CA 95124 ,2 beds,1 bath,903 sqft,$486,914
+64665949,248 Vista Roma Way, San Jose, CA 95136 ,4 beds,2.5 baths,1,878 sqft,$790,270
+19797936,3347 Falls Creek Dr, San Jose, CA 95135 ,5 beds,3 baths,3,153 sqft,$1,583,487
+82961310,286 Casselino Dr, San Jose, CA 95136 ,4 beds,3 baths,3,221 sqft,$1,263,160
+2097789044,2009 Cunningham Ct, San Jose, CA 95148 ,9,713 sqft,Unavailable
+19785108,15143 Rosemar Ave, San Jose, CA 95127 ,2 beds,1 bath,1,823 sqft,$692,891
+19645344,1025 Johnson Ave, San Jose, CA 95129 ,4 beds,2 baths,1,693 sqft,$1,829,131
+19701377,919 Calle De Verde, San Jose, CA 95136 ,3 beds,2 baths,1,507 sqft,$786,959
+19763419,1255 Big Talk Ct, San Jose, CA 95120 ,4 beds,3 baths,2,050 sqft,$1,376,725
+19489891,4194 Sophia Way, San Jose, CA 95134 ,2 beds,3 baths,1,130 sqft,$758,041
+2097793348,6130 Monterey Hwy SPC 193, San Jose, CA 95138 ,2 beds,2 baths,1,440 sqft,$471,996
+79845997,1057 Clintonia Ave, San Jose, CA 95125 ,4 beds,3 baths,2,420 sqft,$1,700,419
+19470231,1577 Wabash St, Alviso, CA 95002 ,5 beds,3 baths,1,742 sqft,$989,704
+2097793723,384 Pinefield Rd, San Jose, CA 95134 ,3 beds,2 baths,1,344 sqft,$732,525
+19821394,527 Suisse Dr, San Jose, CA 95123 ,4 beds,2 baths,1,826 sqft,$966,670
+79843935,2601 Corde Terra Cir, San Jose, CA 95111 ,3 beds,3 baths,1,760 sqft,$709,665
+19753996,5755 Rudy Dr, San Jose, CA 95124 ,5 beds,6 baths,3,181 sqft,$1,918,180
+82950931,88 Bush St UNIT 2166, San Jose, CA 95126 ,2 beds,2 baths,1,444 sqft,$892,031
+19717577,1804 Bevin Brook Dr, San Jose, CA 95112 ,2 beds,2 baths,955 sqft,$471,156
+19764858,1253 Washoe Dr, San Jose, CA 95120 ,4 beds,3 baths,2,733 sqft,$1,558,392
+69303592,2177 Alum Rock Ave APT 134, San Jose, CA 95116 ,2 beds,2 baths,996 sqft,$441,086
+19686782,2117 Ardis Dr, San Jose, CA 95125 ,2 beds,1 bath,1,156 sqft,$1,044,137
+19828144,216 Beegum Way, San Jose, CA 95123 ,3 beds,2 baths,1,617 sqft,$754,219
+19672333,3618 Nova Scotia Ave, San Jose, CA 95124 ,5 beds,3 baths,2,969 sqft,$1,566,388
+19786350,1472 Mount Whitney Dr, San Jose, CA 95127 ,3 beds,2 baths,1,000 sqft,Unavailable
+19562528,2320 Four Oaks Ct, San Jose, CA 95131 ,3 beds,3 baths,1,686 sqft,$948,312
+19809503,5476 Century Park Way, San Jose, CA 95111 ,4 beds,3 baths,2,264 sqft,$836,749
+19691813,2378 La Mirada Dr, San Jose, CA 95125 ,4 beds,3 baths,1,910 sqft,$1,132,892
+51075623,2021 Spanish Bay Ct, San Jose, CA 95138 ,4 beds,4 baths,3,599 sqft,$1,588,014
+19675098,4930 Kenson Dr, San Jose, CA 95124 ,4 beds,3 baths,1,916 sqft,$1,202,200
+19686344,1758 Harmil Way, San Jose, CA 95125 ,3 beds,3 baths,2,148 sqft,$1,470,847
