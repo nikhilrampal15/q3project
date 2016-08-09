@@ -49,4 +49,4 @@ def read_csvfile(filename):
 
 if __name__ == '__main__':
     data = read_csvfile("../data/propertyInfo/redwood-city-ca.csv")
-    print data
+
