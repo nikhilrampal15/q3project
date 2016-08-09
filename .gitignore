@@ -15,5 +15,6 @@ q3project.iml
 .Notes
 unused/
 env/
+winnie/
 
 APIFetch/.env

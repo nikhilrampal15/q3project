@@ -9,6 +9,7 @@ header = ['zpid', 'street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', '
 house = pd.read_csv(filename, sep='\t', names=header)
 house = house.replace('Unavailable', np.NaN)
 house_no_missing = house.dropna()
+print house
 
 
 def centroids(house_data):
