@@ -18,11 +18,11 @@ def initialize_centroid(feature, k):
         centroids (list)
 
     '''
-    centroids = set()
+    centroids = set() # Use set to prevent duplicates
     while len(centroids) != k:
         centroid = random.choice(feature)
         centroids.add(centroid)
-    return list(centroids)
+    return sorted(list(centroids))
 
 def assign_cluster(centroids, data):
     '''Assign clusters to each observation
@@ -45,14 +45,20 @@ def assign_cluster(centroids, data):
         data.loc[data_idx, 'cluster'] = cluster_idx
     return data
 
-def update_centroid(data, k):
-    centroids = set()
+def update_centroid(data, k, threshold_pct, orig_centroids):
+    centroids = []
     for i in range(k):
         curr_cluster_list = data[data.cluster == i]
         updated_centroid = cal_mean_zestimate(curr_cluster_list['zestimate'])
-        centroids.add(updated_centroid)
-    return list(centroids)
-
+        centroids.append(updated_centroid)
+    count = 0
+    for i in range(k):
+        threshold = orig_centroids[i] * threshold_pct
+        if math.fabs(centroids[i] - orig_centroids[i]) < threshold:
+            count += 1
+    if count == k:
+        return False
+    return centroids
 
 if __name__ == '__main__':
     city = "redwood-city-ca"
@@ -60,22 +66,23 @@ if __name__ == '__main__':
     data = read_csvfile(filename)
     data['cluster'] = -1 # add new column to indicate cluster
     print("# of rows = {}".format(len(data)))
-    print("Initial data")
     # print data.head(5)
+    feature_name = 'zestimate'
 
     k = 3
-    feature = data['zestimate']
+    feature = data[feature_name]
     centroids = initialize_centroid(feature, k)
-    print("\nInitial Centroids = {}".format(centroids))
+    print("Centroids 0 = {}".format(centroids))
 
+    threshold_pct = 0.01
     count = 1
-    while count <= 3:
+    while centroids != False:
         data = assign_cluster(centroids, data)
-        print("After cluster assignment")
-        print(data.head(5))
-        bycluster = data.groupby(['cluster'])
-        print(bycluster['zestimate'].describe())
-
-        centroids = update_centroid(data, k)
+        orig_centroids = centroids
+        centroids = update_centroid(data, k, threshold_pct, orig_centroids)
         print("Centroids {} = {}".format(count, centroids))
         count += 1
+
+    print("***Resulting Cluster***")
+    bycluster = data.groupby(['cluster'])
+    print(bycluster['zestimate'].describe())
