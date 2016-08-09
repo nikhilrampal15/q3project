@@ -48,5 +48,5 @@ def read_csvfile(filename):
     return data
 
 if __name__ == '__main__':
-    data = read_csvfile("../data/propertyInfo/redwood-city-ca.csv")
-
+    city = "san-francisco-ca"
+    data = read_csvfile("data/propertyInfo/{}.csv".format(city))
