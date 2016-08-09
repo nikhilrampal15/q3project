@@ -23,10 +23,14 @@ def scrape_property(zpid, city, outfile):
     features = [zpid]
     address = header_div.find("h1", class_="notranslate").text
     address = address.split(',')
+    street_city = address[0: len(address) - 1]
     state_zip = address[len(address) - 1]
-    address = address[0: len(address) - 1]
-    for item in address:
-        features.append(item)
+    street = " ".join(street_city[:len(street_city)-1])
+    city = street_city[len(street_city) - 1]
+    features.append(street)
+    features.append(city)
+    # for item in street_city:
+    #     features.append(item)
     state_zip = state_zip.split(' ')
     state_zip = state_zip[1: len(state_zip)-1]
     features.append(state_zip[0])
@@ -52,7 +56,7 @@ def scrape_property(zpid, city, outfile):
         zest = zest[1:].replace(',', '')
     features.append(zest)
 
-    outfile.write("\t".join(features)  + '\n')
+    outfile.write(",".join(features)  + '\n')
 
     return
 
