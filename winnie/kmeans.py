@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 import matplotlib
-matplotlib.use('TkAgg') # Workaround of an error: Python is not installed as a framework
-from sets import Set
+matplotlib.use('TkAgg')
+# Workaround of an error: Python is not installed as a framework
 import random
 
 def initialize_centroid(data, k):
@@ -24,10 +24,6 @@ def assign_cluster(centroids, house):
         # print "item = {}, cluster_idx = {}".format(item, cluster_idx)
         house['cluster'] = cluster_idx
     return
-
-
-def kmeans():
-    pass
 
 if __name__ == '__main__':
     city = "redwood-city-ca"
