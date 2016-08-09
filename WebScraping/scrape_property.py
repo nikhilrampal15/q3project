@@ -61,7 +61,7 @@ def readZillowPropertyIds(fname):
     return zpids
 
 if __name__ == '__main__':
-    city = "redwood-city-ca"
+    city = "san-mateo-ca"
     zpids = readZillowPropertyIds('../data/zpid/{}.txt'.format(city))
     filename = "../data/propertyInfo/{}.csv".format(city)
     outfile = open(filename, "a")
