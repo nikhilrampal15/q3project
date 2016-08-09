@@ -12,9 +12,14 @@ APIFetch/models/house-compiled.js.map
 node_modules/
 q3project.iml
 .git/
-.Notes/
 env/
-winnie/
+
 *.pyc
 
 APIFetch/.env
+
+
+# Developement files
+winnie/
+.Notes/
+kmeans_wk.py
