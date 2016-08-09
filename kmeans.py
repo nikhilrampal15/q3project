@@ -9,6 +9,7 @@ header = ['zpid', 'street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', '
 house = pd.read_csv(filename, sep='\t', names=header)
 house = house.replace('Unavailable', np.NaN)
 house_no_missing = house.dropna()
+print house
 
 
 def centroids(house_data):
@@ -21,7 +22,6 @@ def centroids(house_data):
         # adds a random integer to the list
     return centroid
     # return the array of random points
-
 
 def cluster(centroids, house_data):
     shortest_distance = []

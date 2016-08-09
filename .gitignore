@@ -12,9 +12,9 @@ APIFetch/models/house-compiled.js.map
 node_modules/
 q3project.iml
 .git/
-unused/
+.Notes/
 env/
+winnie/
+*.pyc
 
 APIFetch/.env
-
-NOTES.md
