@@ -12,9 +12,8 @@ APIFetch/models/house-compiled.js.map
 node_modules/
 q3project.iml
 .git/
+.Notes
 unused/
 env/
 
 APIFetch/.env
-
-NOTES.md
