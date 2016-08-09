@@ -1,27 +1,14 @@
-# K-means algorithm in the san francisco housing market
+# Housing Recommendation Engine
 
 ## Implemented by Winnie & Nik
 
 > Problem:
 Finding affordable housing in San Francisco.
 
-The k-means algorithm analyzes a large data-set of homes available for purchase and points to recommended choices for a user.
+###In this project we build a housing recommendation system with information provided from zillow.com
+### Our research was conducted with many different machine learning algorithms such as baseline, SVD, KNN, and K-means clustering.
 
-| List of Technologies |
-| -------------------- |
-| Python               |
-| JQUERY               |
-| JAVASCRIPT           |
-| Flask                |
-| PSQL                 |
 
-| API  Consumed   |
-| --------------- |
-| zillow.com      |
-
-| Features                 |
-| ------------------------ |
-| Housing Recommendations  |
 
 ## Goals:
 
