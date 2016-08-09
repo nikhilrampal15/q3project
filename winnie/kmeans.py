@@ -12,19 +12,17 @@ def initialize_centroid(data, k):
         centroids.add(centroid)
     return list(centroids)
 
-def assign_cluster(centroids, data):
-    data = data[0:3]
-    for item in data:
+def assign_cluster(centroids, house):
+    zestimate = house['zestimate']
+    for item in zestimate:
         min_distance = float('inf')
-        print "item = {}".format(item)
         for idx, centroid in enumerate(centroids):
-            print "idx = {}, centroid = {}".format(idx, centroid)
             distance = pow((int(centroid) - int(item)), 2)
             if distance < min_distance:
                 min_distance = distance
                 cluster_idx = idx
-                print "cluster_idx = {}".format(cluster_idx)
-
+        # print "item = {}, cluster_idx = {}".format(item, cluster_idx)
+        house['cluster'] = cluster_idx
     return
 
 
@@ -33,15 +31,21 @@ def kmeans():
 
 if __name__ == '__main__':
     city = "redwood-city-ca"
-    filename = "data/propertyInfo/{}.csv".format(city)
+    filename = "../data/propertyInfo/{}.csv".format(city)
     header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate']
     house = pd.read_csv(filename, sep='\t', names=header)
+    # house = house.set_index('zpid') # use zpid as index
     house = house.replace('Unavailable', np.NaN)
-    house_no_missing = house.dropna()
-    print house_no_missing.head(3)
-    zestimate = house_no_missing['zestimate']
+    house['cluster'] = -1 # add new column to indicate cluster
+    house = house.dropna() # drop rows with NaN entry
+    print house.head(3)
 
     k = 3
+    zestimate = house['zestimate']
+    # print zestimate[15565842]
+
     centroids = initialize_centroid(zestimate, k)
     print centroids
-    assign_cluster(centroids, zestimate)
+
+    assign_cluster(centroids, house)
+    # print house['cluster']
