@@ -3,7 +3,7 @@ import numpy as np
 import random
 from read_csvfile import read_csvfile
 k = 5
-city = "redwood-city-ca"
+city = "san-jose-ca"
 filename = "data/propertyInfo/{}.csv".format(city)
 data = read_csvfile(filename)
 #print(data)
@@ -45,4 +45,3 @@ def cluster(centroids, house_data):
 answer = centroids(data)
 print(answer)
 print(cluster(answer, data))
-

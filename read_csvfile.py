@@ -48,7 +48,10 @@ def read_csvfile(filename):
     data['zestimate'] = parse_zestimate(data['zestimate'])
     return data
 
-if __name__ == '__main__':
+def main():
     city = "san-jose-ca"
     data = read_csvfile("data/propertyInfo/{}.csv".format(city))
     print(data)
+
+if __name__ == '__main__':
+    main()

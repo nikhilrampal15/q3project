@@ -80,11 +80,8 @@ def kmeans_1f(data, k, feature_name, threshold_pct):
         count += 1
     return orig_centroids
 
-'''
-    Main portion of the program
-'''
-if __name__ == '__main__':
-    city = "TX-houses"
+def main():
+    city = "redwood-city-ca"
     k = 3
     feature_name = 'zestimate'
     threshold_pct = 0.01
@@ -102,3 +99,9 @@ if __name__ == '__main__':
     print("****** Resulting Cluster ******")
     bycluster = data.groupby(['cluster'])
     print(bycluster[feature_name].describe())
+
+'''
+    Main portion of the program
+'''
+if __name__ == '__main__':
+    main()
