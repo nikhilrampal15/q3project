@@ -26,7 +26,7 @@ Recommendation systems have gained traction fairly quickly in the past few years
 | Sqft             |
 | Property Value   |
 
-### Methods
+### Methods:
 
 The K-means clustering algorithm is used to group homes into individual clusters based on various inputs selected from the dataset criteria.
 Random centroids were picked from the given range of the dataset. Distance was measured using Euclidian Distance to define the cluster and its neighboring inhabitants.
@@ -35,7 +35,10 @@ Random centroids were picked from the given range of the dataset. Distance was m
 
 [![Screen Shot 2016-08-10 at 9.48.45 AM.png](https://s10.postimg.org/g558e7lmh/Screen_Shot_2016_08_10_at_9_48_45_AM.png)](https://postimg.org/image/91xcylg6t/)
 
-
+Data was loaded using python with the aid of the pandas and numpy libraries.
+ 
+### Results:
+![graph1](http://g.recordit.co/UrOq6eESDM.gif)
 
 
 ## Goals:
