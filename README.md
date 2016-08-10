@@ -29,7 +29,7 @@ Recommendation systems have gained traction fairly quickly in the past few years
 ### Methods
 
 The K-means clustering algorithm is used to group homes into individual clusters based on various inputs selected from the dataset criteria. 
-![K-means](https://s9.postimg.org/m9rgwif9r/Screen_Shot_2016_08_10_at_9_48_45_AM.png)
+[![Screen Shot 2016-08-10 at 9.48.45 AM.png](https://s10.postimg.org/g558e7lmh/Screen_Shot_2016_08_10_at_9_48_45_AM.png)](https://postimg.org/image/91xcylg6t/)
 
 
 ## Goals:
