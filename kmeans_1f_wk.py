@@ -1,8 +1,6 @@
 import pandas as pd
 import numpy as np
-import matplotlib
-# matplotlib.use('TkAgg')
-# Workaround of an error: Python is not installed as a framework
+import matplotlib.pyplot as plt
 import random
 import math
 from read_csvfile import read_csvfile
@@ -80,17 +78,16 @@ def kmeans_1f(data, k, feature_name, threshold_pct):
         centroids = update_centroids(data, k, threshold_pct, orig_centroids, feature_name)
         print("Centroids {} = {}".format(count, centroids))
         count += 1
-    return data
-
+    return orig_centroids
 
 '''
     Main portion of the program
 '''
 if __name__ == '__main__':
-    city = "redwood-city-ca"
-    k = 5
+    city = "TX-houses"
+    k = 3
     feature_name = 'zestimate'
-    threshold_pct = 0.001
+    threshold_pct = 0.01
 
     filename = "data/propertyInfo/{}.csv".format(city)
     data = read_csvfile(filename)
@@ -99,8 +96,9 @@ if __name__ == '__main__':
     # print data.head(5)
 
     print("------- Clustering by {} --------".format(feature_name))
-    clustered_data = kmeans_1f(data, k, feature_name, threshold_pct)
+    centroids = kmeans_1f(data, k, feature_name, threshold_pct)
+    print centroids
 
     print("****** Resulting Cluster ******")
-    bycluster = clustered_data.groupby(['cluster'])
+    bycluster = data.groupby(['cluster'])
     print(bycluster[feature_name].describe())
