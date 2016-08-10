@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import math
+import random
 from read_csvfile import read_csvfile
 
 def kNN(data, feature_name, new_house, num_neighbors):
@@ -34,29 +35,17 @@ def main():
     filename = 'data/propertyInfo/{}.csv'.format(city)
     data = read_csvfile(filename)
     feature_name = 'zestimate'
-    # new_house = pd.DataFrame.from_dict({'zpid': '16948197',
-    #                           'street': '4129 Middlesex Dr',
-    #                           'city':'San Diego',
-    #                           'state':'CA',
-    #                           'zipcode':'92116',
-    #                           'bedroom': 3,
-    #                           'bathroom': 3,
-    #                           'sqft': 1750,
-    #                           'zestimate': 976980}, orient = 'index')
 
-    new_house = pd.DataFrame.from_dict({'zpid': '15184786',
-                              'street': '60 College Ave',
-                              'city':'San Francisco',
-                              'state':'CA',
-                              'zipcode':'94112',
-                              'bedroom': 3,
-                              'bathroom': 4,
-                              'sqft': 1620,
-                              'zestimate': 1100651}, orient = 'index')
+    # pick random house
+    random_idx= random.randrange(0, len(data))
+    new_house = data.iloc[random_idx]
+    print("---- House Picked -----")
+    print(new_house)
 
     num_neighbors = 10
     neighbors = kNN(data, feature_name, new_house, num_neighbors)
-    print neighbors
+    print("---- {} Neighbors ----".format(num_neighbors))
+    print(neighbors)
 
 if __name__ == '__main__':
     main()

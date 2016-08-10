@@ -32,27 +32,6 @@ def main():
     feature_name = 'zestimate'
     threshold_pct = 0.1
     num_neighbors = 10
-    # new_house = pd.DataFrame.from_dict({'zpid': '16948197',
-    #                           'street': '4129 Middlesex Dr',
-    #                           'city':'San Diego',
-    #                           'state':'CA',
-    #                           'zipcode':'92116',
-    #                           'bedroom': 3,
-    #                           'bathroom': 3,
-    #                           'sqft': 1750,
-    #                           'zestimate': 976980}, orient = 'index')
-    new_house = pd.DataFrame.from_dict({'zpid': '25403548',
-                              'street': '7943 E Altair Ln',
-                              'city':'Anaheim',
-                              'state':'CA',
-                              'zipcode':'92808',
-                              'bedroom': 3,
-                              'bathroom': 2,
-                              'sqft': 1457,
-                              'zestimate': 647616}, orient = 'index')
-
-    # print new_house
-    # print new_house.loc['zestimate']
 
     filename = "data/propertyInfo/{}.csv".format(city)
     data = read_csvfile(filename)
@@ -67,7 +46,11 @@ def main():
     # bycluster = data.groupby(['cluster'])
     # print(bycluster[feature_name].describe())
 
-    # Find houses using k-NN Algorithm
+    # Find similar houses using k-NN Algorithm
+    random_idx= random.randrange(0, len(data))
+    new_house = data.iloc[random_idx]
+    print("---- House Picked -----")
+    print(new_house)
     print("------- Recommend {} houses --------".format(num_neighbors))
     recommended_houses = find_similar_houses(data, feature_name, centroids, new_house, num_neighbors)
     print(recommended_houses)
