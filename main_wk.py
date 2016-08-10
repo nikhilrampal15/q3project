@@ -27,11 +27,11 @@ def find_similar_houses(data, feature_name, centroids, new_house, num_neighbors)
     return neighbors
 
 def main():
-    city = "san-francisco-ca"
-    k = 3
+    city = "All-houses"
+    k = 5
     feature_name = 'zestimate'
     threshold_pct = 0.1
-    num_neighbors = 5
+    num_neighbors = 10
     # new_house = pd.DataFrame.from_dict({'zpid': '16948197',
     #                           'street': '4129 Middlesex Dr',
     #                           'city':'San Diego',
@@ -41,16 +41,15 @@ def main():
     #                           'bathroom': 3,
     #                           'sqft': 1750,
     #                           'zestimate': 976980}, orient = 'index')
-    new_house = pd.DataFrame.from_dict({'zpid': '97539206',
-                              'street': '33 W 56th St APT 4A',
-                              'city':'New York',
-                              'state':'NY',
-                              'zipcode':'10019',
-                              'bedroom': 1,
+    new_house = pd.DataFrame.from_dict({'zpid': '25403548',
+                              'street': '7943 E Altair Ln',
+                              'city':'Anaheim',
+                              'state':'CA',
+                              'zipcode':'92808',
+                              'bedroom': 3,
                               'bathroom': 2,
-                              'sqft': 1198,
-                              'zestimate': 2545265}, orient = 'index')
-
+                              'sqft': 1457,
+                              'zestimate': 647616}, orient = 'index')
 
     # print new_house
     # print new_house.loc['zestimate']
