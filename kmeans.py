@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import plotly.plotly as py
+import plotly.graph_objs as go
 import random
 from read_csvfile import read_csvfile
 k = 5
@@ -48,9 +50,20 @@ def cluster(centroids, house_data):
 
     return shortest_distance
     # returns the cluster that is closest to the home
+
+
+
 answer = centroids(data)
-# print(answer)
-myData = cluster(answer, data)
-for item in myData:
-    print(item)
+#print(answer)
+#print(cluster(answer, data))
+#print(len(data))
+# for item in myData:
+# print(item)
 # print(data)
+
+pd.set_option('display.max_rows',len(data['zestimate']))
+x = data['zestimate']
+print (x)
+pd.set_option('display.float_format', lambda x: '%.0f' % x)
+print (x)
+#print(data['zestimate'])
