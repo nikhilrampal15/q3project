@@ -49,7 +49,7 @@ def read_csvfile(filename):
     return data
 
 def main():
-    city = "san-jose-ca"
+    city = "redwood-city-ca"
     data = read_csvfile("data/propertyInfo/{}.csv".format(city))
     print(data)
 
