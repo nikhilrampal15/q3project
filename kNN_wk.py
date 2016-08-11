@@ -33,8 +33,10 @@ def getKey(item):
 def main():
     city = 'san-francisco-ca'
     filename = 'data/propertyInfo/{}.csv'.format(city)
+
     data = read_csvfile(filename)
     feature_name = 'zestimate'
+    print data
 
     # pick random house
     random_idx= random.randrange(0, len(data))
@@ -42,10 +44,10 @@ def main():
     print("---- House Picked -----")
     print(new_house)
 
-    num_neighbors = 10
-    neighbors = kNN(data, feature_name, new_house, num_neighbors)
-    print("---- {} Neighbors ----".format(num_neighbors))
-    print(neighbors)
+    # num_neighbors = 10
+    # neighbors = kNN(data, feature_name, new_house, num_neighbors)
+    # print("---- {} Neighbors ----".format(num_neighbors))
+    # print(neighbors)
 
 if __name__ == '__main__':
     main()

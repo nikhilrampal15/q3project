@@ -122,7 +122,7 @@ def main():
     # print(bycluster[feature_name].describe())
 
     write_fname = "data/clustered_results/{}_2f.csv".format(city)
-    data1 = data[['zpid', 'street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'cluster']]
+    data1 = data[['zpid', 'street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'cluster', 'feature_vector']]
     write_to_csvfile(data1, write_fname)
 
 '''

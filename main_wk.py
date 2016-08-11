@@ -34,7 +34,8 @@ def main():
     num_neighbors = 10
 
     filename = "data/propertyInfo/{}.csv".format(city)
-    data = read_csvfile(filename)
+    header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate']
+    data = read_csvfile(filename, header)
     data['cluster'] = -1 # add new column to indicate cluster
     # print data.head(5)
 

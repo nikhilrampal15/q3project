@@ -95,7 +95,8 @@ def main():
     threshold_pct = 0.01
 
     filename = "data/propertyInfo/{}.csv".format(city)
-    data = read_csvfile(filename)
+    header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate']
+    data = read_csvfile(filename, header)
     data['cluster'] = -1 # add new column to indicate cluster
     # print("# of rows = {}".format(len(data)))
     # print data.head(5)
