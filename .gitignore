@@ -22,5 +22,5 @@ APIFetch/.env
 # Developement files
 winnie/
 .Notes/
-kNN_wk.py
-recommend_houses.py
+.ipynb_checkpoints/
+*.ipynb

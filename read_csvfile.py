@@ -21,7 +21,7 @@ def parse_float(data):
 
 def parse_zestimate(data):
     data_int = []
-    mean_zestimate = cal_mean_zestimate(data)
+    mean_zestimate = cal_zestimate_mean(data)
     for item in data:
         if item == "Unavailable":
             data_int.append(mean_zestimate)
@@ -29,7 +29,7 @@ def parse_zestimate(data):
             data_int.append(int(item))
     return data_int
 
-def cal_mean_zestimate(data):
+def cal_zestimate_mean(data):
     total = 0
     count = 0
     for item in data:
@@ -48,7 +48,10 @@ def read_csvfile(filename):
     data['zestimate'] = parse_zestimate(data['zestimate'])
     return data
 
-if __name__ == '__main__':
+def main():
     city = "san-jose-ca"
     data = read_csvfile("data/propertyInfo/{}.csv".format(city))
     print(data)
+
+if __name__ == '__main__':
+    main()
