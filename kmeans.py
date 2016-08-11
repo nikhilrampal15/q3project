@@ -7,7 +7,6 @@ import numpy as np
 import random
 from read_csvfile import read_csvfile
 import math
-import functools
 
 """
 Data-Set Information
@@ -22,9 +21,7 @@ data["cluster"] = -1
 Generating Centroids
 """
 
-
 # amount of centroids chosen
-
 
 def centroids(house_data,k,column_name):
     # takes in housing data parameter
@@ -39,9 +36,7 @@ def centroids(house_data,k,column_name):
     return centroid
     # return the array of random points
 
-
 list_of_centroids = centroids(data, 5,'zestimate')
-
 
 # easier to store function call in a variable
 
@@ -100,14 +95,28 @@ clustering_function = cluster(list_of_centroids,data,'zestimate')
 
 
 def convergence(param1, param2):
-    print(param1,param2)
+    func_1 = list(map(int, param1))
+    func_2 = list(map(int, param2))
+    for old in func_1:
+        for new in func_2:
+            if abs(func_1[old] - func_2[new]) > 1:
+                centroids(data, 5, 'zestimate')
+                cluster(list_of_centroids,data,'zestimate')
+            else:
+                return param2
 
 
+"""
+Formatting
+"""
+pd.set_option('display.max_rows', len(data['zestimate']))
+x = data['zestimate']
+pd.set_option('display.float_format', lambda x: '%.0f' % x)
 
 
 # print(cluster(list_of_centroids, data,'zestimate'))
-convergence(clustering_function, list_of_centroids)
-print(clustering_function)
+print(convergence(clustering_function, list_of_centroids))
+#print(clustering_function)
 #print(data)
 
 # for item in myData:
@@ -120,9 +129,4 @@ print(clustering_function)
 #convergence(list_of_centroids)
 #print([data.cluster])
 
-pd.set_option('display.max_rows', len(data['zestimate']))
-x = data['zestimate']
-#print (x)
-pd.set_option('display.float_format', lambda x: '%.0f' % x)
-#print (x)
-#print(data['zestimate'])
+
