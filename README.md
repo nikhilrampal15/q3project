@@ -35,11 +35,17 @@ Data was loaded using python with the aid of the pandas and numpy libraries.
  
 ### Results:
 
-The estimated price  of homes in San Francisco and San Jose compared to price per square foot.
+####The estimated price  of homes in San Francisco and San Jose compared to price per square foot.
 
 ![Zest v. sqft (SF)](http://g.recordit.co/UDT2gRkMrq.gif)
 
 ![Zest v. sqft(SJ)](http://g.recordit.co/zERsuQoRyJ.gif)
+
+####How many Bedrooms you'd expect to get at a certain price cluster:
+
+![Zest v. bedrooms(SF)](http://g.recordit.co/KTZoBi7jTF.gif)
+![Zest v bedrooms(SJ)](http://g.recordit.co/R6z7e7JqZY.gif)
+
 
 Organizing these homes into clusters helped us to gain the information needed to execute the K nearest neighbor algorithm.
 

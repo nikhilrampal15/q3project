@@ -12,7 +12,7 @@ for i in range(len(df['cluster'].unique())):
     name = df['cluster'].unique()[i]
 
     color = colors[i]
-    x = df[ df['cluster'] == name ]['sqft']
+    x = df[ df['cluster'] == name ]['bedroom']
     y = df[ df['cluster'] == name ]['zestimate']
 
     trace = dict(
@@ -34,7 +34,7 @@ layout = dict(
     width=800,
     height=550,
     autosize=False,
-    title='Zestimate vs. sqft (San Jose)',
+    title='Zestimate vs. Bedrooms (San Jose)',
     scene=dict(
         xaxis=dict(
             gridcolor='rgb(255, 255, 255)',
