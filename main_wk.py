@@ -27,8 +27,8 @@ def find_similar_houses(data, feature_name, centroids, new_house, num_neighbors)
     return neighbors
 
 def main():
-    city = "All-houses"
-    k = 5
+    city = "TX-houses"
+    k = 7
     feature_name = 'zestimate'
     threshold_pct = 0.1
     num_neighbors = 10
@@ -54,6 +54,14 @@ def main():
     print("------- Recommend {} houses --------".format(num_neighbors))
     recommended_houses = find_similar_houses(data, feature_name, centroids, new_house, num_neighbors)
     print(recommended_houses)
+
+    write_fname = "data/clustered_results/{}.csv".format(city)
+    write_to_csvfile(data, write_fname)
+
+
+def write_to_csvfile(data, fname):
+    data.to_csv(fname, index=False, cols=('zpid', 'street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'cluster'))
+    return
 
 
 if __name__ == '__main__':

@@ -64,4 +64,4 @@ fig = dict(data=data, layout=layout)
 # IPython notebook
 # py.iplot(fig, filename='pandas-3d-scatter-iris', validate=False)
 
-url = plotly.offline.plot(fig, filename='pandas-3d-scatter-iris', validate=False)
+url = plotly.offline.plot(fig, filename='pandas-3d-scatter-iris.html', validate=False)
