@@ -5,6 +5,20 @@ import random
 import math
 from read_csvfile import read_csvfile
 
+def normalize_feature(feature):
+
+    return feature
+
+
+def create_feature_vectors(data, feature_names):
+    # normalize data
+    for i in range(len(feature_names)):
+        feature_name_normalized = feature_names[i] + '_norm'
+        data[feature_name_normalized] = normalize_feature(data[feature_names[i]])
+    # combine them with weights
+    print data
+    return
+
 def initialize_centroids(feature, k):
     '''Initialize cluster centroids
 
@@ -49,7 +63,7 @@ def assign_clusters(data, centroids, feature_name):
                 min_distance = distance
                 cluster_idx = idx
         data.loc[data_idx, 'cluster'] = cluster_idx
-    return data
+    return datam
 
 def update_centroids(data, k, threshold_pct, orig_centroids, feature_name):
     '''Update centroids to mean value of each cluster'''
@@ -67,7 +81,7 @@ def update_centroids(data, k, threshold_pct, orig_centroids, feature_name):
         return False
     return centroids
 
-def kmeans_1f(data, k, feature_name, threshold_pct):
+def kmeans_mf(data, k, feature_name, threshold_pct):
     '''k-means algorith for one feature
 
         Works for zestimate and sqft
@@ -91,22 +105,23 @@ def kmeans_1f(data, k, feature_name, threshold_pct):
 def main():
     city = "redwood-city-ca"
     k = 3
-    feature_name = 'zestimate'
+    feature_names = ['sqft', 'zestimate']
     threshold_pct = 0.01
 
     filename = "data/propertyInfo/{}.csv".format(city)
     data = read_csvfile(filename)
     data['cluster'] = -1 # add new column to indicate cluster
-    # print("# of rows = {}".format(len(data)))
-    # print data.head(5)
 
-    print("------- Clustering by {} --------".format(feature_name))
-    centroids = kmeans_1f(data, k, feature_name, threshold_pct)
-    print centroids
+    # TODO: implement the function
+    feature_vectors = create_feature_vectors(data, feature_names)
 
-    print("****** Resulting Cluster ******")
-    bycluster = data.groupby(['cluster'])
-    print(bycluster[feature_name].describe())
+    # print("------- Clustering by {} --------".format(feature_vectors))
+    # centroids = kmeans_mf(data, k, feature_vectors, threshold_pct)
+    # print centroids
+
+    # print("****** Resulting Cluster ******")
+    # bycluster = data.groupby(['cluster'])
+    # print(bycluster[feature_name].describe())
 
 '''
     Main portion of the program
