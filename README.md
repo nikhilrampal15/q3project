@@ -31,24 +31,21 @@ Recommendation systems have gained traction fairly quickly in the past few years
 The K-means clustering algorithm is used to group homes into individual clusters based on various inputs selected from the data set criteria.
 Random centroids were picked from the given range of the dataset. Distance was measured using Euclidean Distance to define the cluster and its neighboring inhabitants.
 
-![Zest v. sqft (SF)](http://g.recordit.co/UDT2gRkMrq.gif)
-
-![Zest v. sqft(SJ)](http://g.recordit.co/zERsuQoRyJ.gif)
-
 Data was loaded using python with the aid of the pandas and numpy libraries.
  
 ### Results:
 
 The estimated price  of homes in San Francisco and San Jose compared to price per square foot.
 
-[![Zestimate vs. Sqft (San Francisco).png](https://s9.postimg.org/kzzsx5oxr/Zestimate_vs_Sqft_San_Francisco.png)](https://postimg.org/image/i5wnjpmrf/)
+![Zest v. sqft (SF)](http://g.recordit.co/UDT2gRkMrq.gif)
+
+![Zest v. sqft(SJ)](http://g.recordit.co/zERsuQoRyJ.gif)
+
+Organizing these homes into clusters helped us to gain the information needed to execute the K nearest neighbor algorithm.
+
+### K-Nearest Neighbors:
 
 
 
-[![Zestimate vs. sqft (San Jose).png](https://s9.postimg.org/99vutz53j/Zestimate_vs_sqft_San_Jose.png)](https://postimg.org/image/gpv4frssr/)
 
-
-
-
-## Goals:
 
