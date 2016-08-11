@@ -28,7 +28,7 @@ def find_similar_houses(data, feature_name, centroids, new_house, num_neighbors)
 
 def main():
     city = "All-houses"
-    k = 7
+    k = 3
     feature_name = 'zestimate'
     threshold_pct = 0.1
     num_neighbors = 10
