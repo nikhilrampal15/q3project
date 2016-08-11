@@ -45,8 +45,7 @@ Data was loaded using python with the aid of the pandas and numpy libraries.
 
 ![Zest v. sqft(SJ)](http://g.recordit.co/zERsuQoRyJ.gif)
 
-
-![Zest v. sqft(N)](http://g.recordit.co/W3AVrXibRg.gif)
+![Zest v. sqft(N)](http://g.recordit.co/6k825Wel8Q.gif)
 
 
 ####How many Bedrooms you'd expect to get at a certain price cluster:
@@ -55,8 +54,7 @@ Data was loaded using python with the aid of the pandas and numpy libraries.
 
 ![Zest v. bedrooms(SJ)](http://g.recordit.co/R6z7e7JqZY.gif)
 
-
-![Zest v. bedrooms(N)](http://g.recordit.co/hwxyLdoT2t.gif)
+![Zest v. bedrooms(N)](http://g.recordit.co/eZ8aVoPB5N.gif)
 
 
 Organizing these homes into clusters helped us to gain the information needed to execute the K nearest neighbor algorithm.
