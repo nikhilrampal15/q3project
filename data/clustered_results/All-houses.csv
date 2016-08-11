@@ -8,7 +8,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 25414868,227 S Calle Diaz, Anaheim,CA,92807,3,2.0,1968,692501,1
 2097895618,The Malaga - Plan 3 Plan, Cava Anaheim,CA,92801,3,3.0,1559,501051,0
 25406561,7411 E Mill Stream Cir, Anaheim,CA,92808,5,5.0,3622,1435206,1
-25164960,2430 E Powhatan Ave, Anaheim,CA,92806,4,2.0,1834,601134,1
+25164960,2430 E Powhatan Ave, Anaheim,CA,92806,4,2.0,1834,601134,0
 25344741,1138 N Earl Pl, Anaheim,CA,92806,3,2.0,1590,584257,0
 25396243,6621 Kameha Cir, Yorba Linda,CA,92886,3,1.5,1250,468074,0
 25411835,160 S Cerro Vista Way, Anaheim,CA,92807,7,8.0,7347,3298994,2
@@ -41,7 +41,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 25323680,1425 E Bassett Way, Anaheim,CA,92805,3,2.0,1551,509812,0
 25661815,1901 W Greenleaf Ave APT M, Anaheim,CA,92801,4,2.0,1497,390069,0
 2101974529,Residence 2 Plan, Turnberry Anaheim,CA,92805,3,3.5,1662,538649,0
-25227238,1532 W Laster Ave, Anaheim,CA,92802,4,3.0,1851,606554,1
+25227238,1532 W Laster Ave, Anaheim,CA,92802,4,3.0,1851,606554,0
 25403789,322 S Larkwood St, Anaheim,CA,92808,3,3.0,2025,671685,1
 25403548,7943 E Altair Ln, Anaheim,CA,92808,3,2.0,1457,647616,1
 25726769,1056 S Dewcrest Dr, Anaheim,CA,92808,2,2.0,1281,481552,0
@@ -101,9 +101,9 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 25415877,5490 E Big Sky Ln, Anaheim,CA,92807,4,3.0,2642,846783,1
 25129242,953 S Pepper St, Anaheim,CA,92802,3,2.0,1233,575590,0
 25331816,512 S Adria St, Anaheim,CA,92802,3,2.0,1572,566553,0
-25416017,729 S Langtree Ln, Anaheim,CA,92807,3,3.0,1650,603660,1
+25416017,729 S Langtree Ln, Anaheim,CA,92807,3,3.0,1650,603660,0
 25660971,867 S Pagossa Way, Anaheim,CA,92808,3,3.0,1250,509251,0
-25160195,571 N Century Dr, Anaheim,CA,92805,3,3.0,1886,605325,1
+25160195,571 N Century Dr, Anaheim,CA,92805,3,3.0,1886,605325,0
 25731358,3562 W Stonepine Ln UNIT F, Anaheim,CA,92804,2,2.0,1026,355962,0
 64750050,5815 E La Palma Ave SPC 182, Anaheim,CA,92807,3,2.0,1537,233216,0
 25225990,2159 W Forest Ln, Anaheim,CA,92804,4,4.0,1641,648790,1
@@ -264,7 +264,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 25727766,5803 E Mountain Loop Trl # 26, Anaheim,CA,92807,3,2.5,1831,583517,0
 25727784,545 S Indian Trl # 44, Anaheim,CA,92807,3,2.5,1957,586954,0
 25727764,5809 E Mountain Loop Trl # 24, Anaheim,CA,92807,2,2.0,1347,531382,0
-25323613,1216 E Turin Ave, Anaheim,CA,92805,4,3.0,2300,602127,1
+25323613,1216 E Turin Ave, Anaheim,CA,92805,4,3.0,2300,602127,0
 25152145,2776 W Monroe Pl, Anaheim,CA,92801,3,2.0,1138,491096,0
 25406726,7351 E Singingwood Dr, Anaheim,CA,92808,3,3.0,2054,646021,1
 25159607,1507 W Romneya Dr, Anaheim,CA,92801,4,2.0,1213,479188,0
@@ -318,7 +318,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 35876974,1331 Miller Reed Ave SE, Atlanta,GA,30315,2,1.0,729,47298,0
 55016796,198 Ponce De Leon Ave NE APT 4E, Atlanta,GA,30308,2,1.0,0,196005,0
 82627331,1023 Juniper St NE UNIT 301, Atlanta,GA,30309,2,2.0,1773,439034,0
-2097711620,Madison Plan, Kirkwood Atlanta,GA,30312,4,4.0,2694,605674,1
+2097711620,Madison Plan, Kirkwood Atlanta,GA,30312,4,4.0,2694,605674,0
 2127684397,361 17th St NW, Atlanta,GA,30363,1,1.0,811,703557,1
 35836286,984 Dill Ave SW, Atlanta,GA,30310,5,3.0,0,56157,0
 14466043,2299 Sutton St SE, Atlanta,GA,30317,2,1.0,1086,248689,0
@@ -792,7 +792,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2097734726,2646 Hosea L Williams Dr NE, Atlanta,GA,30317,3,2.0,1120,322361,0
 2099580615,The Litchfield Plan, Vinings on the Chattahoochee Atlanta,GA,30318,4,3.5,0,375483,0
 55017171,1303 Pine Heights Dr NE, Atlanta,GA,30324,2,2.0,1249,186608,0
-2102043160,2108 Defoors Ferry Rd NW # 102, Atlanta,GA,30318,3,4.0,2530,605431,1
+2102043160,2108 Defoors Ferry Rd NW # 102, Atlanta,GA,30318,3,4.0,2530,605431,0
 71754020,2626 Peachtree Rd NW UNIT 805, Atlanta,GA,30305,2,3.0,1310,398064,0
 82627470,3040 Peachtree Rd NW UNIT 511, Atlanta,GA,30305,2,2.0,1233,338096,0
 2097739724,1973 Jones Ave NW # A-B, Atlanta,GA,30318,6,4.0,3074,78301,0
@@ -893,7 +893,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2097569955,1114 Euphoria Bnd, Austin,TX,78702,3,3.0,1700,703557,1
 2097569982,1006 Muse Ln, Austin,TX,78702,3,3.0,1627,703557,1
 29498146,7900 Keswick Dr, Austin,TX,78745,3,2.0,1685,278070,0
-2101272719,Hyde Plan, Saratoga Hills Dripping Springs,TX,78737,4,3.5,3599,606204,1
+2101272719,Hyde Plan, Saratoga Hills Dripping Springs,TX,78737,4,3.5,3599,606204,0
 63838846,1507 Strickland Dr, Austin,TX,78748,4,3.0,1992,233506,0
 80096300,703 Marc Taylor Dr, Austin,TX,78745,4,3.0,2875,331282,0
 29495551,7904 Turquoise Trl, Austin,TX,78749,3,2.0,1441,255750,0
@@ -1125,7 +1125,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 29385237,2014 E 9th St, Austin,TX,78702,3,1.0,1380,343226,0
 29382708,1406 Canterbury St, Austin,TX,78702,4,3.0,1691,513668,0
 2098899305,206 Plan, Belterra Austin,TX,78737,4,3.0,3147,378859,0
-29363280,8109 Bottlebrush Dr, Austin,TX,78750,5,3.0,3148,605244,1
+29363280,8109 Bottlebrush Dr, Austin,TX,78750,5,3.0,3148,605244,0
 29377616,11328 Monet Dr, Austin,TX,78726,4,3.0,2512,464880,0
 29369818,11301 Deadoak Ln, Austin,TX,78759,4,3.0,2433,462860,0
 2097634193,1301 Chicon St # 303, Austin,TX,78702,2,2.0,860,255748,0
@@ -1143,7 +1143,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 70327803,6811 Covered Bridge Dr, Austin,TX,78736,3,4.0,3108,408641,0
 29370073,11218 Blackmoor Dr, Austin,TX,78759,3,2.0,1964,302171,0
 29400150,5408 Manor Rd, Austin,TX,78723,3,2.0,1254,223256,0
-2097641607,2408 Sorin St, Austin,TX,78723,3,4.0,2385,600127,1
+2097641607,2408 Sorin St, Austin,TX,78723,3,4.0,2385,600127,0
 70985479,15509 Prestancia Dr, Austin,TX,78717,5,3.0,3451,446293,0
 29462132,813 E Oltorf St, Austin,TX,78704,3,2.5,1560,287190,0
 58312147,2605 Kinney Oaks Ct, Austin,TX,78704,2,2.0,1658,453027,0
@@ -1157,7 +1157,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2098113626,B2 Plan, The Grove Austin,TX,78723,2,2.5,1445,308289,0
 2105434970,San Bernard Plan, Searight Village Austin,TX,78748,3,2.5,1937,269700,0
 58316457,10304 Cyrus Cv, Austin,TX,78739,4,3.0,2648,358240,0
-2097645272,2504 Sorin St, Austin,TX,78723,3,4.0,2385,604063,1
+2097645272,2504 Sorin St, Austin,TX,78723,3,4.0,2385,604063,0
 2097647989,809 W Live Oak St # B, Austin,TX,78704,3,3.0,1397,556723,0
 2097647988,809 W Live Oak St # A, Austin,TX,78704,3,3.0,1389,553199,0
 83125186,507 Sabine St APT 903, Austin,TX,78701,1,1.0,693,278069,0
@@ -1420,7 +1420,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2097602681,1232 Blue Hill Ave, Boston,MA,2126,0,0.0,0,703557,1
 59099107,47 Harvard St APT A312, Boston,MA,2129,2,2.0,1157,823088,1
 59184237,88 Worcester St APT 5, Boston,MA,2118,2,1.0,775,726733,1
-59086366,85 Brainerd Rd APT 311, Boston,MA,2134,2,2.0,1040,602614,1
+59086366,85 Brainerd Rd APT 311, Boston,MA,2134,2,2.0,1040,602614,0
 59139149,20 Richmere Rd, Boston,MA,2126,4,3.0,1854,424614,0
 59164802,170 Tremont St APT 1106, Boston,MA,2111,1,1.0,622,718285,1
 59210954,112 Union Park St UNIT 2, Boston,MA,2118,2,1.0,850,668510,1
@@ -1435,7 +1435,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 59173978,32 Myrtle St APT 3-1, Boston,MA,2114,1,1.0,635,611216,1
 59112462,60 Roslin St, Dorchester Center,MA,2124,6,2.0,4363,649104,1
 59141354,32 Florian St # 1, Boston,MA,2131,3,1.0,980,356408,0
-59098130,11 Auburn St # 1, Boston,MA,2129,2,2.0,990,604646,1
+59098130,11 Auburn St # 1, Boston,MA,2129,2,2.0,990,604646,0
 59115164,16 Houghton St, Dorchester,MA,2122,2,1.0,1224,360195,0
 59167888,64 Charlesgate E APT 64, Boston,MA,2215,0,1.0,425,401765,0
 2101088758,4 Weld St, Boston,MA,2131,4,3.0,2500,960810,1
@@ -1520,7 +1520,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 59139330,125 Wellington Hill St, Boston,MA,2126,3,2.0,1834,451536,0
 2097694810,112 Fulton St UNIT 2B, Boston,MA,2109,2,2.0,1109,927247,1
 2097700470,416 Hyde Park Ave # 1, Roslindale,MA,2131,0,1.0,900,336964,0
-123846131,580 Washington St UNIT 1408, Boston,MA,2111,3,3.0,1743,2377338,2
+123846131,580 Washington St UNIT 1408, Boston,MA,2111,3,3.0,1743,2377338,1
 2104723164,60 Gibson St APT 301, Dorchester,MA,2122,2,1.0,765,264935,0
 59158304,20 Latin Rd, Boston,MA,2132,3,2.0,1671,689728,1
 59091539,1480 Commonwealth Ave APT 12A, Boston,MA,2135,2,1.0,1050,522974,0
@@ -1593,7 +1593,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 60112845,103 E Brookline St APT 3, Boston,MA,2118,2,1.0,601,574492,0
 63041545,777 Tremont St UNIT 3, Boston,MA,2118,1,1.0,645,582653,0
 59138215,770 Cummins Hwy APT 2, Boston,MA,2126,1,1.0,640,168239,0
-2097804874,53-55 Harvest St # 1, Dorchester,MA,2125,2,3.0,1887,604704,1
+2097804874,53-55 Harvest St # 1, Dorchester,MA,2125,2,3.0,1887,604704,0
 102987402,45 Province St APT 1504, Boston,MA,2108,2,2.0,1318,1704009,1
 59090060,247 Chestnut Hill Ave APT 1, Boston,MA,2135,1,1.0,464,312502,0
 59177176,280 Commonwealth Ave APT 302, Boston,MA,2116,1,1.0,670,671395,1
@@ -1645,7 +1645,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 59124220,230 Saratoga St, Boston,MA,2128,9,7.0,3401,622802,1
 59124798,40 Webster St, Boston,MA,2136,2,2.0,1047,305327,0
 59089784,110 Strathmore Rd APT 303, Boston,MA,2135,1,1.0,702,407334,0
-59123490,225 Saratoga St, Boston,MA,2128,6,4.0,3300,604450,1
+59123490,225 Saratoga St, Boston,MA,2128,6,4.0,3300,604450,0
 59123758,54 Princeton St, Boston,MA,2128,5,2.0,1982,552135,0
 2097880479,12 Bryon Rd # 5, West Roxbury,MA,2132,1,1.0,625,268791,0
 102987750,110 Stuart St UNIT 25J, Boston,MA,2116,1,2.0,1103,1222407,1
@@ -1749,7 +1749,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 87793944,5 Sutton St APT 2B, Boston,MA,2126,3,1.0,835,236990,0
 2098005823,242 W 5th St # 03, Boston,MA,2127,2,2.0,834,656779,1
 2098005868,242 W 5th St # 2, Boston,MA,2127,2,2.0,750,657864,1
-2098005952,242 W 5th St # 1, Boston,MA,2127,2,1.0,731,601993,1
+2098005952,242 W 5th St # 1, Boston,MA,2127,2,1.0,731,601993,0
 59140805,64 Poydras St, Hyde Park,MA,2136,3,2.0,1200,396339,0
 2098007440,0 Poydras St, Boston,MA,2136,0,0.0,0,703557,1
 59097173,97 Langley Rd, Boston,MA,2135,3,3.0,1469,689370,1
@@ -1780,7 +1780,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2098094125,1 Melbourne St APT 8, Boston,MA,2124,2,1.0,604,203857,0
 81854196,68 Norfolk St UNIT 2, Dorchester Center,MA,2124,3,1.0,1035,229743,0
 2107638439,42 Winthrop St # 1, Boston,MA,2129,3,3.0,1710,1248684,1
-59121826,456 Meridian St, Boston,MA,2128,8,2.0,2996,604799,1
+59121826,456 Meridian St, Boston,MA,2128,8,2.0,2996,604799,0
 59157667,914 Vfw Pkwy, Boston,MA,2132,4,2.0,2300,827688,1
 123851330,45 Senator Bolling Cir, Dorchester Center,MA,2124,4,4.0,2495,599724,0
 2098106473,914 Vfw Pkwy, West Roxbury,MA,2132,4,2.0,2400,808333,1
@@ -1994,7 +1994,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2104582547,2450 N Lowell Ave, Chicago,IL,60639,6,3.0,0,314273,0
 2097558376,2808 S Sawyer Ave # HOME, Chicago,IL,60623,4,3.0,3000,703557,1
 2097558389,4 E Elm St # 15B, Chicago,IL,60611,3,4.0,3516,703557,1
-3868759,360 E Randolph St APT 608, Chicago,IL,60601,2,2.0,1550,606912,1
+3868759,360 E Randolph St APT 608, Chicago,IL,60601,2,2.0,1550,606912,0
 89924322,3124 N Leavitt St, Chicago,IL,60618,6,5.0,6600,1931290,1
 3919128,5206 S Newland Ave, Chicago,IL,60638,3,2.0,1000,244488,0
 3913487,2502 W 40th St, Chicago,IL,60632,3,2.0,1050,140867,0
@@ -2795,7 +2795,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 53389958,12214 Park Bend Dr, Dallas,TX,75230,3,5.0,3778,1110756,1
 26632280,4219 Winding Way Ct, Dallas,TX,75287,3,2.0,2038,309892,0
 26880346,4055 Fawnhollow Dr, Dallas,TX,75244,4,3.0,3180,648908,1
-26900602,5200 Keller Springs Rd APT 1520, Dallas,TX,75248,2,2.0,2272,604756,1
+26900602,5200 Keller Springs Rd APT 1520, Dallas,TX,75248,2,2.0,2272,604756,0
 2120280125,2900 Mckinnon St APT 3002, Dallas,TX,75201,3,5.0,5081,701961,1
 26681209,3809 Spence St, Dallas,TX,75215,0,0.0,0,703557,1
 96492372,3614 Bertrand Ave, Dallas,TX,75210,0,0.0,0,703557,1
@@ -3014,7 +3014,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 64630522,4395 E Jewell Ave UNIT 3, Denver,CO,80222,2,3.0,1475,294373,0
 13339735,124 S Utica St, Denver,CO,80219,3,2.0,1129,221534,0
 13322129,1661 Garfield St, Denver,CO,80206,4,2.0,2241,633695,1
-13374014,2050 S Adams St, Denver,CO,80210,5,2.0,2209,604720,1
+13374014,2050 S Adams St, Denver,CO,80210,5,2.0,2209,604720,0
 13056352,2336 S Fairfax Dr, Denver,CO,80222,4,3.0,2525,512813,0
 13381409,2795 W Water Ave, Denver,CO,80219,2,1.0,1397,277718,0
 121236170,8012 E 50th Dr, Denver,CO,80238,4,4.0,3201,587895,0
@@ -3480,7 +3480,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 28025196,5622 Simsdale St, Houston,TX,77033,3,1.0,1296,72593,0
 27921361,4447 Castor St, Houston,TX,77022,2,2.0,1285,96877,0
 28174715,7823 Grove Ridge Dr, Houston,TX,77061,2,2.0,1554,76249,0
-27762444,618 Cortlandt St, Houston,TX,77007,5,4.0,2414,602073,1
+27762444,618 Cortlandt St, Houston,TX,77007,5,4.0,2414,602073,0
 2097598619,The Manchester Plan, Houston Heights/Heights Annex Houston,TX,77008,3,3.0,2515,453941,0
 89638174,13223 Gardnerville St, Houston,TX,77034,4,3.0,2570,192642,0
 80569771,14815 Tuttle Point Dr, Houston,TX,77082,3,2.5,0,178230,0
@@ -4053,7 +4053,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 68276009,3151 Soaring Gulls Dr UNIT 1155, Las Vegas,NV,89128,1,1.0,704,63192,0
 61751678,11786 Weybrook Park Dr, Las Vegas,NV,89141,3,3.0,2296,562308,0
 68541892,68 E Serene Ave UNIT 306, Las Vegas,NV,89123,2,2.0,1395,214117,0
-2099427549,Azure Plan, Summerlin : Delano Las Vegas,NV,89138,3,3.5,3300,606823,1
+2099427549,Azure Plan, Summerlin : Delano Las Vegas,NV,89138,3,3.5,3300,606823,0
 6894341,7921 Pinnochio Ave, Las Vegas,NV,89131,3,2.0,1456,193228,0
 63329713,1444 Sur Este Ave, Las Vegas,NV,89123,5,3.0,2438,287533,0
 6916664,5605 Red Bluff Dr, Las Vegas,NV,89130,3,2.0,1489,205773,0
@@ -4541,7 +4541,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 20795002,1743 Courtney Ave, Los Angeles,CA,90046,0,0.0,4280,2643164,2
 2101523509,2301 S Ridgeley Dr, Los Angeles,CA,90016,0,0.0,6840,703557,1
 95669660,10420 S Figueroa St, Los Angeles,CA,90003,16,12.0,6004,703557,1
-81959314,1100 S Hope St APT 1904, Los Angeles,CA,90015,3,4.0,3487,2368443,2
+81959314,1100 S Hope St APT 1904, Los Angeles,CA,90015,3,4.0,3487,2368443,1
 20803651,2657 Larmar Rd, Los Angeles,CA,90068,3,3.0,2292,2079115,1
 20506286,1353 Woodruff Ave, Los Angeles,CA,90024,3,2.0,1825,1789299,1
 65240715,18152 Stallion Mdws, Granada Hills,CA,91344,5,5.0,5348,1605218,1
@@ -4625,7 +4625,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 20620418,4150 Ascot Ave, Los Angeles,CA,90011,0,0.0,0,406979,0
 2097900040,Residence 2 Plan, The District Northridge,CA,91324,3,3.0,2138,746219,1
 20561533,1308 W 54th St, Los Angeles,CA,90037,2,1.0,988,359402,0
-20762398,623 Holland Ave, Los Angeles,CA,90042,2,2.0,1101,600172,1
+20762398,623 Holland Ave, Los Angeles,CA,90042,2,2.0,1101,600172,0
 20092953,10845 Burland Ave, Tujunga,CA,91042,2,2.0,1427,660628,1
 2098105418,Cahill Plan, Westcliffe at Porter Ranch - Palisades Collection Porter Ranch,CA,91326,5,5.5,4799,1495455,1
 20515685,313 S La Peer Dr, Los Angeles,CA,90048,4,5.0,3823,2320035,1
@@ -4740,7 +4740,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 20563381,1932 W 54th St, Los Angeles,CA,90062,4,4.0,2720,747541,1
 20544302,16543 Akron St, Pacific Palisades,CA,90272,3,2.0,1555,1937111,1
 19983114,4629 Burnet Ave, Sherman Oaks,CA,91403,3,2.0,1793,1067679,1
-19986468,4477 Woodman Ave APT 202, Sherman Oaks,CA,91423,2,2.0,1438,605143,1
+19986468,4477 Woodman Ave APT 202, Sherman Oaks,CA,91423,2,2.0,1438,605143,0
 50893729,15232 Foothill Blvd UNIT 140, Sylmar,CA,91342,4,3.0,1500,386619,0
 20523112,1347 Braeridge Dr, Beverly Hills,CA,90210,3,4.0,2773,2472331,2
 19936752,5748 Enfield Ave, Encino,CA,91316,4,3.0,1900,656895,1
@@ -4787,7 +4787,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 20533287,9720 Moorgate Rd, Beverly Hills,CA,90210,5,5.0,3868,2773236,2
 20579748,3915 Sutro Ave, Los Angeles,CA,90008,3,3.0,1950,682047,1
 82878128,702 S Serrano Ave APT 803, Los Angeles,CA,90005,3,3.0,1460,935255,1
-20610834,846 S Hudson Ave, Los Angeles,CA,90005,4,4.0,2939,2423980,2
+20610834,846 S Hudson Ave, Los Angeles,CA,90005,4,4.0,2939,2423980,1
 20612413,904 S Normandie Ave, Los Angeles,CA,90006,0,0.0,0,703557,1
 20466076,11615 Nebraska Ave APT 4, Los Angeles,CA,90025,2,3.0,1712,756509,1
 20806983,2621 Creston Dr, Los Angeles,CA,90068,3,2.0,2008,1781460,1
@@ -4885,7 +4885,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 19749957,451 Alberto Way UNIT D149, Los Gatos,CA,95032,2,2.0,1076,691020,1
 19666642,107 Casitas Bulevar, Los Gatos,CA,95032,3,3.0,2175,1273909,1
 2097777676,0 Blackberry Hl, Los Gatos,CA,95030,0,0.0,0,703557,1
-19679625,17274 Verdes Robles, Los Gatos,CA,95030,4,3.0,2753,2396557,2
+19679625,17274 Verdes Robles, Los Gatos,CA,95030,4,3.0,2753,2396557,1
 19665907,576 W Parr Ave UNIT 21, Los Gatos,CA,95032,2,1.0,934,539149,0
 2140007893,33 Walnut Ave, Los Gatos,CA,95030,5,4.0,2610,2206208,1
 2097805121,16144 Loretta Ln # 59, Los Gatos,CA,95032,3,3.0,1318,768447,1
@@ -4897,7 +4897,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2112722575,15680 Gum Tree Ln, Los Gatos,CA,95032,7,9.0,8000,4786608,2
 19745455,129 Fairmead Ln, Los Gatos,CA,95032,4,3.0,2100,1946827,1
 19749361,123 Bella Vista Ave, Los Gatos,CA,95030,2,2.0,1426,1439016,1
-19679395,15055 Garden Hill Dr, Los Gatos,CA,95032,5,3.0,3070,2389631,2
+19679395,15055 Garden Hill Dr, Los Gatos,CA,95032,5,3.0,3070,2389631,1
 19747138,16005 Shannon Rd, Los Gatos,CA,95032,1,1.0,668,1115622,1
 19666805,231 Prince St, Los Gatos,CA,95032,5,3.0,2486,1835514,1
 19745886,16522 Los Gatos Almaden Rd, Los Gatos,CA,95032,3,1.0,1250,1667439,1
@@ -4911,7 +4911,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 19750838,17160 Crescent Dr, Los Gatos,CA,95030,4,4.0,4074,3228952,2
 19748231,115 Anne Way, Los Gatos,CA,95032,3,3.0,1766,1436546,1
 19679876,111 Almond Hill Ct, Los Gatos,CA,95032,3,2.5,1574,1116554,1
-19749478,195 Kimble Ave, Los Gatos,CA,95030,4,2.0,2776,2372121,2
+19749478,195 Kimble Ave, Los Gatos,CA,95030,4,2.0,2776,2372121,1
 19744351,45 Wadsworth Ave, Los Gatos,CA,95030,5,4.0,4736,3887745,2
 19747495,163 Belcrest Dr, Los Gatos,CA,95032,5,3.0,2448,1638880,1
 2109527764,0 Beckwith Rd, Los Gatos,CA,95030,0,0.0,0,703557,1
@@ -5059,7 +5059,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2097582705,245 E 54th St APT 26D, New York,NY,10022,1,1.0,0,703557,1
 2097583335,356 W 40th St, New York,NY,10018,0,0.0,0,703557,1
 72528894,225 E 76th St APT 5A, New York,NY,10021,1,1.0,800,625314,1
-83890520,140 Cabrini Blvd APT 127, New York,NY,10033,1,1.0,0,607740,1
+83890520,140 Cabrini Blvd APT 127, New York,NY,10033,1,1.0,0,607740,0
 31542077,153 E 87th St APT 11B, New York,NY,10128,0,1.0,509,673974,1
 2097584639,39 William St # 39B, New York,NY,10005,1,1.0,791,703557,1
 80008645,80 John St APT 12E, New York,NY,10038,1,1.0,613,815224,1
@@ -5160,7 +5160,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2097615140,559 W 23rd St # 9-10, New York,NY,10011,3,4.0,2410,5686945,2
 2097615142,639 W End Ave # 16A, New York,NY,10025,3,3.0,1700,2770175,2
 2097615470,519 E 81st St APT 4A, New York,NY,10028,0,1.0,0,3216386,2
-2097615477,250 W 94th St # 7E, New York,NY,10025,2,2.0,0,2393356,2
+2097615477,250 W 94th St # 7E, New York,NY,10025,2,2.0,0,2393356,1
 31502965,270 W 17th St APT 15F, New York,NY,10011,1,1.0,595,1327375,1
 31503764,170 W 23rd St APT 6F, New York,NY,10011,1,1.0,709,957903,1
 80008581,212 E 57th St # 19B, New York,NY,10022,1,1.0,700,1172598,1
@@ -5170,7 +5170,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 72525843,303 E 57th St APT 7D, New York,NY,10022,2,2.0,1400,829060,1
 72523544,316 W 84th St APT 1E, New York,NY,10024,1,1.0,750,737983,1
 2103162340,21-23 S William St # 7B, Manhattan,NY,10004,1,1.0,600,820848,1
-2097626315,200 W 20th St APT 314, New York,NY,10011,0,1.0,485,601138,1
+2097626315,200 W 20th St APT 314, New York,NY,10011,0,1.0,485,601138,0
 2097626982,180 Avenue Of The Americas APT 7B, New York,NY,10013,3,4.0,2221,5630418,2
 119919210,36 N Moore St APT 2W, New York,NY,10013,2,2.0,0,2989077,2
 122274928,430 Broome St, New York,NY,10013,0,0.0,0,4709024,2
@@ -5303,7 +5303,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2097673574,138 Grand St APT 5WR, New York,NY,10013,3,2.0,3000,5127220,2
 2097673564,31 Jane St APT 1G, New York,NY,10014,1,1.0,0,913808,1
 31501445,651 Washington St, New York,NY,10014,5,4.0,2856,7390885,2
-31539247,404 E 79th St APT 5A, New York,NY,10021,3,3.0,1900,2381497,2
+31539247,404 E 79th St APT 5A, New York,NY,10021,3,3.0,1900,2381497,1
 31521589,155 W 71st St APT 5D, New York,NY,10023,2,2.0,988,1522361,1
 2097673566,575 Park Ave # 505, New York,NY,10065,2,3.0,1900,2143317,1
 2097673568,45 Tudor City Pl APT 208, New York,NY,10017,0,1.0,375,523045,0
@@ -5399,11 +5399,11 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 97527984,166 Perry St # 5C, New York,NY,10014,2,3.0,1521,4721734,2
 72511644,524 E 13th St APT A1, New York,NY,10009,0,1.0,0,452088,0
 2097703604,969 5th Ave # 15FL, New York,NY,10075,3,3.0,0,9269181,2
-2097703606,252 W 30th St # 5A1, New York,NY,10001,4,2.0,1542,2363389,2
+2097703606,252 W 30th St # 5A1, New York,NY,10001,4,2.0,1542,2363389,1
 87617805,193 2nd Ave APT 4, New York,NY,10003,3,1.0,1250,1576110,1
 31523132,200 Riverside Blvd APT 23B, New York,NY,10069,2,2.0,1120,2122688,1
 72539501,310 E 46th St APT 12H, New York,NY,10017,2,1.0,0,703557,1
-2099128955,438 E 12th St # 3E, New York,NY,10009,2,3.0,1194,2369873,2
+2099128955,438 E 12th St # 3E, New York,NY,10009,2,3.0,1194,2369873,1
 2099128956,438 E 12th St # 4F, New York,NY,10009,3,3.0,1686,3271170,2
 2098993066,438 E 12th St # 3U, New York,NY,10009,1,2.0,795,1545454,1
 2100503588,1361 Madison Ave APT 5F, New York,NY,10128,2,2.0,0,2295282,1
@@ -5529,7 +5529,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2137210958,3053 Elizabeth St, Miami,FL,33133,3,3.0,1721,470392,0
 70776484,335 S Biscayne Blvd APT 3402, Miami,FL,33131,1,1.0,846,340417,0
 92437506,500 Brickell Ave APT 1210, Miami,FL,33131,2,2.0,1197,442104,0
-92443215,60 SW 13th St APT 3426, Miami,FL,33130,3,3.0,1568,601279,1
+92443215,60 SW 13th St APT 3426, Miami,FL,33130,3,3.0,1568,601279,0
 43815440,228 NW 35th St, Miami,FL,33127,0,0.0,1851,351562,0
 82070721,2525 SW 3rd Ave APT 901, Miami,FL,33129,3,2.0,1238,512884,0
 43833481,555 NE 15th St APT 29D, Miami,FL,33132,1,2.0,890,280530,0
@@ -5537,7 +5537,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2097571306,1600 SW 1st Ave APT 414, Miami,FL,33129,2,2.0,1333,703557,1
 122018856,3250 NE 1st Ave APT 310, Miami,FL,33137,1,2.0,1758,655693,1
 92443909,350 S Miami Ave APT 2715, Miami,FL,33130,1,1.0,698,258343,0
-2101080706,460 NE 28th St APT 3907, Miami,FL,33137,2,2.0,1180,605726,1
+2101080706,460 NE 28th St APT 3907, Miami,FL,33137,2,2.0,1180,605726,0
 43864742,362 SW 18th Ter, Miami,FL,33129,4,3.0,2652,646161,1
 43807270,6235 NW Miami Pl, Miami,FL,33150,3,2.0,1089,185674,0
 64830402,2101 Brickell Ave APT 412, Miami,FL,33129,2,2.0,1367,492477,0
@@ -5811,7 +5811,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 43814364,38 NE 50th St, Miami,FL,33137,4,3.0,1738,451570,0
 92440273,495 Brickell Ave APT 4505, Miami,FL,33131,2,2.0,1450,855003,1
 92439167,90 SW 3rd St APT 2314, Miami,FL,33130,2,2.0,1172,382298,0
-2100771795,460 NE 28th St APT 3307, Miami,FL,33137,2,2.0,1095,602013,1
+2100771795,460 NE 28th St APT 3307, Miami,FL,33137,2,2.0,1095,602013,0
 82416950,41 SE 5th St APT 2001, Miami,FL,33131,2,2.0,1267,452910,0
 70776801,325 S Biscayne Blvd APT 1915, Miami,FL,33131,2,2.0,1145,466603,0
 92442940,485 Brickell Ave APT 3904, Miami,FL,33131,2,2.0,1286,718126,1
@@ -5846,7 +5846,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2124995339,91 NW 73rd St, Miami,FL,33150,0,0.0,0,703557,1
 92437086,465 Brickell Ave APT 3806, Miami,FL,33131,1,1.0,816,374992,0
 43815802,124 NW 31st St, Miami,FL,33127,0,0.0,1945,461634,0
-2097746635,2871 SW 33rd Ct # 2, Miami,FL,33133,3,4.0,2550,600346,1
+2097746635,2871 SW 33rd Ct # 2, Miami,FL,33133,3,4.0,2550,600346,0
 43858360,3652 SW 24th Ter, Miami,FL,33145,0,0.0,2655,509622,0
 43849896,2425 SW 16th St, Miami,FL,33145,4,3.0,2702,472839,0
 82059918,1690 SW 27th Ave APT 305, Miami,FL,33145,2,2.0,903,238147,0
@@ -6210,7 +6210,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 24756408,6037 Claremont Ave, Oakland,CA,94618,0,0.0,0,1771325,1
 24816177,6901 Chambers Dr, Oakland,CA,94611,4,2.0,2430,1158897,1
 24803248,9958 Gibraltar Rd, Oakland,CA,94603,2,1.0,776,280393,0
-24745161,670 Vernon St APT 306, Oakland,CA,94610,2,1.0,1080,606462,1
+24745161,670 Vernon St APT 306, Oakland,CA,94610,2,1.0,1080,606462,0
 24793031,2707 75th Ave, Oakland,CA,94605,2,1.0,940,299089,0
 24745011,500 Vernon St APT 311, Oakland,CA,94610,1,1.0,744,449949,0
 24786319,3810 Delmont Ave, Oakland,CA,94605,2,1.0,1046,513640,0
@@ -6219,10 +6219,10 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 24774348,1915 Oakview Dr, Oakland,CA,94602,4,4.0,2674,1257007,1
 2097570157,648 44th St, Oakland,CA,94609,0,0.0,0,703557,1
 24750220,4328 Martin Luther King Jr Way, Oakland,CA,94609,0,0.0,0,945819,1
-89032670,888 20th St, Oakland,CA,94607,2,2.0,1130,606335,1
+89032670,888 20th St, Oakland,CA,94607,2,2.0,1130,606335,0
 24741157,177 19th St APT 6C, Oakland,CA,94612,2,2.0,1608,986981,1
 24793682,3036 73rd Ave, Oakland,CA,94605,3,1.0,1310,589473,0
-2119623703,335 Channel Way, Oakland,CA,94601,3,3.0,1991,605099,1
+2119623703,335 Channel Way, Oakland,CA,94601,3,3.0,1991,605099,0
 24754282,5501 Adeline St, Oakland,CA,94608,2,2.0,884,680838,1
 24753990,5723 Shattuck Ave, Oakland,CA,94609,2,1.0,991,682586,1
 24809395,25 Riviera Ct, Oakland,CA,94605,3,2.0,1940,916091,1
@@ -6268,7 +6268,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 24775045,4243 Detroit Ave, Oakland,CA,94619,3,2.0,2051,676377,1
 24743382,150 Pearl St APT 211, Oakland,CA,94611,1,1.0,623,406028,0
 24803588,10450 West Ct, Oakland,CA,94603,3,2.0,1152,357729,0
-24799357,8459 Ney Ave, Oakland,CA,94605,3,3.0,1610,602889,1
+24799357,8459 Ney Ave, Oakland,CA,94605,3,3.0,1610,602889,0
 79533311,3090 Glascock St APT 122, Oakland,CA,94601,3,3.0,1625,668644,1
 24798801,2240 88th Ave, Oakland,CA,94605,2,1.0,1450,321802,0
 2099353557,The Caper Plan, Jade at Monte Vista Villas Oakland,CA,94605,4,2.0,2415,793598,1
@@ -6334,10 +6334,10 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 24741774,670 32nd St, Oakland,CA,94609,9,5.0,3443,896158,1
 24766335,2775 E 21st St, Oakland,CA,94601,4,2.0,1334,465659,0
 24767986,2677 Coolidge Ave, Oakland,CA,94601,6,4.0,2933,628158,1
-24799220,8332 Golf Links Rd, Oakland,CA,94605,2,2.0,1374,601589,1
+24799220,8332 Golf Links Rd, Oakland,CA,94605,2,2.0,1374,601589,0
 24786189,3956 Edgemoor Pl, Oakland,CA,94605,3,2.0,1550,635222,1
 24790291,2450 68th Ave, Oakland,CA,94605,3,1.0,1930,415941,0
-68030310,77 Fairmount Ave APT 102, Oakland,CA,94611,2,2.0,1083,605156,1
+68030310,77 Fairmount Ave APT 102, Oakland,CA,94611,2,2.0,1083,605156,0
 24752538,652 54th St, Oakland,CA,94609,2,1.0,1250,584999,0
 24814963,6822 Exeter Dr, Oakland,CA,94611,3,3.0,2932,1190824,1
 24794129,7749 Crest Ave, Oakland,CA,94605,2,1.0,1184,623270,1
@@ -6437,7 +6437,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2097854494,01 Tunnel Rd LOT A, Oakland,CA,94611,0,0.0,0,703557,1
 111411528,938 60TH St, Oakland,CA,94608,0,0.0,0,703557,1
 2099018169,2822 Havenscourt Blvd, Oakland,CA,94605,0,0.0,2400,585593,0
-24807923,10610 Stella St, Oakland,CA,94605,2,1.0,1146,604603,1
+24807923,10610 Stella St, Oakland,CA,94605,2,1.0,1146,604603,0
 24820323,6672 Charing Cross Rd, Oakland,CA,94618,3,3.0,2337,841627,1
 24775304,3770 35th Ave, Oakland,CA,94619,2,1.0,840,496919,0
 24764002,1722 Excelsior Ave, Oakland,CA,94602,1,1.0,722,414034,0
@@ -6470,7 +6470,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 111405085,6881 Sherwick Dr, Berkeley,CA,94705,0,0.0,0,703557,1
 89031466,1201 Pine St UNIT 328, Oakland,CA,94607,1,2.0,950,551350,0
 24787024,262 Rishell Dr, Oakland,CA,94619,3,3.0,2172,912966,1
-68030231,2922 Linden St, Oakland,CA,94608,4,2.0,1314,605478,1
+68030231,2922 Linden St, Oakland,CA,94608,4,2.0,1314,605478,0
 24772138,4165 Norton Ave, Oakland,CA,94602,3,2.0,1912,921875,1
 72652864,993 W Macarthur Blvd, Oakland,CA,94608,3,3.0,1412,712050,1
 24802712,419 Darien Ave, Oakland,CA,94603,2,1.0,782,286872,0
@@ -6548,7 +6548,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 89031017,6872 Pinehaven Rd, Oakland,CA,94611,4,4.0,3511,1366958,1
 24738858,1022 Union St, Oakland,CA,94607,6,3.0,3205,1031564,1
 24820586,92 Gravatt Dr, Berkeley,CA,94705,4,5.0,5200,2833127,2
-24776025,3650 Maybelle Ave, Oakland,CA,94619,3,3.0,1630,606161,1
+24776025,3650 Maybelle Ave, Oakland,CA,94619,3,3.0,1630,606161,0
 24805039,2127 100th Ave, Oakland,CA,94603,2,1.0,950,300090,0
 24881397,1890 North Blvd, San Leandro,CA,94577,2,1.0,824,477982,0
 24788226,2575 64th Ave, Oakland,CA,94605,2,1.0,988,356941,0
@@ -6859,7 +6859,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2100508843,Bramante Plan, Toll Brothers at Eagle Creek - Signature Collection Orlando,FL,32832,4,4.5,4229,672860,1
 46056823,4864 Brenda Dr, Orlando,FL,32812,3,2.0,1694,231709,0
 46261753,352 Woodbury Pines Cir, Orlando,FL,32828,3,2.0,1580,212790,0
-2100508845,Avanti Plan, Toll Brothers at Eagle Creek - Signature Collection Orlando,FL,32832,4,3.5,3583,606872,1
+2100508845,Avanti Plan, Toll Brothers at Eagle Creek - Signature Collection Orlando,FL,32832,4,3.5,3583,606872,0
 46222998,738 Hardwick Ct, Orlando,FL,32825,5,3.0,1959,206439,0
 46070720,2607 Dawley Ave, Orlando,FL,32806,3,2.5,1995,255064,0
 46212674,57 Battler St, Orlando,FL,32828,4,3.0,2370,271181,0
@@ -7048,7 +7048,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 82095313,10325 Willow Ridge Loop, Orlando,FL,32825,5,3.0,2730,320796,0
 46204452,13209 Spring Haven Ct, Orlando,FL,32828,4,3.0,2619,317417,0
 46204245,249 Lexingdale Dr, Orlando,FL,32828,4,2.0,2005,265399,0
-46173706,1721 Espanola Dr, Orlando,FL,32804,4,3.0,2675,604777,1
+46173706,1721 Espanola Dr, Orlando,FL,32804,4,3.0,2675,604777,0
 46130851,1416 Maury Rd, Orlando,FL,32804,3,2.0,1400,263863,0
 116219231,8706 Ribault Ave, Orlando,FL,32832,4,3.0,2465,340358,0
 2097749568,Lexington Plan, Storey Park   Innovation Cottages Orlando,FL,32832,3,3.0,1982,277518,0
@@ -7070,9 +7070,9 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 46261273,529 Tuten Trl, Orlando,FL,32828,4,3.0,2339,282348,0
 2117663928,Park Blvd, Palo Alto,CA,94306,2,2.0,1105,1561537,1
 19497817,437 College Ave, Palo Alto,CA,94306,4,4.0,2342,2607535,2
-19509373,445 Monroe Dr, Palo Alto,CA,94306,3,2.0,1791,2413192,2
+19509373,445 Monroe Dr, Palo Alto,CA,94306,3,2.0,1791,2413192,1
 19500413,3479 Ross Rd, Palo Alto,CA,94303,4,2.0,1771,2878770,2
-19506182,544 Georgia Ave, Palo Alto,CA,94306,3,2.0,1385,2375240,2
+19506182,544 Georgia Ave, Palo Alto,CA,94306,3,2.0,1385,2375240,1
 19504484,4173 El Camino Real APT 30, Palo Alto,CA,94306,3,4.0,2010,1984194,1
 19496567,1760 Cowper St, Palo Alto,CA,94301,3,3.0,2300,3042432,2
 19467656,1284 Forest Ave, Palo Alto,CA,94301,4,3.0,2144,3399555,2
@@ -7095,7 +7095,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 19502689,3060 Cowper St, Palo Alto,CA,94306,3,2.0,1618,2680161,2
 19503827,4084 Wilkie Way, Palo Alto,CA,94306,2,2.0,980,1682586,1
 19498849,737 E Charleston Rd, Palo Alto,CA,94303,3,2.0,1485,2317234,1
-79847796,1982 W Bayshore Rd APT 112, East Palo Alto,CA,94303,1,1.0,776,603282,1
+79847796,1982 W Bayshore Rd APT 112, East Palo Alto,CA,94303,1,1.0,776,603282,0
 79841142,1982 W Bayshore Rd APT 113, East Palo Alto,CA,94303,1,1.0,776,594771,0
 19495526,235 High St, Palo Alto,CA,94301,3,2.0,1342,1623281,1
 19498162,936 Dennis Dr, Palo Alto,CA,94303,3,2.0,1560,2199628,1
@@ -7120,7 +7120,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 116156577,1182 Almanor Ln, Palo Alto,CA,94303,3,3.0,1679,1763561,1
 19529186,996 Laurel Glen Dr, Palo Alto,CA,94304,8,8.5,8200,7998263,2
 19504749,2320 Princeton St, Palo Alto,CA,94306,3,2.0,1169,2273037,1
-19504510,549 Stanford Ave, Palo Alto,CA,94306,0,0.0,3533,2369141,2
+19504510,549 Stanford Ave, Palo Alto,CA,94306,0,0.0,3533,2369141,1
 19509891,4290 Ponce Dr, Palo Alto,CA,94306,3,2.0,1777,1946070,1
 19495444,125 Hawthorne Ave, Palo Alto,CA,94301,3,2.5,1616,1981400,1
 19496907,2350 Ramona St, Palo Alto,CA,94301,5,4.5,3865,4239074,2
@@ -7371,7 +7371,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2099738661,The Elena Plan, Siena Place Philadelphia,PA,19145,3,3.0,2885,442489,0
 10358209,6137 Argyle St, Philadelphia,PA,19111,3,1.0,1260,116384,0
 10320249,2205 Bainbridge St, Philadelphia,PA,19146,6,2.0,2103,691215,1
-10180628,529 Catharine St, Philadelphia,PA,19147,3,4.5,2040,603243,1
+10180628,529 Catharine St, Philadelphia,PA,19147,3,4.5,2040,603243,0
 118359758,2031 Cobbs Creek Pkwy, Philadelphia,PA,19142,0,0.0,0,703557,1
 10466227,802 W Fisher Ave, Philadelphia,PA,19141,4,2.0,1152,115947,0
 10449293,2712 Haworth St, Philadelphia,PA,19137,4,1.0,1316,133147,0
@@ -7550,7 +7550,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 118364059,885 N Orkney St, Philadelphia,PA,19123,0,0.0,0,703557,1
 10187086,6019 Carpenter St, Philadelphia,PA,19143,4,1.0,1840,76784,0
 87762379,2101 Market St UNIT 1404, Philadelphia,PA,19103,1,1.0,943,703557,1
-10602740,1830 Rittenhouse Sq APT 2C, Philadelphia,PA,19103,1,2.0,1019,602788,1
+10602740,1830 Rittenhouse Sq APT 2C, Philadelphia,PA,19103,1,2.0,1019,602788,0
 10199654,4709 Wallace Pl, Philadelphia,PA,19139,3,0.0,1408,128821,0
 2098864663,132 W Hansberry St, Philadelphia,PA,19144,5,3.0,1540,78897,0
 10282842,54 E Durham St, Philadelphia,PA,19119,3,1.0,1208,134559,0
@@ -7671,7 +7671,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 67365260,113 N Bread St # 3F2, Philadelphia,PA,19106,2,2.0,984,477994,0
 10336945,1629 Worrell St, Philadelphia,PA,19124,3,1.0,1140,86749,0
 10565513,1024 Grant Ave, Philadelphia,PA,19115,3,2.0,1011,213490,0
-10211752,651 N 16th St, Philadelphia,PA,19130,5,3.0,3280,600214,1
+10211752,651 N 16th St, Philadelphia,PA,19130,5,3.0,3280,600214,0
 10303280,2424 S Carlisle St, Philadelphia,PA,19145,3,1.0,1080,132656,0
 2097634329,217 S Farragut St, Philadelphia,PA,19139,4,2.0,3780,467775,0
 7995256,1319 E Tonto Ln, Phoenix,AZ,85024,3,2.0,1068,202170,0
@@ -8103,7 +8103,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 7939483,4745 W Kimberly Way, Glendale,AZ,85308,3,2.0,1663,227400,0
 81956434,5533 W Coles Rd, Laveen,AZ,85339,4,3.5,3672,281128,0
 7939833,5037 W Topeka Dr, Glendale,AZ,85308,3,2.0,1621,232291,0
-7825422,5401 E Poinsettia Dr, Scottsdale,AZ,85254,4,2.0,2808,605159,1
+7825422,5401 E Poinsettia Dr, Scottsdale,AZ,85254,4,2.0,2808,605159,0
 67804936,4704 E Paradise Village Pkwy N APT 229, Phoenix,AZ,85032,2,2.0,873,703557,1
 95124543,4717 W Fremont Rd, Laveen,AZ,85339,3,2.5,1418,163774,0
 8141546,10410 S 44th Pl, Phoenix,AZ,85044,3,2.0,1470,239754,0
@@ -8501,7 +8501,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2097636109,1679 N Jantzen Ave, Portland,OR,97217,2,1.0,840,249418,0
 53833821,6834 N Smith St, Portland,OR,97203,3,1.0,912,374324,0
 53939231,1244 SW Cardinell Way, Portland,OR,97201,4,3.0,2371,888570,1
-53958035,6834 SW 2nd Ave, Portland,OR,97219,4,3.0,3100,601220,1
+53958035,6834 SW 2nd Ave, Portland,OR,97219,4,3.0,3100,601220,0
 53814815,7626 SE 117th Dr, Portland,OR,97266,3,3.0,2072,360235,0
 53997531,1715 SE 37th Ave, Portland,OR,97214,4,1.5,2494,835254,1
 2097642096,143 N Hayden Bay Dr # 143, Portland,OR,97217,1,1.0,905,267993,0
@@ -8538,7 +8538,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2097651692,2323 SW Park Pl UNIT 403A, Portland,OR,97205,0,1.0,470,219615,0
 54009213,6024 SE 90th Ave, Portland,OR,97266,3,2.0,2261,330472,0
 53834732,1250 SW Myrtle Dr, Portland,OR,97201,2,2.0,1795,1161185,1
-53982580,4418 SW Pasadena St, Portland,OR,97219,4,3.0,3087,607277,1
+53982580,4418 SW Pasadena St, Portland,OR,97219,4,3.0,3087,607277,0
 2097655850,15337 NW Marie Way, Portland,OR,97229,4,3.0,3040,745608,1
 72170282,1900 SW River Dr UNIT 303, Portland,OR,97201,1,1.0,674,417791,0
 53877112,15704 SE Flavel Dr, Portland,OR,97236,3,2.0,2006,412321,0
@@ -8922,7 +8922,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 15130401,4407-4409 20TH St, San Francisco,CA,94114,4,2.0,2510,2210399,1
 15114554,1601 Ortega St, San Francisco,CA,94122,2,1.0,1221,1041368,1
 15082851,730 Euclid Ave, San Francisco,CA,94118,4,3.0,3425,4393139,2
-15135507,1290 Portola Dr, San Francisco,CA,94127,3,3.0,2352,2408912,2
+15135507,1290 Portola Dr, San Francisco,CA,94127,3,3.0,2352,2408912,1
 15068322,3 Helen St # 101, San Francisco,CA,94109,2,3.0,2030,1669711,1
 15132258,965 Elizabeth St, San Francisco,CA,94114,2,3.0,1279,1497264,1
 82785263,181 Ofarrell St STE 305, San Francisco,CA,94102,1,2.0,1334,1244989,1
@@ -9014,7 +9014,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 15164059,659 Banks St, San Francisco,CA,94110,4,6.0,2100,1104659,1
 15160093,1479 Shotwell St, San Francisco,CA,94110,2,1.0,2140,1696598,1
 15127493,141 States St, San Francisco,CA,94114,3,2.0,1484,1465222,1
-2098636733,Residence 6 Plan, LUMINA San Francisco,CA,94105,2,2.0,1495,2397339,2
+2098636733,Residence 6 Plan, LUMINA San Francisco,CA,94105,2,2.0,1495,2397339,1
 69820113,673 Kansas St # 1, San Francisco,CA,94107,2,1.0,0,1216255,1
 61288450,77 Dow Pl APT 108, San Francisco,CA,94107,1,1.5,1057,962959,1
 15141245,443 Capistrano Ave, San Francisco,CA,94112,4,2.0,1832,1184731,1
@@ -9028,7 +9028,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 15073451,2225-2227 Pacific Ave, San Francisco,CA,94115,6,5.0,4700,4931310,2
 15153857,1243 Quesada Ave, San Francisco,CA,94124,3,1.0,1440,739588,1
 89240309,425 1st St UNIT 4605, San Francisco,CA,94105,1,1.0,860,998035,1
-15069888,37 Rico Way, San Francisco,CA,94123,3,1.0,1845,2384575,2
+15069888,37 Rico Way, San Francisco,CA,94123,3,1.0,1845,2384575,1
 2097772510,1401 Waller St, San Francisco,CA,94117,0,0.0,2606,1718007,1
 15193845,316 Orizaba Ave, San Francisco,CA,94132,2,1.0,800,631794,1
 15140297,67 Paulding St, San Francisco,CA,94112,2,1.0,1000,885549,1
@@ -9187,7 +9187,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 15156705,1408 Rankin St, San Francisco,CA,94124,3,1.0,995,763624,1
 15091833,31 Tacoma St, San Francisco,CA,94118,0,0.0,1200,1107321,1
 15081192,2786 Jackson St # A, San Francisco,CA,94115,0,0.0,472,590177,0
-2097966685,3062 22nd St, San Francisco,CA,94110,0,0.0,3915,2392001,2
+2097966685,3062 22nd St, San Francisco,CA,94110,0,0.0,3915,2392001,1
 2097967564,12 Esquina Dr, San Francisco,CA,94134,4,2.0,1525,818949,1
 15099030,750 Funston Ave, San Francisco,CA,94118,4,3.0,3330,2871628,2
 2097968226,1884 Bush St, San Francisco,CA,94109,1,1.0,934,970216,1
@@ -9207,7 +9207,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2097986215,2325 Larkin St, San Francisco,CA,94109,0,0.0,2820,1339050,1
 15158481,135 Ledyard St, San Francisco,CA,94124,4,2.0,1625,771182,1
 69819230,69 Clementina St UNIT 403, San Francisco,CA,94105,1,1.0,476,655696,1
-123952713,301 Mission St APT 34E, San Francisco,CA,94105,2,2.0,1714,2403089,2
+123952713,301 Mission St APT 34E, San Francisco,CA,94105,2,2.0,1714,2403089,1
 2119198400,666 S Van Ness Ave, San Francisco,CA,94110,0,0.0,3106,2178824,1
 15156254,1683 Newcomb Ave, San Francisco,CA,94124,2,1.0,1090,608548,1
 15179455,275 Concord St, San Francisco,CA,94112,4,3.0,2400,885690,1
@@ -9288,7 +9288,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 2102398145,4479 Mission St, San Francisco,CA,94112,0,0.0,0,937340,1
 15069446,631 Ofarrell St APT 610, San Francisco,CA,94109,0,1.0,520,478567,0
 15172243,878 Goettingen St, San Francisco,CA,94134,2,1.0,1025,731826,1
-2129682652,170 Pacific Ave APT 21, San Francisco,CA,94111,3,3.0,1993,2391159,2
+2129682652,170 Pacific Ave APT 21, San Francisco,CA,94111,3,3.0,1993,2391159,1
 89237483,733 Front St UNIT 508, San Francisco,CA,94111,2,2.0,1459,1203857,1
 2098153663,3201 Mission St, San Francisco,CA,94110,0,0.0,10494,3749317,2
 2098158072,989 Haight St, San Francisco,CA,94117,3,3.0,1750,1381881,1
@@ -9313,7 +9313,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 19738955,2938 Trinity River Ct, San Jose,CA,95111,6,4.0,3424,974532,1
 2097582102,1487 Doxey Ct, San Jose,CA,95131,4,2.0,1530,703557,1
 82950355,38 N Almaden Blvd UNIT 720, San Jose,CA,95110,2,2.0,1296,996236,1
-19570208,410 N 1st St UNIT 328, San Jose,CA,95112,2,2.0,1050,607566,1
+19570208,410 N 1st St UNIT 328, San Jose,CA,95112,2,2.0,1050,607566,0
 19686492,1952 Jonathan Ave, San Jose,CA,95125,3,2.0,1873,1473962,1
 19567119,718 N 12th St, San Jose,CA,95112,3,2.0,1092,727466,1
 19817015,5206 Tomahawk Dr, San Jose,CA,95136,4,2.0,1525,802324,1
@@ -9424,7 +9424,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 19768992,2023 Portsmouth Ct, San Jose,CA,95132,3,2.0,1412,780772,1
 19570408,1729 Marigold Ct, San Jose,CA,95133,3,1.0,900,550173,0
 19604303,4156 Will Rogers Dr, San Jose,CA,95117,5,3.0,4460,2077989,1
-19734736,1142 Oakview Rd, San Jose,CA,95121,2,2.0,1196,602903,1
+19734736,1142 Oakview Rd, San Jose,CA,95121,2,2.0,1196,602903,0
 82949829,1375 Lick Ave APT 721, San Jose,CA,95110,2,2.0,1148,657089,1
 19565951,1330 Dryden Dr, San Jose,CA,95131,4,2.0,2076,956561,1
 19591723,1522 De Rose Way, San Jose,CA,95126,3,3.0,1470,751511,1
@@ -9494,8 +9494,8 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 122230248,2611 Celadon Cir UNIT 4, San Jose,CA,95133,3,4.0,1809,831522,1
 2097645306,505 Eucalyptus Dr # 505, San Jose,CA,95134,3,2.0,1440,690963,1
 19735895,3771 Honolulu Dr, San Jose,CA,95111,3,2.0,1457,640579,1
-19716443,1165 Camano Ct, San Jose,CA,95122,4,2.0,1350,603820,1
-19714177,1187 S 6th St, San Jose,CA,95112,3,1.0,1550,607126,1
+19716443,1165 Camano Ct, San Jose,CA,95122,4,2.0,1350,603820,0
+19714177,1187 S 6th St, San Jose,CA,95112,3,1.0,1550,607126,0
 19564239,1215 Old Forge Ln, San Jose,CA,95132,3,2.0,1041,815582,1
 69302616,434 Cypress Ave, San Jose,CA,95117,0,0.0,3390,1838515,1
 19715081,1891 Kinross Way, San Jose,CA,95122,3,1.0,1026,588893,0
@@ -9816,7 +9816,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 15538188,351 W Hillsdale Blvd, San Mateo,CA,94403,3,2.0,1540,1505371,1
 2098021374,Meadow Walk Plan 1 Plan, Meadow Walk San Mateo,CA,94403,2,2.5,1577,1295754,1
 15626889,264 W 20th Ave, San Mateo,CA,94403,2,2.0,1552,1011514,1
-15526205,301 Jackson St, San Mateo,CA,94402,3,2.0,1970,2382148,2
+15526205,301 Jackson St, San Mateo,CA,94402,3,2.0,1970,2382148,1
 15544702,4028 Alameda De Las Pulgas, San Mateo,CA,94403,3,1.0,1190,1362450,1
 15532412,1457 Shoal Dr, San Mateo,CA,94404,2,2.0,1290,1135379,1
 2098969888,Plan 2 Plan, Tidelands San Mateo,CA,94404,3,2.0,1134020,763618,1
@@ -9961,7 +9961,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 19595185,2412 Diane Marie Way, Santa Clara,CA,95050,3,2.0,1580,916661,1
 19602620,2857 Regnart Way, Santa Clara,CA,95051,0,0.0,1825,1520955,1
 19580249,875 Monroe St, Santa Clara,CA,95050,3,2.0,1400,1031607,1
-19607039,2278 Rita Ct, Santa Clara,CA,95050,6,6.0,5206,2416272,2
+19607039,2278 Rita Ct, Santa Clara,CA,95050,6,6.0,5206,2416272,1
 19579615,1825 Benton St, Santa Clara,CA,95050,3,2.0,1428,1091109,1
 19553269,2427 South Dr, Santa Clara,CA,95051,3,3.0,1311,817143,1
 69300902,3901 Lick Mill Blvd APT 414, Santa Clara,CA,95054,2,2.0,1148,832359,1
@@ -10014,7 +10014,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 19550988,1750 Halford Ave APT 207, Santa Clara,CA,95051,2,2.0,1032,535216,0
 79843984,1883 Agnew Rd UNIT 440, Santa Clara,CA,95054,2,2.0,1070,741499,1
 19492216,2161 Esperanca Ave, Santa Clara,CA,95054,3,2.5,1473,994182,1
-19600398,464 Muriel Ct, Santa Clara,CA,95051,6,3.5,3845,2419931,2
+19600398,464 Muriel Ct, Santa Clara,CA,95051,6,3.5,3845,2419931,1
 19600874,562 Los Olivos Dr, Santa Clara,CA,95050,3,3.0,1872,968995,1
 19488292,418 Greenwood Dr, Santa Clara,CA,95054,5,3.0,2100,945366,1
 19552675,2529 Moraine Dr, Santa Clara,CA,95051,3,3.0,1396,1001060,1
@@ -10143,13 +10143,13 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 48725099,741 18th Ave E, Seattle,WA,98112,4,3.0,2120,1349958,1
 49103107,12352 Sand Point Way NE, Seattle,WA,98125,4,4.0,3200,921283,1
 49052872,7001 Sand Point Way NE APT C208, Seattle,WA,98115,2,2.0,996,285600,0
-49048640,6017 46th Ave SW, Seattle,WA,98136,3,2.0,1660,602905,1
+49048640,6017 46th Ave SW, Seattle,WA,98136,3,2.0,1660,602905,0
 49135449,9239 Dayton Ave N, Seattle,WA,98103,2,1.0,830,444509,0
 72500149,1000 1st Ave UNIT 2101, Seattle,WA,98104,2,3.0,1769,1928063,1
 48924877,1740 NE 86th St APT 206, Seattle,WA,98115,1,1.0,646,183159,0
 2098445510,4276 S Greenbelt Station Dr, Seattle,WA,98118,2,2.0,999,703557,1
 2097588215,4504 B Linden Ave N, Seattle,WA,98103,3,3.0,1625,703557,1
-49083443,7334 34th Ave SW, Seattle,WA,98126,4,3.0,2500,601489,1
+49083443,7334 34th Ave SW, Seattle,WA,98126,4,3.0,2500,601489,0
 60971661,8510 Midvale Ave N # B, Seattle,WA,98103,3,2.0,1310,494254,0
 49118328,2930 S Charlestown St, Seattle,WA,98144,4,3.0,1630,520255,0
 48983735,9519 26th Ave NW, Seattle,WA,98117,3,3.0,2130,803209,1
@@ -10351,7 +10351,7 @@ zpid,street,city,state,zipcode,bedroom,bathroom,sqft,zestimate,cluster
 49013108,4052 31st Ave W, Seattle,WA,98199,2,1.0,1620,609766,1
 49025621,1616 22nd Ave, Seattle,WA,98122,2,2.0,1670,611165,1
 48874580,6041 17th Ave SW, Seattle,WA,98106,3,3.0,1690,485109,0
-48780952,1501 SW Brandon St, Seattle,WA,98106,3,2.0,1980,604378,1
+48780952,1501 SW Brandon St, Seattle,WA,98106,3,2.0,1980,604378,0
 70584706,201 Galer St APT 520, Seattle,WA,98109,0,1.0,596,404401,0
 48997412,326 36th Ave E, Seattle,WA,98112,3,2.0,1860,1002716,1
 121566672,1508 NW 57th St, Seattle,WA,98107,3,2.0,1719,728733,1

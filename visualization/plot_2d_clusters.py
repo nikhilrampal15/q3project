@@ -1,7 +1,9 @@
 import plotly
 import plotly.graph_objs as go
 import pandas as pd
-df = pd.read_csv('../data/clustered_results/TX-houses.csv')
+
+# df = pd.read_csv('../data/clustered_results/san-francisco-ca.csv')
+df = pd.read_csv('../data/clustered_results/san-francisco-ca_2f.csv')
 df.head()
 
 data = []
@@ -37,12 +39,14 @@ layout = dict(
     title='Zestimate vs. sqft',
     scene=dict(
         xaxis=dict(
+            title='sqft',
             gridcolor='rgb(255, 255, 255)',
             zerolinecolor='rgb(255, 255, 255)',
             showbackground=True,
             backgroundcolor='rgb(230, 230,230)'
         ),
         yaxis=dict(
+            title='Zestimate',
             gridcolor='rgb(255, 255, 255)',
             zerolinecolor='rgb(255, 255, 255)',
             showbackground=True,
@@ -55,7 +59,4 @@ layout = dict(
 
 fig = dict(data=data, layout=layout)
 
-# IPython notebook
-# py.iplot(fig, filename='pandas-3d-scatter-iris', validate=False)
-
-url = plotly.offline.plot(fig, filename='plot_2d_clusters.html', validate=False)
+url = plotly.offline.plot(fig, filename='plot_2d_clusters_2f.html', validate=False)

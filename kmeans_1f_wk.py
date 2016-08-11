@@ -21,13 +21,13 @@ def initialize_centroids(feature, k):
         centroids.add(centroid)
     return sorted(list(centroids))
 
-def cal_feature_mean(data):
+def cal_cluster_mean(data):
     total = 0
     count = 0
     for item in data:
-        if item != 'Unavailable':
-            total += int(item)
-            count += 1
+        # if item != 'Unavailable':
+        total += int(item)
+        count += 1
     return total / count
 
 def euclidean_distance(x, y):
@@ -56,7 +56,7 @@ def update_centroids(data, k, threshold_pct, orig_centroids, feature_name):
     centroids = []
     for i in range(k):
         curr_cluster_list = data[data.cluster == i]
-        updated_centroid = cal_feature_mean(curr_cluster_list[feature_name])
+        updated_centroid = cal_cluster_mean(curr_cluster_list[feature_name])
         centroids.append(updated_centroid)
     count = 0
     for i in range(k):
