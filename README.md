@@ -29,7 +29,7 @@ Recommendation systems have gained traction fairly quickly in the past few years
 ### Methods:
 
 The K-means clustering algorithm is used to group homes into individual clusters based on various inputs selected from the dataset criteria.
-Random centroids were picked from the given range of the dataset. Distance was measured using Euclidian Distance to define the cluster and its neighboring inhabitants.
+Random centroids were picked from the given range of the dataset. Distance was measured using Euclidean Distance to define the cluster and its neighboring inhabitants.
 
 [![Screen Shot 2016-08-10 at 10.16.22 AM.png](https://s9.postimg.org/nqv517wvj/Screen_Shot_2016_08_10_at_10_16_22_AM.png)](https://postimg.org/image/k797beu5n/)
 
@@ -38,7 +38,16 @@ Random centroids were picked from the given range of the dataset. Distance was m
 Data was loaded using python with the aid of the pandas and numpy libraries.
  
 ### Results:
-![graph1](http://g.recordit.co/UrOq6eESDM.gif)
+
+The estimated price  of homes in San Francisco and San Jose compared to price per square foot.
+
+[![Zestimate vs. Sqft (San Francisco).png](https://s9.postimg.org/kzzsx5oxr/Zestimate_vs_Sqft_San_Francisco.png)](https://postimg.org/image/i5wnjpmrf/)
+
+
+
+[![Zestimate vs. sqft (San Jose).png](https://s9.postimg.org/99vutz53j/Zestimate_vs_sqft_San_Jose.png)](https://postimg.org/image/gpv4frssr/)
+
+
 
 
 ## Goals:

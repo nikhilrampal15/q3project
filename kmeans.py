@@ -92,25 +92,22 @@ def cluster(centroids, house_data, column_name):
     #return shortest_distance[0]
     # returns the cluster that is closest to the home
 
+clustering_function = cluster(list_of_centroids,data,'zestimate')
+
 """
     Here we create the convergence method
 """
 
 
 def convergence(param1, param2):
-    for old in param1:
-        for new in param2:
-            if param1[old] - param2[new] > 1:
-                centroids(data, 5, 'zestimate')
-                cluster(list_of_centroids,data,'zestimate')
-            else:
-                return param2
+    print(param1,param2)
 
 
 
 
-cluster(list_of_centroids, data,'zestimate')
-convergence(cluster(list_of_centroids,data,'zestimate'), centroids(data,5,'zestimate'))
+# print(cluster(list_of_centroids, data,'zestimate'))
+convergence(clustering_function, list_of_centroids)
+print(clustering_function)
 #print(data)
 
 # for item in myData:
