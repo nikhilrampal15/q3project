@@ -45,13 +45,16 @@ Data was loaded using python with the aid of the pandas and numpy libraries.
 
 ![Zest v. sqft(SJ)](http://g.recordit.co/zERsuQoRyJ.gif)
 
+
 ![Zest v. sqft(N)](http://g.recordit.co/W3AVrXibRg.gif)
+
 
 ####How many Bedrooms you'd expect to get at a certain price cluster:
 
 ![Zest v. bedrooms(SF)](http://g.recordit.co/KTZoBi7jTF.gif)
 
 ![Zest v. bedrooms(SJ)](http://g.recordit.co/R6z7e7JqZY.gif)
+
 
 ![Zest v. bedrooms(N)](http://g.recordit.co/hwxyLdoT2t.gif)
 
