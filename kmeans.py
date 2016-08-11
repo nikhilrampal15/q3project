@@ -80,4 +80,5 @@ x = data['zestimate']
 #print (x)
 pd.set_option('display.float_format', lambda x: '%.0f' % x)
 #print (x)
+print('hello')
 #print(data['zestimate'])
