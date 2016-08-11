@@ -32,9 +32,11 @@ def getKey(item):
 
 def main():
     city = 'san-francisco-ca'
-    filename = 'data/propertyInfo/{}.csv'.format(city)
-
-    data = read_csvfile(filename)
+    # filename = 'data/propertyInfo/{}.csv'.format(city)
+    # header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate']
+    filename = 'data/clustered_results/{}_2f.csv'.format(city)
+    header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'feature_vector']
+    data = read_csvfile(filename, header)
     feature_name = 'zestimate'
     print data
 
