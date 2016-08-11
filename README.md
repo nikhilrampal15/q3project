@@ -31,6 +31,10 @@ Recommendation systems have gained traction fairly quickly in the past few years
 The K-means clustering algorithm is used to group homes into individual clusters based on various inputs selected from the data set criteria.
 Random centroids were picked from the given range of the dataset. Distance was measured using Euclidean Distance to define the cluster and its neighboring inhabitants.
 
+![Screen Shot 2016-08-10 at 10.16.22 AM.png](https://s9.postimg.org/nqv517wvj/Screen_Shot_2016_08_10_at_10_16_22_AM.png)
+
+![Screen Shot 2016-08-10 at 9.48.45 AM.png](https://s10.postimg.org/g558e7lmh/Screen_Shot_2016_08_10_at_9_48_45_AM.png)
+
 Data was loaded using python with the aid of the pandas and numpy libraries.
  
 ### Results:
@@ -41,15 +45,24 @@ Data was loaded using python with the aid of the pandas and numpy libraries.
 
 ![Zest v. sqft(SJ)](http://g.recordit.co/zERsuQoRyJ.gif)
 
+![Zest v. sqft(N)](http://g.recordit.co/W3AVrXibRg.gif)
+
 ####How many Bedrooms you'd expect to get at a certain price cluster:
 
 ![Zest v. bedrooms(SF)](http://g.recordit.co/KTZoBi7jTF.gif)
-![Zest v bedrooms(SJ)](http://g.recordit.co/R6z7e7JqZY.gif)
+
+![Zest v. bedrooms(SJ)](http://g.recordit.co/R6z7e7JqZY.gif)
+
+![Zest v. bedrooms(N)](http://g.recordit.co/hwxyLdoT2t.gif)
 
 
 Organizing these homes into clusters helped us to gain the information needed to execute the K nearest neighbor algorithm.
 
 ### K-Nearest Neighbors:
+
+This algorithm is what really ties things together. Using the clusters that we have allocated for each home we can now select a specific "ideal" home and locate homes that match the same criteria.
+
+![KNN](https://predictoanalycto.files.wordpress.com/2014/06/selection_004.png)
 
 
 
