@@ -28,12 +28,12 @@ Recommendation systems have gained traction fairly quickly in the past few years
 
 ### Methods:
 
-The K-means clustering algorithm is used to group homes into individual clusters based on various inputs selected from the dataset criteria.
+The K-means clustering algorithm is used to group homes into individual clusters based on various inputs selected from the data set criteria.
 Random centroids were picked from the given range of the dataset. Distance was measured using Euclidean Distance to define the cluster and its neighboring inhabitants.
 
-[![Screen Shot 2016-08-10 at 10.16.22 AM.png](https://s9.postimg.org/nqv517wvj/Screen_Shot_2016_08_10_at_10_16_22_AM.png)](https://postimg.org/image/k797beu5n/)
+![Zest v. sqft (SF)](http://g.recordit.co/UDT2gRkMrq.gif)
 
-[![Screen Shot 2016-08-10 at 9.48.45 AM.png](https://s10.postimg.org/g558e7lmh/Screen_Shot_2016_08_10_at_9_48_45_AM.png)](https://postimg.org/image/91xcylg6t/)
+![Zest v. sqft(SJ)](http://g.recordit.co/zERsuQoRyJ.gif)
 
 Data was loaded using python with the aid of the pandas and numpy libraries.
  
