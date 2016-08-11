@@ -65,7 +65,12 @@ This algorithm is what really ties things together. Using the clusters that we h
 
 ![KNN](https://predictoanalycto.files.wordpress.com/2014/06/selection_004.png)
 
+### Recommendation system output:
 
+![Screen Shot 2016-08-11 at 2.50.15 PM.png](https://s10.postimg.org/c4q0asvmh/Screen_Shot_2016_08_11_at_2_50_15_PM.png)
 
+### Conclusion and future work:
+
+In this project we implemented a recommendation engine that based on certain target inputs would suggest housing. The two algorithms KNN and K-means provided us two different aspects of machine learning specifically supervised and unsupervised learning. In the future we would like to implement some performance enhancements to reduce the time complexity of the algorithms since the data-set is very large. Another extension to build upon for this project would be to have a working application where a user would be able to drag different preferences for criteria allowing the clusters to shift around and reflect the individual choices.
 
 
