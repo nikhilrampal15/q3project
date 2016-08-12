@@ -3,6 +3,7 @@ import numpy as np
 import math
 import random
 from read_csvfile import read_csvfile
+from kmeans_1f_wk import euclidean_distance_1d
 from kmeans_mf_wk import euclidean_distance
 from ast import literal_eval
 
@@ -15,8 +16,8 @@ def kNN(data, feature_name, new_house, num_neighbors):
     distances = []
     for index, row in enumerate(target_feature_data):
         curr_feature_value = row
-        distance = euclidean_distance(curr_feature_value, target_feature_value)
-        # distance = math.sqrt(math.pow((curr_feature_value - target_feature_value), 2))
+        distance = euclidean_distance_1d(curr_feature_value, target_feature_value)
+        # distance = euclidean_distance(curr_feature_value, target_feature_value)
         # print "({}, {}, {})".format(index, curr_feature_value, distance)
         distances.append([index, distance])
     distances.sort(key=getKey)
@@ -25,9 +26,9 @@ def kNN(data, feature_name, new_house, num_neighbors):
         item_idx = distances[i][0]
         neighbor = data.iloc[item_idx]
         neighbors_list.append(neighbor)
-    header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate']
+    header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'cluster', 'feature_vector']
     neighbors = pd.DataFrame(neighbors_list, columns = header)
-    neighbors = neighbors.sort_values(by=['zestimate'], ascending=[True])
+    neighbors = neighbors.sort_values(by=[feature_name], ascending=[True])
     return neighbors
 
 def getKey(item):
@@ -35,16 +36,25 @@ def getKey(item):
 
 def main():
     city = 'san-francisco-ca'
-    # filename = 'data/propertyInfo/{}.csv'.format(city)
-    # header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate']
+
+    '''
+        To use 1-Feature
+    '''
+    # filename = 'data/clustered_results/{}.csv'.format(city)
+    # header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'cluster']
     # feature_name = 'zestimate'
+
+    '''
+        To use multi-Feature
+    '''
     filename = 'data/clustered_results/{}_2f.csv'.format(city)
-    header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'feature_vector']
+    header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'cluster', 'feature_vector']
     feature_name = 'feature_vector'
 
     data = read_csvfile(filename, header)
     if feature_name == 'feature_vector':
-        data['feature_name'] = literal_eval(data['feature_name'])
+        for i in range(len(data)):
+            data['feature_vector'].iloc[i] = literal_eval(data['feature_vector'].iloc[i])
 
     # pick random house
     random_idx= random.randrange(0, len(data))

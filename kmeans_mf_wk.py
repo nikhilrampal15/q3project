@@ -35,13 +35,9 @@ def initialize_centroids(feature_vectors, k):
 
 def euclidean_distance(x, y):
     distance = 0
-    if type(x) == 'int' or type(x) == 'float':
-        distance += math.pow((x - y), 2)
-    else:
-        n_dimension = len(x)
-        for i in range(n_dimension):
-            distance += math.pow((x[i] - y[i]), 2)
-
+    n_dimension = len(x)
+    for i in range(n_dimension):
+        distance += math.pow((x[i] - y[i]), 2)
     distance = math.sqrt(distance)
     return distance
 

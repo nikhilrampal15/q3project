@@ -30,12 +30,9 @@ def cal_cluster_mean(data):
         count += 1
     return total / count
 
-def euclidean_distance(x, y):
+def euclidean_distance_1d(x, y):
     distance = 0
-    n_dimension = len(x)
-    for i in range(n_dimension):
-        distance += math.pow((x[i] - y[i]), 2)
-    distance = math.sqrt(distance)
+    distance = math.sqrt(math.pow((x - y), 2))
     return distance
 
 def assign_clusters(data, centroids, feature_name):
@@ -44,7 +41,7 @@ def assign_clusters(data, centroids, feature_name):
     for data_idx, item in enumerate(feature):
         min_distance = float('inf')
         for idx, centroid in enumerate(centroids):
-            distance = euclidean_distance([centroid], [item])
+            distance = euclidean_distance_1d(centroid, item)
             if distance < min_distance:
                 min_distance = distance
                 cluster_idx = idx

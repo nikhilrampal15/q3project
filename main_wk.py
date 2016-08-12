@@ -27,7 +27,7 @@ def find_similar_houses(data, feature_name, centroids, new_house, num_neighbors)
     return neighbors
 
 def main():
-    city = "All-houses"
+    city = "santa-clara-ca"
     k = 3
     feature_name = 'zestimate'
     threshold_pct = 0.1
@@ -61,7 +61,7 @@ def main():
 
 
 def write_to_csvfile(data, fname):
-    data.to_csv(fname, index=False, cols=('zpid', 'street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'cluster'))
+    data.to_csv(fname, index=False)
     return
 
 
