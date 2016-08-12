@@ -97,7 +97,7 @@ def update_centroids(data, k, threshold_pct, orig_centroids, feature_vectors, nu
         return False
     return centroids
 
-def kmeans_mf(data, k, feature_vectors, num_dim, threshold_pct):
+def kmeans(data, k, feature_vectors, num_dim, threshold_pct):
     '''k-means algorith for multi-features'''
     centroids = initialize_centroids(feature_vectors, k, num_dim)
     print("Centroids 0 = {}".format(centroids))
@@ -116,7 +116,7 @@ def write_to_csvfile(data, fname):
     return
 
 def main():
-    city = "san-francisco-ca"
+    city = "dallas-tx"
     k = 5
     # feature_names = ['zestimate']
     feature_names = ['sqft', 'zestimate']
@@ -130,7 +130,7 @@ def main():
 
     feature_vectors = create_feature_vectors(data, feature_names)
     print("------- Clustering by {} --------".format(feature_names))
-    centroids = kmeans_mf(data, k, feature_vectors, num_dim, threshold_pct)
+    centroids = kmeans(data, k, feature_vectors, num_dim, threshold_pct)
 
     write_fname = "data/clustered_results/{}_{}f.csv".format(city, num_dim)
     write_to_csvfile(data, write_fname)

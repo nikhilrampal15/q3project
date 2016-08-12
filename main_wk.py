@@ -3,7 +3,7 @@ import numpy as np
 import random
 import math
 from read_csvfile import read_csvfile
-from kmeans_wk import kmeans_mf
+from kmeans_wk import kmeans
 from kmeans_wk import euclidean_distance
 from kmeans_wk import create_feature_vectors
 from kNN_wk import kNN
@@ -15,10 +15,11 @@ def write_to_csvfile(data, fname):
 def main():
     city = "All-houses"
     k = 7
+    # feature_names = ['zestimate']
+    feature_names = ['sqft', 'zestimate']
+    num_dim = len(feature_names)
+    threshold_pct = 0.1
     num_neighbors = 10
-    threshold_pct = 1
-    feature_names = ['zestimate']
-    # feature_names = ['sqft', 'zestimate']
 
     filename = "data/propertyInfo/{}.csv".format(city)
     header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate']
@@ -28,17 +29,16 @@ def main():
     '''
         Cluster houses using k-means Algorithm
     '''
-    num_dim = len(feature_names)
-    print("------- Clustering by {} --------".format(feature_names))
     feature_vectors = create_feature_vectors(data, feature_names)
-    centroids = kmeans_mf(data, k, feature_vectors, num_dim, threshold_pct)
+    print("------- Clustering by {} --------".format(feature_names))
+    centroids = kmeans(data, k, feature_vectors, num_dim, threshold_pct)
 
 
     '''
         Find similar houses using k-NN Algorithm
     '''
-    # random_idx= random.randrange(0, len(data))
-    random_idx = 8809
+    random_idx= random.randrange(0, len(data))
+    # random_idx = 8809
     new_house = data.iloc[random_idx]
     print("---- House Picked -----")
     print(new_house)
