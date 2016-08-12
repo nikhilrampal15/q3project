@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import random
 import math
 from read_csvfile import read_csvfile
+from kmeans_mf_wk import euclidean_distance
 
 def initialize_centroids(feature, k):
     '''Initialize cluster centroids
@@ -30,18 +31,13 @@ def cal_cluster_mean(data):
         count += 1
     return total / count
 
-def euclidean_distance_1d(x, y):
-    distance = 0
-    distance = math.sqrt(math.pow((x - y), 2))
-    return distance
-
-def assign_clusters(data, centroids, feature_name):
+def assign_clusters(data, centroids, feature_name, num_dim):
     '''Assign clusters to each observation'''
     feature = data[feature_name]
     for data_idx, item in enumerate(feature):
         min_distance = float('inf')
         for idx, centroid in enumerate(centroids):
-            distance = euclidean_distance_1d(centroid, item)
+            distance = euclidean_distance(centroid, item, num_dim)
             if distance < min_distance:
                 min_distance = distance
                 cluster_idx = idx
@@ -64,7 +60,7 @@ def update_centroids(data, k, threshold_pct, orig_centroids, feature_name):
         return False
     return centroids
 
-def kmeans_1f(data, k, feature_name, threshold_pct):
+def kmeans_1f(data, k, feature_name, num_dim, threshold_pct):
     '''k-means algorith for one feature
 
         Works for zestimate and sqft
@@ -78,7 +74,7 @@ def kmeans_1f(data, k, feature_name, threshold_pct):
 
     count = 1
     while centroids != False:
-        data = assign_clusters(data, centroids, feature_name)
+        data = assign_clusters(data, centroids, feature_name, num_dim)
         orig_centroids = centroids
         centroids = update_centroids(data, k, threshold_pct, orig_centroids, feature_name)
         print("Centroids {} = {}".format(count, centroids))
@@ -88,7 +84,8 @@ def kmeans_1f(data, k, feature_name, threshold_pct):
 def main():
     city = "redwood-city-ca"
     k = 3
-    feature_name = 'zestimate'
+    feature_name = ['zestimate']
+    num_dim = len(feature_name)
     threshold_pct = 0.01
 
     filename = "data/propertyInfo/{}.csv".format(city)
@@ -99,12 +96,12 @@ def main():
     # print data.head(5)
 
     print("------- Clustering by {} --------".format(feature_name))
-    centroids = kmeans_1f(data, k, feature_name, threshold_pct)
+    centroids = kmeans_1f(data, k, feature_name[0], num_dim, threshold_pct)
     print centroids
 
     print("****** Resulting Cluster ******")
     bycluster = data.groupby(['cluster'])
-    print(bycluster[feature_name].describe())
+    print(bycluster[feature_name[0]].describe())
 
 '''
     Main portion of the program

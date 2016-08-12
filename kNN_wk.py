@@ -3,11 +3,10 @@ import numpy as np
 import math
 import random
 from read_csvfile import read_csvfile
-from kmeans_1f_wk import euclidean_distance_1d
 from kmeans_mf_wk import euclidean_distance
 from ast import literal_eval
 
-def kNN(data, feature_name, new_house, num_neighbors):
+def kNN(data, feature_name, num_dim, new_house, num_neighbors):
     neighbors_list = []
     print("num of houses in this cluster = {}".format(len(data)))
     target_feature_value = new_house.loc[feature_name]
@@ -16,8 +15,7 @@ def kNN(data, feature_name, new_house, num_neighbors):
     distances = []
     for index, row in enumerate(target_feature_data):
         curr_feature_value = row
-        # distance = euclidean_distance_1d(curr_feature_value, target_feature_value)
-        distance = euclidean_distance(curr_feature_value, target_feature_value)
+        distance = euclidean_distance(curr_feature_value, target_feature_value, num_dim)
         # print "({}, {}, {})".format(index, curr_feature_value, distance)
         distances.append([index, distance])
     distances.sort(key=getKey)
@@ -43,6 +41,7 @@ def main():
     # filename = 'data/clustered_results/{}.csv'.format(city)
     # header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'cluster']
     # feature_name = 'zestimate'
+    # num_dim = 1
 
     '''
         To use multi-Feature
@@ -50,6 +49,7 @@ def main():
     filename = 'data/clustered_results/{}_2f.csv'.format(city)
     header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'cluster', 'feature_vector']
     feature_name = 'feature_vector'
+    num_dim = 2
 
     data = read_csvfile(filename, header)
     if feature_name == 'feature_vector':
@@ -63,7 +63,7 @@ def main():
     print(new_house)
 
     num_neighbors = 10
-    neighbors = kNN(data, feature_name, new_house, num_neighbors)
+    neighbors = kNN(data, feature_name, num_dim, new_house, num_neighbors)
     print("---- {} Neighbors ----".format(num_neighbors))
     print(neighbors)
 

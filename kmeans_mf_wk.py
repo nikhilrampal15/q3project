@@ -33,20 +33,30 @@ def initialize_centroids(feature_vectors, k):
         centroids.append(centroid)
     return centroids
 
-def euclidean_distance(x, y):
+# def euclidean_distance(x, y):
+#     distance = 0
+#     n_dimension = len(x)
+#     for i in range(n_dimension):
+#         distance += math.pow((x[i] - y[i]), 2)
+#     distance = math.sqrt(distance)
+#     return distance
+
+def euclidean_distance(x, y, num_dim):
     distance = 0
-    n_dimension = len(x)
-    for i in range(n_dimension):
-        distance += math.pow((x[i] - y[i]), 2)
+    if num_dim == 1:
+        distance = math.pow( (x - y), 2)
+    else:
+        for i in range(num_dim):
+            distance += math.pow((x[i] - y[i]), 2)
     distance = math.sqrt(distance)
     return distance
 
-def assign_clusters(data, centroids, feature_vectors):
+def assign_clusters(data, centroids, feature_vectors, num_dim):
     '''Assign clusters to each observation'''
     for data_idx, item in enumerate(feature_vectors):
         min_distance = float('inf')
         for idx, centroid in enumerate(centroids):
-            distance = euclidean_distance(centroid, item)
+            distance = euclidean_distance(centroid, item, num_dim)
             if distance < min_distance:
                 min_distance = distance
                 cluster_idx = idx
@@ -83,7 +93,7 @@ def update_centroids(data, k, threshold_pct, orig_centroids, feature_vectors):
     #     return False
     return centroids
 
-def kmeans_mf(data, k, feature_vectors, threshold_pct):
+def kmeans_mf(data, k, feature_vectors, num_dim, threshold_pct):
     '''k-means algorith for multi-features'''
     centroids = initialize_centroids(feature_vectors, k)
     print("Centroids 0 = {}".format(centroids))
@@ -91,7 +101,7 @@ def kmeans_mf(data, k, feature_vectors, threshold_pct):
     count = 1
     # while centroids != False:
     while count < 5:
-        data = assign_clusters(data, centroids, feature_vectors)
+        data = assign_clusters(data, centroids, feature_vectors, num_dim)
         orig_centroids = centroids
         centroids = update_centroids(data, k, threshold_pct, orig_centroids, feature_vectors)
         print("Centroids {} = {}".format(count, centroids))
@@ -106,6 +116,7 @@ def main():
     city = "san-francisco-ca"
     k = 5
     feature_names = ['sqft', 'zestimate']
+    num_dim = len(feature_names)
     threshold_pct = 0.01
 
     filename = "data/propertyInfo/{}.csv".format(city)
@@ -116,7 +127,7 @@ def main():
     # generate feature vectors columns
     feature_vectors = create_feature_vectors(data, feature_names)
     print("------- Clustering by {} --------".format(feature_names))
-    centroids = kmeans_mf(data, k, feature_vectors, threshold_pct)
+    centroids = kmeans_mf(data, k, feature_vectors, num_dim, threshold_pct)
 
     # print("****** Resulting Cluster ******")
     # bycluster = data.groupby(['cluster'])
