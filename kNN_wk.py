@@ -16,8 +16,8 @@ def kNN(data, feature_name, new_house, num_neighbors):
     distances = []
     for index, row in enumerate(target_feature_data):
         curr_feature_value = row
-        distance = euclidean_distance_1d(curr_feature_value, target_feature_value)
-        # distance = euclidean_distance(curr_feature_value, target_feature_value)
+        # distance = euclidean_distance_1d(curr_feature_value, target_feature_value)
+        distance = euclidean_distance(curr_feature_value, target_feature_value)
         # print "({}, {}, {})".format(index, curr_feature_value, distance)
         distances.append([index, distance])
     distances.sort(key=getKey)
