@@ -9,18 +9,25 @@ APIFetch/getPropertyInfo-compiled.js
 APIFetch/getPropertyInfo-compiled.js.map
 APIFetch/models/house-compiled.js
 APIFetch/models/house-compiled.js.map
-node_modules/
 q3project.iml
+
+# Env files
+.idea/
 .git/
 env/
-
-*.pyc
-
+node_modules/
 APIFetch/.env
 
-
 # Developement files
-winnie/
+visualization/*.html
 .Notes/
+winnie/
 .ipynb_checkpoints/
+*.pyc
 *.ipynb
+*.iml
+
+# Data files
+data/zestimate/
+data/propertyInfo/cities
+data/zpid

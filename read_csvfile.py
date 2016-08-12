@@ -38,10 +38,8 @@ def cal_zestimate_mean(data):
             count += 1
     return total / count
 
-def read_csvfile(filename):
-    header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate']
-    # data = pd.read_csv(filename, sep='\t', names=header)
-    data = pd.read_csv(filename, sep=',', names=header)
+def read_csvfile(filename, header):
+    data = pd.read_csv(filename, sep=',', skiprows=[0], names=header)
     data['bedroom'] = parse_int(data['bedroom'])
     data['bathroom'] = parse_float(data['bathroom'])
     data['sqft'] = parse_int(data['sqft'])
@@ -49,8 +47,9 @@ def read_csvfile(filename):
     return data
 
 def main():
-    city = "redwood-city-ca"
-    data = read_csvfile("data/propertyInfo/{}.csv".format(city))
+    city = "san-jose-ca"
+    header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate']
+    data = read_csvfile("data/propertyInfo/{}.csv".format(city), header)
     print(data)
 
 if __name__ == '__main__':

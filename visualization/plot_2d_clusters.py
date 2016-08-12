@@ -1,7 +1,8 @@
 import plotly
 import plotly.graph_objs as go
 import pandas as pd
-df = pd.read_csv('../data/clustered_results/All-houses.csv')
+
+df = pd.read_csv('../data/clustered_results/All-houses_2f.csv')
 df.head()
 
 data = []
@@ -55,7 +56,4 @@ layout = dict(
 
 fig = dict(data=data, layout=layout)
 
-# IPython notebook
-# py.iplot(fig, filename='pandas-3d-scatter-iris', validate=False)
-
-url = plotly.offline.plot(fig, filename='plot_2d_clusters.html', validate=False)
+url = plotly.offline.plot(fig, filename='plot_2d_clusters_2f.html', validate=False)
