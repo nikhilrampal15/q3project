@@ -2,7 +2,7 @@ import plotly
 import plotly.graph_objs as go
 import pandas as pd
 
-df = pd.read_csv('../data/clustered_results/All-houses_1f.csv')
+df = pd.read_csv('../data/clustered_results/All-houses_2f.csv')
 df.head()
 
 data = []

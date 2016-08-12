@@ -78,14 +78,21 @@ def update_centroids(data, k, threshold_pct, orig_centroids, feature_vectors, nu
         curr_cluster_feature_vectors = curr_cluster_data[feature_vector_names]
         cluster_center = cal_cluster_mean(curr_cluster_feature_vectors)
         centroids.append(cluster_center)
+    print orig_centroids
+
     count = 0
     for i in range(k):
         thresholds = []
-        for j in range(num_dim):
-            threshold = orig_centroids[i][j] * threshold_pct
-            thresholds.append(threshold)
-        if euclidean_distance(centroids[i], orig_centroids[i], num_dim) < euclidean_distance(thresholds, [0] * num_dim, num_dim):
-            count += 1
+        if num_dim == 1:
+            thresholds = orig_centroids[i][0] * threshold_pct
+            if euclidean_distance(centroids[i][0], orig_centroids[i][0], num_dim) < thresholds:
+                count += 1
+        else:
+            for j in range(num_dim):
+                threshold = orig_centroids[i][j] * threshold_pct
+                thresholds.append(threshold)
+            if euclidean_distance(centroids[i], orig_centroids[i], num_dim) < euclidean_distance(thresholds, [0] * num_dim, num_dim):
+                count += 1
     if count == k:
         return False
     return centroids
@@ -111,26 +118,21 @@ def write_to_csvfile(data, fname):
 def main():
     city = "san-francisco-ca"
     k = 5
-    feature_names = ['sqft', 'zestimate']
     # feature_names = ['zestimate']
+    feature_names = ['sqft', 'zestimate']
     num_dim = len(feature_names)
     threshold_pct = 0.1
 
     filename = "data/propertyInfo/{}.csv".format(city)
     header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate']
     data = read_csvfile(filename, header)
-    data['cluster'] = -1 # add new column to indicate cluster
+    data['cluster'] = -1
 
-    # generate feature vectors columns
     feature_vectors = create_feature_vectors(data, feature_names)
     print("------- Clustering by {} --------".format(feature_names))
     centroids = kmeans_mf(data, k, feature_vectors, num_dim, threshold_pct)
-    #
-    # # print("****** Resulting Cluster ******")
-    # # bycluster = data.groupby(['cluster'])
-    # # print(bycluster[feature_name].describe())
-    #
-    write_fname = "data/clustered_results/{}_2f.csv".format(city)
+
+    write_fname = "data/clustered_results/{}_{}f.csv".format(city, num_dim)
     write_to_csvfile(data, write_fname)
 
 '''
