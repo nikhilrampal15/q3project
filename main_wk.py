@@ -15,8 +15,8 @@ def write_to_csvfile(data, fname):
 def main():
     city = "All-houses"
     k = 7
-    # feature_names = ['zestimate']
-    feature_names = ['sqft', 'zestimate']
+    feature_names = ['zestimate']
+    # feature_names = ['sqft', 'zestimate']
     num_dim = len(feature_names)
     threshold_pct = 0.1
     num_neighbors = 10
@@ -37,8 +37,8 @@ def main():
     '''
         Find similar houses using k-NN Algorithm
     '''
-    random_idx= random.randrange(0, len(data))
-    # random_idx = 8809
+    # random_idx= random.randrange(0, len(data))
+    random_idx = 8809
     new_house = data.iloc[random_idx]
     print("---- House Picked -----")
     print(new_house)
