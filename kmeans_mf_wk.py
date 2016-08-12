@@ -15,31 +15,24 @@ def normalize_feature(feature):
     return feature
 
 def create_feature_vectors(data, feature_names):
+    feature_vector_names = []
     for i in range(len(feature_names)):
         feature_name_normalized = feature_names[i] + '_norm'
         data[feature_name_normalized] = normalize_feature(data[feature_names[i]])
-    data['feature_vector'] = pd.Series(dtype='object')
-    for i in range(len(data)):
-        features = [data.loc[i, 'sqft_norm'], data.loc[i, 'zestimate_norm']]
-        data.set_value(i, 'feature_vector', features)
-    feature_vectors = data['feature_vector']
+        feature_vector_names.append(feature_name_normalized)
+    feature_vectors = data[feature_vector_names]
     return feature_vectors
 
-def initialize_centroids(feature_vectors, k):
+def initialize_centroids(feature_vectors, k, num_dim):
     centroids = []
     while len(centroids) != k:
         idx = random.randint(0, len(feature_vectors))
-        centroid = feature_vectors.iloc[idx]
+        centroid = []
+        for i in range(num_dim):
+            element = feature_vectors.iloc[idx, i]
+            centroid.append(element)
         centroids.append(centroid)
     return centroids
-
-# def euclidean_distance(x, y):
-#     distance = 0
-#     n_dimension = len(x)
-#     for i in range(n_dimension):
-#         distance += math.pow((x[i] - y[i]), 2)
-#     distance = math.sqrt(distance)
-#     return distance
 
 def euclidean_distance(x, y, num_dim):
     distance = 0
@@ -53,7 +46,8 @@ def euclidean_distance(x, y, num_dim):
 
 def assign_clusters(data, centroids, feature_vectors, num_dim):
     '''Assign clusters to each observation'''
-    for data_idx, item in enumerate(feature_vectors):
+    for data_idx in range(len(feature_vectors)):
+        item = feature_vectors.iloc[data_idx]
         min_distance = float('inf')
         for idx, centroid in enumerate(centroids):
             distance = euclidean_distance(centroid, item, num_dim)
@@ -69,41 +63,43 @@ def cal_cluster_mean(feature_vectors):
         total = 0
         count = 0
         for row in range(len(feature_vectors)):
-            # print (row, col)
             total += float(feature_vectors.iloc[row][col])
             count += 1
         average = total / count
         cluster_center.append(average)
-    print cluster_center
     return cluster_center
 
-def update_centroids(data, k, threshold_pct, orig_centroids, feature_vectors):
+def update_centroids(data, k, threshold_pct, orig_centroids, feature_vectors, num_dim):
     '''Update centroids to mean value of each cluster'''
     centroids = []
     for i in range(k):
-        curr_cluster_list = data[data.cluster == i]
-        cluster_center = cal_cluster_mean(curr_cluster_list['feature_vector'])
+        curr_cluster_data = data[data.cluster == i]
+        feature_vector_names = feature_vectors.dtypes.index
+        curr_cluster_feature_vectors = curr_cluster_data[feature_vector_names]
+        cluster_center = cal_cluster_mean(curr_cluster_feature_vectors)
         centroids.append(cluster_center)
-    # count = 0
-    # for i in range(k):
-    #     threshold = orig_centroids[i] * threshold_pct
-    #     if euclidean_distance(centroids[i], orig_centroids[i]) < threshold:
-    #         count += 1
-    # if count == k:
-    #     return False
+    count = 0
+    for i in range(k):
+        thresholds = []
+        for j in range(num_dim):
+            threshold = orig_centroids[i][j] * threshold_pct
+            thresholds.append(threshold)
+        if euclidean_distance(centroids[i], orig_centroids[i], num_dim) < euclidean_distance(thresholds, [0] * num_dim, num_dim):
+            count += 1
+    if count == k:
+        return False
     return centroids
 
 def kmeans_mf(data, k, feature_vectors, num_dim, threshold_pct):
     '''k-means algorith for multi-features'''
-    centroids = initialize_centroids(feature_vectors, k)
+    centroids = initialize_centroids(feature_vectors, k, num_dim)
     print("Centroids 0 = {}".format(centroids))
 
     count = 1
-    # while centroids != False:
-    while count < 5:
+    while centroids != False:
         data = assign_clusters(data, centroids, feature_vectors, num_dim)
         orig_centroids = centroids
-        centroids = update_centroids(data, k, threshold_pct, orig_centroids, feature_vectors)
+        centroids = update_centroids(data, k, threshold_pct, orig_centroids, feature_vectors, num_dim)
         print("Centroids {} = {}".format(count, centroids))
         count += 1
     return orig_centroids
@@ -118,7 +114,7 @@ def main():
     feature_names = ['sqft', 'zestimate']
     # feature_names = ['zestimate']
     num_dim = len(feature_names)
-    threshold_pct = 0.01
+    threshold_pct = 0.1
 
     filename = "data/propertyInfo/{}.csv".format(city)
     header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate']
@@ -129,14 +125,13 @@ def main():
     feature_vectors = create_feature_vectors(data, feature_names)
     print("------- Clustering by {} --------".format(feature_names))
     centroids = kmeans_mf(data, k, feature_vectors, num_dim, threshold_pct)
-
-    # print("****** Resulting Cluster ******")
-    # bycluster = data.groupby(['cluster'])
-    # print(bycluster[feature_name].describe())
-
+    #
+    # # print("****** Resulting Cluster ******")
+    # # bycluster = data.groupby(['cluster'])
+    # # print(bycluster[feature_name].describe())
+    #
     write_fname = "data/clustered_results/{}_2f.csv".format(city)
-    data1 = data[['zpid', 'street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'cluster', 'feature_vector']]
-    write_to_csvfile(data1, write_fname)
+    write_to_csvfile(data, write_fname)
 
 '''
     Main portion of the program

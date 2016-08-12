@@ -54,6 +54,8 @@ def update_centroids(data, k, threshold_pct, orig_centroids, feature_name):
     count = 0
     for i in range(k):
         threshold = orig_centroids[i] * threshold_pct
+        # if math.fabs(centroids[i] - orig_centroids[i]) == 0:
+        #     count += 1
         if math.fabs(centroids[i] - orig_centroids[i]) < threshold:
             count += 1
     if count == k:
@@ -82,7 +84,7 @@ def kmeans_1f(data, k, feature_name, num_dim, threshold_pct):
     return orig_centroids
 
 def main():
-    city = "redwood-city-ca"
+    city = "san-francisco-ca"
     k = 3
     feature_name = ['zestimate']
     num_dim = len(feature_name)

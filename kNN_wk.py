@@ -6,16 +6,21 @@ from read_csvfile import read_csvfile
 from kmeans_mf_wk import euclidean_distance
 from ast import literal_eval
 
-def kNN(data, feature_name, num_dim, new_house, num_neighbors):
+def kNN(data, feature_names, num_dim, new_house, num_neighbors):
     neighbors_list = []
     print("num of houses in this cluster = {}".format(len(data)))
-    target_feature_value = new_house.loc[feature_name]
-    target_feature_data = data[feature_name]
+
+    target_feature_values = []
+    for name in feature_names:
+        element = new_house[name]
+        target_feature_values.append(element)
+    print "target feature values = {}".format(target_feature_values)
+    target_feature_data = data[feature_names]
 
     distances = []
-    for index, row in enumerate(target_feature_data):
-        curr_feature_value = row
-        distance = euclidean_distance(curr_feature_value, target_feature_value, num_dim)
+    for index in range(len(target_feature_data)):
+        curr_feature_values = target_feature_data.iloc[index]
+        distance = euclidean_distance(curr_feature_values, target_feature_values, num_dim)
         # print "({}, {}, {})".format(index, curr_feature_value, distance)
         distances.append([index, distance])
     distances.sort(key=getKey)
@@ -24,9 +29,9 @@ def kNN(data, feature_name, num_dim, new_house, num_neighbors):
         item_idx = distances[i][0]
         neighbor = data.iloc[item_idx]
         neighbors_list.append(neighbor)
-    header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'cluster', 'feature_vector']
+    header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'cluster', 'sqft_norm', 'zestimate_norm']
     neighbors = pd.DataFrame(neighbors_list, columns = header)
-    neighbors = neighbors.sort_values(by=[feature_name], ascending=[True])
+    neighbors = neighbors.sort_values(by=feature_names[0], ascending=[True])
     return neighbors
 
 def getKey(item):
@@ -35,26 +40,13 @@ def getKey(item):
 def main():
     city = 'san-francisco-ca'
 
-    '''
-        To use 1-Feature
-    '''
-    # filename = 'data/clustered_results/{}.csv'.format(city)
-    # header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'cluster']
-    # feature_name = 'zestimate'
-    # num_dim = 1
+    # feature_names = ['zestimate']
+    feature_names = ['sqft_norm', 'zestimate_norm']
+    num_dim = len(feature_names)
 
-    '''
-        To use multi-Feature
-    '''
-    filename = 'data/clustered_results/{}_2f.csv'.format(city)
-    header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'cluster', 'feature_vector']
-    feature_name = 'feature_vector'
-    num_dim = 2
-
+    filename = 'data/clustered_results/{}_{}f.csv'.format(city, num_dim)
+    header = ['zpid','street', 'city', 'state', 'zipcode', 'bedroom', 'bathroom', 'sqft', 'zestimate', 'cluster', 'sqft_norm', 'zestimate_norm']
     data = read_csvfile(filename, header)
-    if feature_name == 'feature_vector':
-        for i in range(len(data)):
-            data['feature_vector'].iloc[i] = literal_eval(data['feature_vector'].iloc[i])
 
     # pick random house
     random_idx= random.randrange(0, len(data))
@@ -63,7 +55,7 @@ def main():
     print(new_house)
 
     num_neighbors = 10
-    neighbors = kNN(data, feature_name, num_dim, new_house, num_neighbors)
+    neighbors = kNN(data, feature_names, num_dim, new_house, num_neighbors)
     print("---- {} Neighbors ----".format(num_neighbors))
     print(neighbors)
 
