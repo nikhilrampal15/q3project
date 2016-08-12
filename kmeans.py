@@ -101,7 +101,7 @@ def convergence(param1, param2):
         for new in func_2:
             if abs(func_1[old] - func_2[new]) > 1:
                 centroids(data, 5, 'zestimate')
-                cluster(list_of_centroids,data,'zestimate')
+                cluster(list_of_centroids, data, 'zestimate')
             else:
                 return param2
 
