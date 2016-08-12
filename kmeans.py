@@ -7,7 +7,6 @@ import numpy as np
 import random
 from read_csvfile import read_csvfile
 import math
-import functools
 
 """
 Data-Set Information
@@ -22,9 +21,7 @@ data["cluster"] = -1
 Generating Centroids
 """
 
-
 # amount of centroids chosen
-
 
 def centroids(house_data,k,column_name):
     # takes in housing data parameter
@@ -39,9 +36,7 @@ def centroids(house_data,k,column_name):
     return centroid
     # return the array of random points
 
-
 list_of_centroids = centroids(data, 5,'zestimate')
-
 
 # easier to store function call in a variable
 
@@ -52,6 +47,7 @@ Use list of centroids to create clusters of homes
 
 def cluster(centroids, house_data, column_name):
     shortest_distance = []
+    sum_of_centroid = []
     # create an list that compares distance from centeroid to house
 
     # new centroids to compare to original
@@ -60,48 +56,67 @@ def cluster(centroids, house_data, column_name):
     for x in range(len(centroids)):
         # loop from 0 to 5
         centroid = centroids[x]
-        new_centroids = []
+        # each centroid
+        distance_to_centroids = []
         # iterating through the list of centroids and locating each individual centroid
         for idx, y in enumerate(houses):
                 offset = len(houses) * x
                 # print(idx, len(houses))
                 home = houses[idx]
-                homee = np.asscalar(home.astype(int))
                 # home is located at a specific index
+                homee = np.asscalar(home.astype(int))
+                # converting data type from numpy to int
                 shortest_distance.append([math.sqrt(abs(homee-centroid)**2), centroid, y])
                 # add to the list an array with euclidean distance,centroid number,initial value
-
-                #print(type(homee))
-
                 distance = math.sqrt(abs(homee-centroid)**2)
-
-                new_centroids.append(distance)
-
+                # euclidean distance
+                distance_to_centroids.append(distance)
+                # adding to list
                 house_data.loc[idx + offset, 'cluster'] = centroid
-                # update the cell with new cluster value in dataset
-        sum_of_centroid = [sum(new_centroids)]
-        print(sum_of_centroid)
-    shortest_distance.sort(key=lambda a: a[0])
+                # update the cell with new cluster value in data set
+        sum_of_centroid.append(sum(distance_to_centroids))
+        # adding sum of data to list
+    avg_of_centroid = []
+    # list of average values
+    for e in sum_of_centroid:
+        avg_of_centroid.append(e/len(sum_of_centroid))
+    # adds average values to list
+    return avg_of_centroid
+    #shortest_distance.sort(key=lambda a: a[0])
     # sorts zeroth index of list inside list which is the distance
-    return shortest_distance[0]
+    #return shortest_distance[0]
     # returns the cluster that is closest to the home
+
+clustering_function = cluster(list_of_centroids,data,'zestimate')
 
 """
     Here we create the convergence method
 """
 
- # def convergence(list_of_centroids,k):
- #     k = 5
- #     homes_in_cluster = [data.cluster]
- #     new_centroid = []
- #     for i in range(k):
- #         if[data.cluster == i]:
+
+def convergence(param1, param2):
+    func_1 = list(map(int, param1))
+    func_2 = list(map(int, param2))
+    for old in func_1:
+        for new in func_2:
+            if abs(func_1[old] - func_2[new]) > 1:
+                centroids(data, 5, 'zestimate')
+                cluster(list_of_centroids, data, 'zestimate')
+            else:
+                return param2
 
 
+"""
+Formatting
+"""
+pd.set_option('display.max_rows', len(data['zestimate']))
+x = data['zestimate']
+pd.set_option('display.float_format', lambda x: '%.0f' % x)
 
 
-
-cluster(list_of_centroids, data,'zestimate')
+# print(cluster(list_of_centroids, data,'zestimate'))
+print(convergence(clustering_function, list_of_centroids))
+#print(clustering_function)
 #print(data)
 
 # for item in myData:
@@ -114,10 +129,4 @@ cluster(list_of_centroids, data,'zestimate')
 #convergence(list_of_centroids)
 #print([data.cluster])
 
-pd.set_option('display.max_rows', len(data['zestimate']))
-x = data['zestimate']
-#print (x)
-pd.set_option('display.float_format', lambda x: '%.0f' % x)
-#print (x)
-print('hello')
-#print(data['zestimate'])
+
