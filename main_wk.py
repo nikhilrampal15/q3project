@@ -5,31 +5,37 @@ import random
 import math
 from read_csvfile import read_csvfile
 from kmeans_1f_wk import kmeans_1f
+from kmeans_mf_wk import kmeans_mf
+from kmeans_mf_wk import euclidean_distance
+from kmeans_mf_wk import create_feature_vectors
 from kNN_wk import kNN
 
-def find_nearest_cluster(item, centroids):
+def find_nearest_cluster(item, centroids, num_dim):
     min_distance = float('inf')
     for idx, centroid in enumerate(centroids):
-        euclidean_distance = math.sqrt(math.pow((centroid - item), 2))
-        if euclidean_distance < min_distance:
-            min_distance = euclidean_distance
+        distance = euclidean_distance(centroid, item, num_dim)
+        if distance < min_distance:
+            min_distance = distance
             cluster_idx = idx
     return cluster_idx
 
-def find_similar_houses(data, feature_name, centroids, new_house, num_neighbors):
-    new_zestimate = new_house.loc[feature_name]
-    print("target zestimate = {}".format(new_zestimate))
-    cluster_idx = find_nearest_cluster(new_zestimate, centroids)
+def find_similar_houses(data, feature_name, num_dim, centroids, new_house, num_neighbors):
+    target_feature_value = new_house.loc[feature_name]
+    print("target {} value = {}".format(feature_name, target_feature_value))
+    cluster_idx = find_nearest_cluster(target_feature_value, centroids, num_dim)
     print("target cluster = {}".format(cluster_idx))
     target_cluster_data = data.loc[data['cluster'] == cluster_idx]
 
-    neighbors = kNN(target_cluster_data, feature_name, new_house, num_neighbors)
+    neighbors = kNN(target_cluster_data, feature_name, num_dim, new_house, num_neighbors)
     return neighbors
 
+def write_to_csvfile(data, fname):
+    data.to_csv(fname, index=False)
+    return
+
 def main():
-    city = "santa-clara-ca"
-    k = 3
-    feature_name = 'zestimate'
+    city = "All-houses"
+    k = 5
     threshold_pct = 0.1
     num_neighbors = 10
 
@@ -39,30 +45,44 @@ def main():
     data['cluster'] = -1 # add new column to indicate cluster
     # print data.head(5)
 
+    feature_names = ['zestimate']
+    # feature_names = ['sqft', 'zestimate']
+    num_dim = len(feature_names)
     # Clustering using k-means Algorithm
-    print("------- Clustering by {} --------".format(feature_name))
-    centroids = kmeans_1f(data, k, feature_name, threshold_pct)
+    print("------- Clustering by {} --------".format(feature_names))
 
-    # print("****** Resulting Cluster ******")
-    # bycluster = data.groupby(['cluster'])
-    # print(bycluster[feature_name].describe())
-
+    '''
+        To use 1-Feature
+    '''
+    centroids = kmeans_1f(data, k, feature_names[0], num_dim, threshold_pct)
     # Find similar houses using k-NN Algorithm
     random_idx= random.randrange(0, len(data))
+    random_idx = 8809
     new_house = data.iloc[random_idx]
     print("---- House Picked -----")
     print(new_house)
     print("------- Recommend {} houses --------".format(num_neighbors))
-    recommended_houses = find_similar_houses(data, feature_name, centroids, new_house, num_neighbors)
+    recommended_houses = find_similar_houses(data, feature_names[0], num_dim, centroids, new_house, num_neighbors)
     print(recommended_houses)
 
-    write_fname = "data/clustered_results/{}.csv".format(city)
+
+    '''
+        To use multi-Feature
+    '''
+    # feature_vectors = create_feature_vectors(data, feature_names)
+    # centroids = kmeans_mf(data, k, feature_vectors, num_dim, threshold_pct)
+    # # Find similar houses using k-NN Algorithm
+    # random_idx= random.randrange(0, len(data))
+    # random_idx = 8809
+    # new_house = data.iloc[random_idx]
+    # print("---- House Picked -----")
+    # print(new_house)
+    # print("------- Recommend {} houses --------".format(num_neighbors))
+    # recommended_houses = find_similar_houses(data, 'feature_vector', num_dim, centroids, new_house, num_neighbors)
+    # print(recommended_houses)
+
+    write_fname = 'data/clustered_results/{}_{}f.csv'.format(city, num_dim)
     write_to_csvfile(data, write_fname)
-
-
-def write_to_csvfile(data, fname):
-    data.to_csv(fname, index=False)
-    return
 
 
 if __name__ == '__main__':

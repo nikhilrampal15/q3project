@@ -2,8 +2,7 @@ import plotly
 import plotly.graph_objs as go
 import pandas as pd
 
-# df = pd.read_csv('../data/clustered_results/san-francisco-ca.csv')
-df = pd.read_csv('../data/clustered_results/san-francisco-ca_2f.csv')
+df = pd.read_csv('../data/clustered_results/All-houses_2f.csv')
 df.head()
 
 data = []
@@ -39,14 +38,12 @@ layout = dict(
     title='Zestimate vs. sqft',
     scene=dict(
         xaxis=dict(
-            title='sqft',
             gridcolor='rgb(255, 255, 255)',
             zerolinecolor='rgb(255, 255, 255)',
             showbackground=True,
             backgroundcolor='rgb(230, 230,230)'
         ),
         yaxis=dict(
-            title='Zestimate',
             gridcolor='rgb(255, 255, 255)',
             zerolinecolor='rgb(255, 255, 255)',
             showbackground=True,

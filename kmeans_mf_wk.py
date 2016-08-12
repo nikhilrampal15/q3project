@@ -116,6 +116,7 @@ def main():
     city = "san-francisco-ca"
     k = 5
     feature_names = ['sqft', 'zestimate']
+    # feature_names = ['zestimate']
     num_dim = len(feature_names)
     threshold_pct = 0.01
 
